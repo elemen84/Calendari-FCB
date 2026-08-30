@@ -45,6 +45,8 @@ def test_ics_has_catalan_labels_timezone_uid_dtstamp_and_escaping() -> None:
     assert "UID:laliga:20262027:g1@barca-calendar" in rendered
     assert "Competició: LaLiga" in rendered
     assert "Classificació" in rendered
+    assert " #  Equip" in rendered
+    assert "· PJ" not in rendered
     assert "SUMMARY:FC Barcelona - Real\\, Madrid" in rendered
     assert "LOCATION:Estadi\\; Olímpic" in rendered
     assert "DTSTART;TZID=Europe/Madrid:20261122T200000" in rendered

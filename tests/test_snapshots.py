@@ -95,8 +95,12 @@ def test_current_updates_for_non_completed_round(tmp_path) -> None:
     first = build(tmp_path, result(match(1), ROWS_A), provider)
     provider.current = ROWS_B
     second = build(tmp_path, result(match(1), ROWS_B), provider)
-    assert "Pts 3" in first.descriptions[next(iter(first.descriptions))]
-    assert "Pts 6" in second.descriptions[next(iter(second.descriptions))]
+    assert " 1  FC Barcelona            1  -  -  -   -    3" in first.descriptions[
+        next(iter(first.descriptions))
+    ]
+    assert " 1  FC Barcelona            2  -  -  -   -    6" in second.descriptions[
+        next(iter(second.descriptions))
+    ]
 
 
 def test_champions_observation_freeze_preserves_md1_while_md2_changes(tmp_path) -> None:
@@ -117,8 +121,8 @@ def test_champions_observation_freeze_preserves_md1_while_md2_changes(tmp_path) 
         result_many((md1, md2), ROWS_B, complete_units=frozenset({1})),
         provider,
     )
-    assert "Pts 3" in second.descriptions[source_key(md1)]
-    assert "Pts 6" in second.descriptions[source_key(md2)]
+    assert " 1  FC Barcelona            1  -  -  -   -    3" in second.descriptions[source_key(md1)]
+    assert " 1  FC Barcelona            2  -  -  -   -    6" in second.descriptions[source_key(md2)]
     md2_path = snapshot_path(tmp_path / "standings", "champions", "2026/2027", 2)
     assert load_snapshot(md2_path) is None
 
@@ -148,8 +152,8 @@ def test_champions_observation_freeze_preserves_md1_while_md2_changes(tmp_path) 
     )
     assert load_snapshot(md1_path) == ROWS_A
     assert load_snapshot(md2_path) == ROWS_B
-    assert "Pts 3" in fourth.descriptions[source_key(md1)]
-    assert "Pts 6" in fourth.descriptions[source_key(md2)]
+    assert " 1  FC Barcelona            1  -  -  -   -    3" in fourth.descriptions[source_key(md1)]
+    assert " 1  FC Barcelona            2  -  -  -   -    6" in fourth.descriptions[source_key(md2)]
 
 
 def test_completed_round_freezes_snapshot_and_does_not_overwrite(tmp_path) -> None:
@@ -160,7 +164,9 @@ def test_completed_round_freezes_snapshot_and_does_not_overwrite(tmp_path) -> No
     provider.current = ROWS_B
     second = build(tmp_path, result(match(1, completed=True), ROWS_B, complete=True), provider)
     assert load_snapshot(path) == ROWS_A
-    assert "Pts 3" in second.descriptions[next(iter(second.descriptions))]
+    assert " 1  FC Barcelona            1  -  -  -   -    3" in second.descriptions[
+        next(iter(second.descriptions))
+    ]
     assert first.games == second.games
 
 
@@ -171,7 +177,9 @@ def test_future_round_uses_latest_available_snapshot_when_current_missing(tmp_pa
     future = replace(future, start_datetime=utc_datetime(22))
     provider = StandingsProvider(())
     built = build(tmp_path, result(future, ()), provider)
-    assert "Pts 3" in built.descriptions[next(iter(built.descriptions))]
+    assert " 1  FC Barcelona            1  -  -  -   -    3" in built.descriptions[
+        next(iter(built.descriptions))
+    ]
 
 
 def test_champions_knockout_has_no_standings(tmp_path) -> None:

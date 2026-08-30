@@ -4,6 +4,38 @@ from datetime import datetime
 
 from src.models import Game, StandingRow
 
+# Ancho fijo de la columna Equip (texto plano ICS; 20–24).
+_TEAM_WIDTH = 22
+
+# Nombres societarios → nombres deportivos legibles (solo presentación).
+_TEAM_DISPLAY_NAMES: dict[str, str] = {
+    "Deportivo Alavés SAD": "Deportivo Alavés",
+    "Real Madrid Club de Fútbol": "Real Madrid",
+    "Sevilla Fútbol Club SAD": "Sevilla",
+    "Real Betis Balompié SAD": "Real Betis",
+    "Club Atlético de Madrid SAD": "Atlético de Madrid",
+    "Club Atlético Osasuna": "Osasuna",
+    "Levante Unión Deportiva SAD": "Levante",
+    "Real Racing Club SAD": "Racing",
+    "RCD Espanyol de Barcelona": "Espanyol",
+    "Getafe Club de Fútbol SAD": "Getafe",
+    "Real Sociedad de Fútbol SAD": "Real Sociedad",
+    "Real Club Deportivo de A Coruña SAD": "Deportivo",
+    "Villarreal Club de Fútbol SAD": "Villarreal",
+    "Rayo Vallecano de Madrid SAD": "Rayo Vallecano",
+    "Real Club Celta de Vigo SAD": "Celta de Vigo",
+    "Valencia Club de Fútbol SAD": "Valencia",
+    "Málaga Club de Fútbol SAD": "Málaga",
+    "Elche Club de Fútbol SAD": "Elche",
+    "Athletic Club": "Athletic Club",
+    "FC Barcelona": "FC Barcelona",
+}
+
+
+def display_team_name(name: str) -> str:
+    """Nombre deportivo para la tabla de clasificación; fallback al original."""
+    return _TEAM_DISPLAY_NAMES.get(name, name)
+
 
 def _stage_label(game: Game) -> str:
     if game.phase == "Fase lliga":
@@ -54,20 +86,49 @@ def title_for_game(game: Game) -> str:
     return title
 
 
+def _truncate_team(name: str) -> str:
+    if len(name) <= _TEAM_WIDTH:
+        return name
+    return name[:_TEAM_WIDTH]
+
+
+def _cell_int(value: int | None, width: int) -> str:
+    if value is None:
+        return "-".rjust(width)
+    return str(value).rjust(width)
+
+
+def _cell_dg(value: int | None) -> str:
+    if value is None:
+        return "-".rjust(3)
+    return f"{value:+d}".rjust(3)
+
+
+def _standings_header() -> str:
+    return (
+        f"{'#':>2}  {'Equip':<{_TEAM_WIDTH}} "
+        f"{'PJ':>2} {'G':>2} {'E':>2} {'P':>2} {'DG':>3} {'Pts':>4}"
+    )
+
+
+def _standings_row(row: StandingRow) -> str:
+    team = _truncate_team(display_team_name(row.team))
+    return (
+        f"{row.position:>2}  {team:<{_TEAM_WIDTH}} "
+        f"{row.played:>2} "
+        f"{_cell_int(row.won, 2)} "
+        f"{_cell_int(row.drawn, 2)} "
+        f"{_cell_int(row.lost, 2)} "
+        f"{_cell_dg(row.goal_difference)} "
+        f"{row.points:>4}"
+    )
+
+
 def _standings_text(rows: tuple[StandingRow, ...] | None) -> list[str]:
     if not rows:
         return ["Classificació encara no disponible"]
-    lines = ["Classificació", "Pos Equip PJ Pts"]
-    for row in rows:
-        line = f"{row.position}. {row.team} · PJ {row.played} · Pts {row.points}"
-        details = []
-        if row.won is not None and row.drawn is not None and row.lost is not None:
-            details.append(f"G {row.won} · E {row.drawn} · P {row.lost}")
-        if row.goals_for is not None and row.goals_against is not None:
-            details.append(f"GF {row.goals_for} · GC {row.goals_against}")
-        if row.goal_difference is not None:
-            details.append(f"DG {row.goal_difference:+d}")
-        lines.append(f"{line} · " + " · ".join(details) if details else line)
+    lines = ["Classificació", _standings_header()]
+    lines.extend(_standings_row(row) for row in rows)
     return lines
 
 
