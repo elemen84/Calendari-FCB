@@ -7,9 +7,12 @@ from src.calendar.formatting import (
     description_for_game,
     display_team_name,
 )
-from src.calendar.ics import render_ics
-from src.models import Game, StandingRow
+from src.calendar.ics import render_ics, write_ics
+from src.models import Game, ProviderResult, StandingRow
 from src.normalize import source_key
+from src.sync import build_calendar
+
+from .conftest import config
 
 
 def _laliga_rows() -> tuple[StandingRow, ...]:
@@ -186,3 +189,114 @@ def test_description_and_ics_escaping_preserve_newlines_and_folding() -> None:
     assert len(desc_lines) == 1
     # La DESCRIPTION larga se pliega en continuaciones
     assert any(line.startswith(" ") for line in rendered.split("\r\n"))
+
+
+class _PassthroughStandingsProvider:
+    def fetch_standings(self, unit: int | None = None) -> tuple[StandingRow, ...] | None:
+        return None
+
+
+def test_production_build_path_writes_compact_standings_table(tmp_path) -> None:
+    """Integración real: sync → description_for_game → write_ics (sin · PJ / SAD)."""
+    game = Game(
+        competition_key="laliga",
+        competition_name="LaLiga",
+        season="2026/2027",
+        home="FC Barcelona",
+        away="Rayo Vallecano de Madrid SAD",
+        status="scheduled",
+        source_game_id="g-rayo-j3",
+        round_number=3,
+        start_datetime=datetime.fromisoformat("2026-09-14T20:00:00+02:00"),
+        standings_eligible=True,
+    )
+    rows = _laliga_rows()
+    assert any("SAD" in row.team for row in rows)  # datos crudos intactos
+    fetched = ProviderResult(
+        competition_key="laliga",
+        games=(game,),
+        current_standings=rows,
+        standings_enabled=True,
+    )
+    built = build_calendar(
+        config(),
+        {"laliga": (_PassthroughStandingsProvider(), fetched)},
+        cache_root=tmp_path / "cache",
+        standings_root=tmp_path / "standings",
+        now=datetime.fromisoformat("2026-08-30T12:34:00+02:00"),
+    )
+    description = built.descriptions[source_key(game)]
+    assert "Classificació" in description
+    assert " #  Equip                  PJ  G  E  P  DG  Pts" in description
+    assert "FC Barcelona" in description
+    assert " 1  Deportivo Alavés" in description
+    assert "· PJ" not in description
+    assert "Pos Equip PJ Pts" not in description
+    assert "SAD" not in description.split("Classificació", 1)[1]
+
+    ics_path = tmp_path / "barca.ics"
+    write_ics(ics_path, built.games, built.descriptions)
+    # Leer bytes para no perder CRLF (Path.read_text traduce newlines).
+    ics = ics_path.read_bytes().decode("utf-8")
+    assert "BEGIN:VEVENT" in ics
+    assert "Classificació" in ics
+    assert "#  Equip" in ics
+    assert "FC Barcelona" in ics
+    assert "· PJ" not in ics
+    assert "Pos Equip PJ Pts" not in ics
+    # SAD puede aparecer en SUMMARY (nombres de partido); no en filas de tabla.
+    unfolded: list[str] = []
+    for line in ics.split("\r\n"):
+        if line.startswith(" ") and unfolded:
+            unfolded[-1] += line[1:]
+        else:
+            unfolded.append(line)
+    desc_line = next(line for line in unfolded if line.startswith("DESCRIPTION:"))
+    desc = desc_line.removeprefix("DESCRIPTION:").replace("\\n", "\n")
+    standings_block = desc.split("Classificació", 1)[1]
+    assert "SAD" not in standings_block
+    assert "Atlético de Madrid" in standings_block
+
+
+def test_champions_league_phase_uses_same_compact_table(tmp_path) -> None:
+    game = Game(
+        competition_key="champions",
+        competition_name="UEFA Champions League",
+        season="2026/2027",
+        home="FC Barcelona",
+        away="Feyenoord",
+        status="scheduled",
+        source_game_id="ucl-md1",
+        round_number=1,
+        phase="Fase lliga",
+        start_datetime=datetime.fromisoformat("2026-09-16T21:00:00+02:00"),
+        standings_eligible=True,
+    )
+    rows = (
+        StandingRow(
+            position=1,
+            team="FC Barcelona",
+            played=1,
+            points=3,
+            won=1,
+            drawn=0,
+            lost=0,
+            goal_difference=2,
+        ),
+    )
+    fetched = ProviderResult(
+        competition_key="champions",
+        games=(game,),
+        current_standings=rows,
+        standings_enabled=True,
+    )
+    built = build_calendar(
+        config(),
+        {"champions": (_PassthroughStandingsProvider(), fetched)},
+        cache_root=tmp_path / "cache",
+        standings_root=tmp_path / "standings",
+        now=datetime.fromisoformat("2026-08-30T12:34:00+02:00"),
+    )
+    description = built.descriptions[source_key(game)]
+    assert " #  Equip                  PJ  G  E  P  DG  Pts" in description
+    assert "· PJ" not in description
