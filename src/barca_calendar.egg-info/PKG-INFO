@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: barca-calendar
+Version: 0.1.0
+Summary: Calendari públic del primer equip masculí de futbol del FC Barcelona.
+Requires-Python: >=3.12
+Requires-Dist: requests<3,>=2.32
+Provides-Extra: dev
+Requires-Dist: mypy<2,>=1.13; extra == "dev"
+Requires-Dist: pytest<9,>=8.3; extra == "dev"
+Requires-Dist: ruff<1,>=0.8; extra == "dev"
