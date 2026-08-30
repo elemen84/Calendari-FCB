@@ -36,13 +36,11 @@ def render_ics(
     games: list[Game] | tuple[Game, ...],
     descriptions: dict[str, str],
     *,
-    html_descriptions: dict[str, str] | None = None,
     dtstamp: datetime | None = None,
     duration_minutes: int = DEFAULT_MATCH_DURATION_MINUTES,
     calendar_name: str = "FC Barcelona 2026/2027",
 ) -> str:
     stamp = (dtstamp or datetime.now(UTC)).astimezone(UTC)
-    html_descriptions = html_descriptions or {}
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
@@ -71,21 +69,15 @@ def render_ics(
                 f"DTSTAMP:{stamp.strftime('%Y%m%dT%H%M%SZ')}",
                 f"SUMMARY:{_escape(title_for_game(game))}",
                 f"DESCRIPTION:{_escape(descriptions.get(key, ''))}",
+                "STATUS:"
+                + (
+                    "CANCELLED"
+                    if game.status == "cancelled"
+                    else "TENTATIVE"
+                    if game.status == "postponed"
+                    else "CONFIRMED"
+                ),
             ]
-        )
-        html = html_descriptions.get(key)
-        if html:
-            # Outlook y clientes similares; Google/Apple suelen ignorarlo.
-            lines.append(f"X-ALT-DESC;FMTTYPE=text/html:{_escape(html)}")
-        lines.append(
-            "STATUS:"
-            + (
-                "CANCELLED"
-                if game.status == "cancelled"
-                else "TENTATIVE"
-                if game.status == "postponed"
-                else "CONFIRMED"
-            )
         )
         if game.venue:
             lines.append(f"LOCATION:{_escape(game.venue)}")
@@ -110,7 +102,6 @@ def write_ics(
     games: list[Game] | tuple[Game, ...],
     descriptions: dict[str, str],
     *,
-    html_descriptions: dict[str, str] | None = None,
     dtstamp: datetime | None = None,
     duration_minutes: int = DEFAULT_MATCH_DURATION_MINUTES,
     calendar_name: str = "FC Barcelona 2026/2027",
@@ -120,7 +111,6 @@ def write_ics(
         render_ics(
             games,
             descriptions,
-            html_descriptions=html_descriptions,
             dtstamp=dtstamp,
             duration_minutes=duration_minutes,
             calendar_name=calendar_name,

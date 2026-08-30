@@ -5,7 +5,6 @@ from datetime import datetime
 
 import pytest
 
-from src.calendar.formatting import FIGURE_SPACE
 from src.models import Game, ProviderResult, StandingRow
 from src.normalize import source_key
 from src.standings.snapshots import load_snapshot, save_snapshot_if_absent, snapshot_path
@@ -16,13 +15,10 @@ from .conftest import config, utc_datetime
 ROWS_A = (StandingRow(position=1, team="FC Barcelona", played=1, points=3),)
 ROWS_B = (StandingRow(position=1, team="FC Barcelona", played=2, points=6),)
 
-ROW_A_ASCII = " 1  FC Barcelona            1  -  -  -   -    3"
-ROW_B_ASCII = " 1  FC Barcelona            2  -  -  -   -    6"
-
-
-def _ascii(text: str) -> str:
-    return text.replace(FIGURE_SPACE, " ")
-
+ROW_A = "1. FC Barcelona — 3 pts"
+ROW_B = "1. FC Barcelona — 6 pts"
+STATS_A = "   1 PJ · - G · - E · - P · - DG"
+STATS_B = "   2 PJ · - G · - E · - P · - DG"
 
 class StandingsProvider:
     def __init__(
@@ -103,9 +99,10 @@ def test_current_updates_for_non_completed_round(tmp_path) -> None:
     first = build(tmp_path, result(match(1), ROWS_A), provider)
     provider.current = ROWS_B
     second = build(tmp_path, result(match(1), ROWS_B), provider)
-    assert ROW_A_ASCII in _ascii(first.descriptions[next(iter(first.descriptions))])
-    assert ROW_B_ASCII in _ascii(second.descriptions[next(iter(second.descriptions))])
-    assert FIGURE_SPACE in first.descriptions[next(iter(first.descriptions))]
+    assert ROW_A in first.descriptions[next(iter(first.descriptions))]
+    assert STATS_A in first.descriptions[next(iter(first.descriptions))]
+    assert ROW_B in second.descriptions[next(iter(second.descriptions))]
+    assert STATS_B in second.descriptions[next(iter(second.descriptions))]
 
 
 def test_champions_observation_freeze_preserves_md1_while_md2_changes(tmp_path) -> None:
@@ -126,8 +123,8 @@ def test_champions_observation_freeze_preserves_md1_while_md2_changes(tmp_path) 
         result_many((md1, md2), ROWS_B, complete_units=frozenset({1})),
         provider,
     )
-    assert ROW_A_ASCII in _ascii(second.descriptions[source_key(md1)])
-    assert ROW_B_ASCII in _ascii(second.descriptions[source_key(md2)])
+    assert ROW_A in second.descriptions[source_key(md1)]
+    assert ROW_B in second.descriptions[source_key(md2)]
     md2_path = snapshot_path(tmp_path / "standings", "champions", "2026/2027", 2)
     assert load_snapshot(md2_path) is None
 
@@ -157,8 +154,8 @@ def test_champions_observation_freeze_preserves_md1_while_md2_changes(tmp_path) 
     )
     assert load_snapshot(md1_path) == ROWS_A
     assert load_snapshot(md2_path) == ROWS_B
-    assert ROW_A_ASCII in _ascii(fourth.descriptions[source_key(md1)])
-    assert ROW_B_ASCII in _ascii(fourth.descriptions[source_key(md2)])
+    assert ROW_A in fourth.descriptions[source_key(md1)]
+    assert ROW_B in fourth.descriptions[source_key(md2)]
 
 
 def test_completed_round_freezes_snapshot_and_does_not_overwrite(tmp_path) -> None:
@@ -169,7 +166,7 @@ def test_completed_round_freezes_snapshot_and_does_not_overwrite(tmp_path) -> No
     provider.current = ROWS_B
     second = build(tmp_path, result(match(1, completed=True), ROWS_B, complete=True), provider)
     assert load_snapshot(path) == ROWS_A
-    assert ROW_A_ASCII in _ascii(second.descriptions[next(iter(second.descriptions))])
+    assert ROW_A in second.descriptions[next(iter(second.descriptions))]
     assert first.games == second.games
 
 
@@ -180,7 +177,7 @@ def test_future_round_uses_latest_available_snapshot_when_current_missing(tmp_pa
     future = replace(future, start_datetime=utc_datetime(22))
     provider = StandingsProvider(())
     built = build(tmp_path, result(future, ()), provider)
-    assert ROW_A_ASCII in _ascii(built.descriptions[next(iter(built.descriptions))])
+    assert ROW_A in built.descriptions[next(iter(built.descriptions))]
 
 
 def test_champions_knockout_has_no_standings(tmp_path) -> None:
