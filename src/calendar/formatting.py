@@ -86,50 +86,107 @@ def title_for_game(game: Game) -> str:
     return title
 
 
+# FIGURE SPACE: ancho de dígito; no colapsa como U+0020 en muchos renderers HTML/UI.
+FIGURE_SPACE = "\u2007"
+
+
 def _truncate_team(name: str) -> str:
     if len(name) <= _TEAM_WIDTH:
         return name
     return name[:_TEAM_WIDTH]
 
 
-def _cell_int(value: int | None, width: int) -> str:
+def _pad_left(text: str, width: int, *, pad: str) -> str:
+    gap = width - len(text)
+    return (pad * gap + text) if gap > 0 else text
+
+
+def _pad_right(text: str, width: int, *, pad: str) -> str:
+    gap = width - len(text)
+    return (text + pad * gap) if gap > 0 else text
+
+
+def _cell_int(value: int | None, width: int, *, pad: str) -> str:
     if value is None:
-        return "-".rjust(width)
-    return str(value).rjust(width)
+        return _pad_left("-", width, pad=pad)
+    return _pad_left(str(value), width, pad=pad)
 
 
-def _cell_dg(value: int | None) -> str:
+def _cell_dg(value: int | None, *, pad: str) -> str:
     if value is None:
-        return "-".rjust(3)
-    return f"{value:+d}".rjust(3)
+        return _pad_left("-", 3, pad=pad)
+    return _pad_left(f"{value:+d}", 3, pad=pad)
 
 
-def _standings_header() -> str:
+def _standings_header(*, pad: str) -> str:
     return (
-        f"{'#':>2}  {'Equip':<{_TEAM_WIDTH}} "
-        f"{'PJ':>2} {'G':>2} {'E':>2} {'P':>2} {'DG':>3} {'Pts':>4}"
+        f"{_pad_left('#', 2, pad=pad)}{pad * 2}{_pad_right('Equip', _TEAM_WIDTH, pad=pad)}{pad}"
+        f"{_pad_left('PJ', 2, pad=pad)}{pad}{_pad_left('G', 2, pad=pad)}{pad}"
+        f"{_pad_left('E', 2, pad=pad)}{pad}{_pad_left('P', 2, pad=pad)}{pad}"
+        f"{_pad_left('DG', 3, pad=pad)}{pad}{_pad_left('Pts', 4, pad=pad)}"
     )
 
 
-def _standings_row(row: StandingRow) -> str:
+def _standings_row(row: StandingRow, *, pad: str) -> str:
     team = _truncate_team(display_team_name(row.team))
     return (
-        f"{row.position:>2}  {team:<{_TEAM_WIDTH}} "
-        f"{row.played:>2} "
-        f"{_cell_int(row.won, 2)} "
-        f"{_cell_int(row.drawn, 2)} "
-        f"{_cell_int(row.lost, 2)} "
-        f"{_cell_dg(row.goal_difference)} "
-        f"{row.points:>4}"
+        f"{_pad_left(str(row.position), 2, pad=pad)}{pad * 2}"
+        f"{_pad_right(team, _TEAM_WIDTH, pad=pad)}{pad}"
+        f"{_pad_left(str(row.played), 2, pad=pad)}{pad}"
+        f"{_cell_int(row.won, 2, pad=pad)}{pad}"
+        f"{_cell_int(row.drawn, 2, pad=pad)}{pad}"
+        f"{_cell_int(row.lost, 2, pad=pad)}{pad}"
+        f"{_cell_dg(row.goal_difference, pad=pad)}{pad}"
+        f"{_pad_left(str(row.points), 4, pad=pad)}"
     )
 
 
-def _standings_text(rows: tuple[StandingRow, ...] | None) -> list[str]:
+def _standings_text(rows: tuple[StandingRow, ...] | None, *, pad: str = FIGURE_SPACE) -> list[str]:
     if not rows:
         return ["Classificació encara no disponible"]
-    lines = ["Classificació", _standings_header()]
-    lines.extend(_standings_row(row) for row in rows)
+    lines = ["Classificació", _standings_header(pad=pad)]
+    lines.extend(_standings_row(row, pad=pad) for row in rows)
     return lines
+
+
+def _meta_lines(game: Game, *, updated_at: datetime) -> tuple[list[str], list[str]]:
+    """Cabecera y pie de DESCRIPTION (antes/después de la clasificación)."""
+    header = [f"Competició: {game.competition_name}"]
+    if game.competition_key == "laliga":
+        header.append(
+            f"Jornada: {game.round_number}"
+            if game.round_number is not None
+            else "Jornada: encara no disponible"
+        )
+    elif game.competition_key == "champions":
+        header.append(f"Fase: {_stage_label(game)}")
+        if game.round_number is not None and game.standings_eligible:
+            header.append(f"Jornada: {game.round_number}")
+    elif game.round_name:
+        header.append(f"Ronda: {_stage_label(game)}")
+    if game.leg:
+        header.append(game.leg)
+    header.extend(
+        [
+            f"Local: {game.home}",
+            f"Visitant: {game.away}",
+            f"Estat: {_status_label(game.status)}",
+        ]
+    )
+    if game.home_score is not None and game.away_score is not None:
+        header.append(f"Resultat: {game.home_score}-{game.away_score}")
+    if game.venue:
+        header.append(f"Estadi: {game.venue}")
+    source = {
+        "laliga": "LaLiga",
+        "champions": "UEFA",
+        "copa-del-rey": "RFEF / LaLiga",
+    }.get(game.competition_key, game.competition_name)
+    footer = [
+        f"Actualitzat: {updated_at.strftime('%d/%m/%Y %H:%M')} ({updated_at.tzname()})",
+        f"Font: {source}",
+    ]
+    return header, footer
 
 
 def description_for_game(
@@ -138,44 +195,56 @@ def description_for_game(
     *,
     updated_at: datetime,
 ) -> str:
-    lines = [f"Competició: {game.competition_name}"]
-    if game.competition_key == "laliga":
-        lines.append(
-            f"Jornada: {game.round_number}"
-            if game.round_number is not None
-            else "Jornada: encara no disponible"
-        )
-    elif game.competition_key == "champions":
-        lines.append(f"Fase: {_stage_label(game)}")
-        if game.round_number is not None and game.standings_eligible:
-            lines.append(f"Jornada: {game.round_number}")
-    elif game.round_name:
-        lines.append(f"Ronda: {_stage_label(game)}")
-    if game.leg:
-        lines.append(game.leg)
-    lines.extend(
-        [
-            f"Local: {game.home}",
-            f"Visitant: {game.away}",
-            f"Estat: {_status_label(game.status)}",
-        ]
-    )
-    if game.home_score is not None and game.away_score is not None:
-        lines.append(f"Resultat: {game.home_score}-{game.away_score}")
-    if game.venue:
-        lines.append(f"Estadi: {game.venue}")
+    header, footer = _meta_lines(game, updated_at=updated_at)
+    lines = list(header)
     if game.standings_eligible:
-        lines.extend(["", *_standings_text(standings)])
-    source = {
-        "laliga": "LaLiga",
-        "champions": "UEFA",
-        "copa-del-rey": "RFEF / LaLiga",
-    }.get(game.competition_key, game.competition_name)
-    lines.extend(
+        lines.extend(["", *_standings_text(standings, pad=FIGURE_SPACE)])
+    lines.extend(["", *footer])
+    return "\n".join(lines)
+
+
+def _html_escape(value: str) -> str:
+    return (
+        value.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+    )
+
+
+def html_description_for_game(
+    game: Game,
+    standings: tuple[StandingRow, ...] | None,
+    *,
+    updated_at: datetime,
+) -> str:
+    """Alternativa HTML (X-ALT-DESC) con tabla en <pre> monoespaciado.
+
+    Google Calendar ignora X-ALT-DESC; Apple tampoco lo usa de forma fiable.
+    Se emite como mejora para clientes tipo Outlook que sí lo respetan.
+    """
+    header, footer = _meta_lines(game, updated_at=updated_at)
+    parts = [
+        "<!DOCTYPE html><html><body>",
+        "<div>",
+        "<br>".join(_html_escape(line) for line in header),
+        "</div>",
+    ]
+    if game.standings_eligible:
+        # ASCII en <pre>: la fuente monoespaciada alinea; evitar FIGURE SPACE aquí.
+        table_lines = _standings_text(standings, pad=" ")
+        table = "\n".join(_html_escape(line) for line in table_lines)
+        parts.append(
+            '<pre style="font-family:ui-monospace,Menlo,Consolas,monospace;'
+            'white-space:pre;margin:0.75em 0;">'
+            f"{table}</pre>"
+        )
+    parts.extend(
         [
-            "",
-            f"Actualitzat: {updated_at.strftime('%d/%m/%Y %H:%M')} ({updated_at.tzname()})",
-            f"Font: {source}",
+            "<div>",
+            "<br>".join(_html_escape(line) for line in footer),
+            "</div>",
+            "</body></html>",
         ]
     )
-    return "\n".join(lines)
+    return "".join(parts)

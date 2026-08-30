@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Protocol
 
-from src.calendar.formatting import description_for_game
+from src.calendar.formatting import description_for_game, html_description_for_game
 from src.calendar.ics import write_ics
 from src.config import SYNC_INTERVAL_HOURS, SeasonConfig
 from src.models import Game, ProviderResult, StandingRow
@@ -27,6 +27,7 @@ class StandingsProvider(Protocol):
 class CalendarBuild:
     games: tuple[Game, ...]
     descriptions: dict[str, str]
+    html_descriptions: dict[str, str]
     provider_results: dict[str, ProviderResult]
     cached_games: dict[str, tuple[Game, ...]]
     pending_snapshots: tuple[tuple[Path, str, str, int, tuple[StandingRow, ...]], ...]
@@ -149,6 +150,7 @@ def build_calendar(
 ) -> CalendarBuild:
     all_games: list[Game] = []
     descriptions: dict[str, str] = {}
+    html_descriptions: dict[str, str] = {}
     cached_games: dict[str, tuple[Game, ...]] = {}
     pending_snapshots: list[tuple[Path, str, str, int, tuple[StandingRow, ...]]] = []
     finalized_results: dict[str, ProviderResult] = {}
@@ -184,12 +186,16 @@ def build_calendar(
                 pending_snapshots,
             )
             descriptions[key] = description_for_game(game, standings, updated_at=now)
+            html_descriptions[key] = html_description_for_game(
+                game, standings, updated_at=now
+            )
             all_games.append(game)
 
     unique = {source_key(game): game for game in all_games}
     return CalendarBuild(
         games=tuple(sorted(unique.values(), key=lambda game: source_key(game))),
         descriptions=descriptions,
+        html_descriptions=html_descriptions,
         provider_results=finalized_results,
         cached_games=cached_games,
         pending_snapshots=tuple(pending_snapshots),
@@ -221,6 +227,7 @@ def persist_build(
         ics_path,
         build.games,
         build.descriptions,
+        html_descriptions=build.html_descriptions,
         dtstamp=now,
         duration_minutes=config.match_duration_minutes,
         calendar_name=f"FC Barcelona {config.label}",

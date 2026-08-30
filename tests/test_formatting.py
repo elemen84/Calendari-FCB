@@ -3,9 +3,11 @@ from __future__ import annotations
 from datetime import datetime
 
 from src.calendar.formatting import (
+    FIGURE_SPACE,
     _standings_text,
     description_for_game,
     display_team_name,
+    html_description_for_game,
 )
 from src.calendar.ics import render_ics, write_ics
 from src.models import Game, ProviderResult, StandingRow
@@ -13,6 +15,12 @@ from src.normalize import source_key
 from src.sync import build_calendar
 
 from .conftest import config
+
+HEADER_ASCII = " #  Equip                  PJ  G  E  P  DG  Pts"
+
+
+def _ascii(text: str) -> str:
+    return text.replace(FIGURE_SPACE, " ")
 
 
 def _laliga_rows() -> tuple[StandingRow, ...]:
@@ -67,23 +75,24 @@ def test_display_team_name_maps_known_and_falls_back() -> None:
 def test_standings_table_header_and_laliga_shape() -> None:
     lines = _standings_text(_laliga_rows())
     assert lines[0] == "Classificació"
-    assert lines[1] == " #  Equip                  PJ  G  E  P  DG  Pts"
+    assert _ascii(lines[1]) == HEADER_ASCII
+    assert FIGURE_SPACE in lines[1]
     body = lines[2:]
     assert len(body) == 20
-    assert body[0].startswith(" 1  Deportivo Alavés")
+    assert _ascii(body[0]).startswith(" 1  Deportivo Alavés")
     assert "FC Barcelona" in body[1]
     assert "· PJ" not in "\n".join(lines)
     assert "SAD" not in "\n".join(lines)
     assert "GF" not in lines[1]
     assert "GC" not in lines[1]
-    # Orden y stats clave
+    # Orden y stats clave (split colapsa figure spaces como whitespace)
     assert body[0].split()[0] == "1"
     assert body[1].split()[0] == "2"
-    barca = body[1]
+    barca = _ascii(body[1])
     assert "  2  " in barca  # PJ
     assert barca.rstrip().endswith("6")  # Pts
     assert "+7" in barca
-    alaves = body[0]
+    alaves = _ascii(body[0])
     assert "+4" in alaves
     assert alaves.rstrip().endswith("7")
 
@@ -123,10 +132,11 @@ def test_champions_uses_same_renderer() -> None:
         ),
     )
     lines = _standings_text(rows)
-    assert lines[1] == " #  Equip                  PJ  G  E  P  DG  Pts"
-    assert lines[2].startswith(" 1  FC Barcelona")
+    assert _ascii(lines[1]) == HEADER_ASCII
+    assert _ascii(lines[2]).startswith(" 1  FC Barcelona")
     assert "+5" in lines[2]
-    assert lines[3].startswith(" 2  Bayern München")
+    assert _ascii(lines[3]).startswith(" 2  Bayern München")
+    assert FIGURE_SPACE in lines[2]
 
 
 def test_long_team_name_does_not_break_alignment() -> None:
@@ -148,6 +158,7 @@ def test_long_team_name_does_not_break_alignment() -> None:
     row = lines[2]
     assert len(row) == len(lines[1])
     assert long_name not in row
+    # Tras "#"/pos (2) + 2 pads: columnas de equipo en índices 4:26
     assert row[4:26] == "A" * 22
 
 
@@ -171,17 +182,35 @@ def test_description_and_ics_escaping_preserve_newlines_and_folding() -> None:
         _laliga_rows(),
         updated_at=datetime.fromisoformat("2026-08-29T20:38:00+02:00"),
     )
-    assert "Classificació\n #  Equip" in description
+    assert "Classificació" in description
+    assert HEADER_ASCII in _ascii(description)
+    assert FIGURE_SPACE in description
     assert "· PJ" not in description
     assert "SAD" not in description.split("Classificació", 1)[1]
     assert "Local: FC Barcelona" in description
 
+    html = html_description_for_game(
+        game,
+        _laliga_rows(),
+        updated_at=datetime.fromisoformat("2026-08-29T20:38:00+02:00"),
+    )
+    assert "<pre" in html
+    assert "font-family:ui-monospace" in html
+    assert "white-space:pre" in html
+    assert HEADER_ASCII in html
+    assert FIGURE_SPACE not in html  # HTML usa ASCII dentro de <pre>
+    pre_block = html.split("<pre", 1)[1].split("</pre>", 1)[0]
+    assert "SAD" not in pre_block
+    assert "Deportivo Alavés" in pre_block
+
     rendered = render_ics(
         [game],
         {source_key(game): description},
+        html_descriptions={source_key(game): html},
         dtstamp=datetime.fromisoformat("2026-08-29T18:00:00+00:00"),
     )
     assert "DESCRIPTION:" in rendered
+    assert "X-ALT-DESC;FMTTYPE=text/html:" in rendered
     assert "\\n" in rendered  # saltos lógicos escapados, no rotos
     assert "· PJ" not in rendered
     # Folding físico RFC 5545: líneas continuadas empiezan con espacio
@@ -227,23 +256,33 @@ def test_production_build_path_writes_compact_standings_table(tmp_path) -> None:
     )
     description = built.descriptions[source_key(game)]
     assert "Classificació" in description
-    assert " #  Equip                  PJ  G  E  P  DG  Pts" in description
+    assert HEADER_ASCII in _ascii(description)
+    assert FIGURE_SPACE in description
     assert "FC Barcelona" in description
-    assert " 1  Deportivo Alavés" in description
+    assert " 1  Deportivo Alavés" in _ascii(description)
     assert "· PJ" not in description
     assert "Pos Equip PJ Pts" not in description
     assert "SAD" not in description.split("Classificació", 1)[1]
+    assert source_key(game) in built.html_descriptions
+    assert "<pre" in built.html_descriptions[source_key(game)]
 
     ics_path = tmp_path / "barca.ics"
-    write_ics(ics_path, built.games, built.descriptions)
+    write_ics(
+        ics_path,
+        built.games,
+        built.descriptions,
+        html_descriptions=built.html_descriptions,
+    )
     # Leer bytes para no perder CRLF (Path.read_text traduce newlines).
     ics = ics_path.read_bytes().decode("utf-8")
     assert "BEGIN:VEVENT" in ics
     assert "Classificació" in ics
-    assert "#  Equip" in ics
+    assert "DESCRIPTION:" in ics
+    assert "X-ALT-DESC;FMTTYPE=text/html:" in ics
     assert "FC Barcelona" in ics
     assert "· PJ" not in ics
     assert "Pos Equip PJ Pts" not in ics
+    assert FIGURE_SPACE in ics
     # SAD puede aparecer en SUMMARY (nombres de partido); no en filas de tabla.
     unfolded: list[str] = []
     for line in ics.split("\r\n"):
@@ -256,6 +295,7 @@ def test_production_build_path_writes_compact_standings_table(tmp_path) -> None:
     standings_block = desc.split("Classificació", 1)[1]
     assert "SAD" not in standings_block
     assert "Atlético de Madrid" in standings_block
+    assert HEADER_ASCII in _ascii(standings_block)
 
 
 def test_champions_league_phase_uses_same_compact_table(tmp_path) -> None:
@@ -298,5 +338,7 @@ def test_champions_league_phase_uses_same_compact_table(tmp_path) -> None:
         now=datetime.fromisoformat("2026-08-30T12:34:00+02:00"),
     )
     description = built.descriptions[source_key(game)]
-    assert " #  Equip                  PJ  G  E  P  DG  Pts" in description
+    assert HEADER_ASCII in _ascii(description)
+    assert FIGURE_SPACE in description
     assert "· PJ" not in description
+    assert "<pre" in built.html_descriptions[source_key(game)]

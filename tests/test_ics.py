@@ -3,9 +3,10 @@ from __future__ import annotations
 from dataclasses import replace
 from datetime import datetime
 
-from src.calendar.formatting import description_for_game
+from src.calendar.formatting import FIGURE_SPACE, description_for_game, html_description_for_game
 from src.calendar.ics import render_ics
 from src.models import Game, StandingRow
+from src.normalize import source_key
 
 
 def game(status: str = "scheduled") -> Game:
@@ -28,14 +29,22 @@ def game(status: str = "scheduled") -> Game:
 
 def test_ics_has_catalan_labels_timezone_uid_dtstamp_and_escaping() -> None:
     item = game("completed")
+    rows = (StandingRow(position=1, team="FC Barcelona", played=12, points=30),)
     description = description_for_game(
         item,
-        (StandingRow(position=1, team="FC Barcelona", played=12, points=30),),
+        rows,
         updated_at=datetime.fromisoformat("2026-08-29T16:00:00+02:00"),
     )
+    html = html_description_for_game(
+        item,
+        rows,
+        updated_at=datetime.fromisoformat("2026-08-29T16:00:00+02:00"),
+    )
+    key = source_key(item)
     rendered = render_ics(
         [item],
-        {"laliga:20262027:g1": description},
+        {key: description},
+        html_descriptions={key: html},
         dtstamp=datetime.fromisoformat("2026-08-29T14:00:00+00:00"),
         calendar_name="FC Barcelona 2026/2027",
     )
@@ -45,7 +54,9 @@ def test_ics_has_catalan_labels_timezone_uid_dtstamp_and_escaping() -> None:
     assert "UID:laliga:20262027:g1@barca-calendar" in rendered
     assert "Competició: LaLiga" in rendered
     assert "Classificació" in rendered
-    assert " #  Equip" in rendered
+    assert " #  Equip" in rendered.replace(FIGURE_SPACE, " ")
+    assert FIGURE_SPACE in rendered
+    assert "X-ALT-DESC;FMTTYPE=text/html:" in rendered
     assert "· PJ" not in rendered
     assert "SUMMARY:FC Barcelona - Real\\, Madrid" in rendered
     assert "LOCATION:Estadi\\; Olímpic" in rendered
