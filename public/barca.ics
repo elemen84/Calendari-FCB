@@ -7,7 +7,7 @@ X-WR-CALNAME:FC Barcelona 2026/2027
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:laliga:20262027:g2650775@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Elche Club de Fútbol SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 2\nLocal: Elche Club de Fútbol S
  AD\nVisitant: FC Barcelona\nEstat: Finalitzat\nResultat: 0-5\nEstadi: Esta
@@ -37,7 +37,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 2\nLocal: Elche Club de Fútbol S
  1 · G 0 · E 1 · P 1 · GF 1 · GC 6 · DG -5\n19. Athletic Club · PJ 2
   · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n20. Real Sociedad
   de Fútbol SAD · PJ 2 · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · D
- G -4\n\nActualitzat: 29/08/2026 20:38 (CEST)\nFont: LaLiga
+ G -4\n\nActualitzat: 30/08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio Martínez Valero
 DTSTART;TZID=Europe/Madrid:20260823T213000
@@ -45,7 +45,7 @@ DTEND;TZID=Europe/Madrid:20260823T234500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650767@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Athletic Club · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 1\nLocal: FC Barcelona\nVisitant:
   Athletic Club\nEstat: Finalitzat\nResultat: 2-0\nEstadi: Spotify Camp Nou
@@ -75,7 +75,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 1\nLocal: FC Barcelona\nVisitant:
  GC 4 · DG -3\n19. Levante Unión Deportiva SAD · PJ 1 · Pts 0 · G 0 ·
   E 0 · P 1 · GF 0 · GC 3 · DG -3\n20. Getafe Club de Fútbol SAD · PJ
   1 · Pts 0 · G 0 · E 0 · P 1 · GF 0 · GC 3 · DG -3\n\nActualitzat: 
- 29/08/2026 20:38 (CEST)\nFont: LaLiga
+ 30/08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20260827T210000
@@ -83,18 +83,18 @@ DTEND;TZID=Europe/Madrid:20260827T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650785@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Rayo Vallecano de Madrid SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 3\nLocal: FC Barcelona\nVisitant:
   Rayo Vallecano de Madrid SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\n
- Classificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 
- 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 
- · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Clu
- b de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +
- 4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF
-  5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 
- · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD ·
-  PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atl
+ Classificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 
+ · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alav
+ és SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3.
+  FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG 
+ +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 
+ · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · 
+ G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD ·
+  PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atl
  ético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG
   +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1
   · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1
@@ -112,8 +112,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 3\nLocal: FC Barcelona\nVisitant:
  DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P
   1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 
  1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2
-  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29
- /08/2026 20:38 (CEST)\nFont: LaLiga
+  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30
+ /08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20260831T213000
@@ -121,18 +121,18 @@ DTEND;TZID=Europe/Madrid:20260831T234500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650800@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Valencia Club de Fútbol SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 4\nLocal: Valencia Club de Fútbo
  l SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Camp de Mestalla\n\n
- Classificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 
- 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 
- · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Clu
- b de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +
- 4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF
-  5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 
- · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD ·
-  PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atl
+ Classificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 
+ · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alav
+ és SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3.
+  FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG 
+ +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 
+ · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · 
+ G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD ·
+  PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atl
  ético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG
   +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1
   · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1
@@ -150,8 +150,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 4\nLocal: Valencia Club de Fútbo
  DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P
   1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 
  1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2
-  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29
- /08/2026 20:38 (CEST)\nFont: LaLiga
+  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30
+ /08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Camp de Mestalla
 DTSTART;TZID=Europe/Madrid:20260906T161500
@@ -159,11 +159,11 @@ DTEND;TZID=Europe/Madrid:20260906T183000
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049561@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Feyenoord · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  1\nLocal: FC Barcelona\nVisitant: Feyenoord\nEstat: Partit\n\nClassificaci
- ó encara no disponible\n\nActualitzat: 29/08/2026 20:38 (CEST)\nFont: UEF
+ ó encara no disponible\n\nActualitzat: 30/08/2026 12:12 (CEST)\nFont: UEF
  A
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20260909T184500
@@ -171,18 +171,18 @@ DTEND;TZID=Europe/Madrid:20260909T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650805@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Levante Unión Deportiva SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 5\nLocal: Levante Unión Deportiv
  a SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Estadio Ciutat de Va
- lència\n\nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · P
- J 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelon
- a · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real 
- Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC
-  2 · DG +4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 ·
-  P 0 · GF 5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 
- 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madr
- id SAD · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. 
+ lència\n\nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid S
+ AD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Depo
+ rtivo Alavés SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 ·
+  DG +4\n3. FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · G
+ C 0 · DG +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 
+ 0 · P 0 · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · 
+ Pts 6 · G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompi
+ é SAD · PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. 
  Club Atlético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC
   1 · DG +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 
  1 · P 1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 
@@ -201,7 +201,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 5\nLocal: Levante Unión Deportiv
  · E 1 · P 1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · P
  J 3 · Pts 1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic C
  lub · PJ 2 · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActu
- alitzat: 29/08/2026 20:38 (CEST)\nFont: LaLiga
+ alitzat: 30/08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio Ciutat de València
 DTSTART;TZID=Europe/Madrid:20260913T020000
@@ -209,37 +209,37 @@ DTEND;TZID=Europe/Madrid:20260913T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650817@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Real Racing Club SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 6\nLocal: FC Barcelona\nVisitant:
   Real Racing Club SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\nClassifi
- cació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · G 2
-  · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts 6 
- · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de Fút
- bol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. Sev
- illa Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · GC 
- 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 · 
- P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 · P
- ts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético Osas
- una · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. Lev
- ante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 ·
-  GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 · 
- P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · Pts
-  3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de Fútb
- ol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\n12.
-  Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 
- 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 · Pt
- s 2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villarreal Club de 
- Fútbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 · GC 5 · DG -1
- \n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 
- · GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD · PJ 2 · Pts 1
-  · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia Club de Fútb
- ol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1 · DG -1\n18.
-  Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1
-  · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G 0 
- · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pts 0
-  · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2026 
- 20:38 (CEST)\nFont: LaLiga
+ cació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pts 7
+  · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SAD 
+ · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Barc
+ elona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4. R
+ eal Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 
+ · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · E
+  0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 ·
+  Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético Os
+ asuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. L
+ evante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 
+ · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 
+ · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · 
+ Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de F
+ útbol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\
+ n12. Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 ·
+  GF 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 
+ · Pts 2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villarreal Clu
+ b de Fútbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 · GC 5 · 
+ DG -1\n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 · E 1 · 
+ P 1 · GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD · PJ 2 · P
+ ts 1 · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia Club de F
+ útbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1 · DG -1\
+ n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · 
+ GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G
+  0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pt
+ s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/20
+ 26 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20260916T020000
@@ -247,37 +247,37 @@ DTEND;TZID=Europe/Madrid:20260916T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650829@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Sevilla Fútbol Club SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 7\nLocal: Sevilla Fútbol Club SA
  D\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Ramón Sánchez-Pizjuán
- \n\nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · 
- Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ
-  2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid 
- Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · D
- G +4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 ·
-  GF 5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 
- 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD 
- · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club At
- lético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · D
- G +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 
- 1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 
- 1 · E 1 · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona ·
-  PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe C
- lub de Fútbol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 
- · DG -2\n12. Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 
- · P 2 · GF 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD 
- · PJ 2 · Pts 2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villar
- real Club de Fútbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 · 
- GC 5 · DG -1\n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 ·
-  E 1 · P 1 · GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD · P
- J 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia C
- lub de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1 
- · DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 
+ \n\nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · P
+ J 3 · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo A
+ lavés SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\
+ n3. FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · 
+ DG +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 
+ 0 · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 
+ · G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD
+  · PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club A
+ tlético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · 
+ DG +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P
+  1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G
+  1 · E 1 · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona 
+ · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe
+  Club de Fútbol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3
+  · DG -2\n12. Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0
+  · P 2 · GF 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD
+  · PJ 2 · Pts 2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villa
+ rreal Club de Fútbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 ·
+  GC 5 · DG -1\n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 
+ · E 1 · P 1 · GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD ·
+  PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia
+  Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1
+  · DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 
  · P 1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · 
  Pts 1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · 
  PJ 2 · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat
- : 29/08/2026 20:38 (CEST)\nFont: LaLiga
+ : 30/08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Ramón Sánchez-Pizjuán
 DTSTART;TZID=Europe/Madrid:20260920T020000
@@ -285,18 +285,18 @@ DTEND;TZID=Europe/Madrid:20260920T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650835@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Getafe Club de Fútbol SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 8\nLocal: FC Barcelona\nVisitant:
   Getafe Club de Fútbol SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\nCl
- assificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 
- · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · 
- Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club d
- e Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n
- 4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 
- · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E
-  0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 
- 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlétic
+ assificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 ·
+  Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés
+  SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC
+  Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\
+ n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · G
+ F 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 
+ · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 
+ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlétic
  o Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n
  8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · G
  F 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E
@@ -314,8 +314,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 8\nLocal: FC Barcelona\nVisitant:
  \n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 ·
   GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · 
  G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · P
- ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2
- 026 20:38 (CEST)\nFont: LaLiga
+ ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/2
+ 026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20261011T020000
@@ -323,11 +323,11 @@ DTEND;TZID=Europe/Madrid:20261011T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049576@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Galatasaray - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  2\nLocal: Galatasaray\nVisitant: FC Barcelona\nEstat: Partit\n\nClassifica
- ció encara no disponible\n\nActualitzat: 29/08/2026 20:38 (CEST)\nFont: U
+ ció encara no disponible\n\nActualitzat: 30/08/2026 12:12 (CEST)\nFont: U
  EFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261013T210000
@@ -335,18 +335,18 @@ DTEND;TZID=Europe/Madrid:20261013T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650842@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Real Betis Balompié SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 9\nLocal: Real Betis Balompié SA
  D\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Estadio La Cartuja\n\nCl
- assificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 
- · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · 
- Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club d
- e Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n
- 4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 
- · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E
-  0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 
- 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlétic
+ assificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 ·
+  Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés
+  SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC
+  Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\
+ n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · G
+ F 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 
+ · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 
+ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlétic
  o Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n
  8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · G
  F 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E
@@ -364,8 +364,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 9\nLocal: Real Betis Balompié SA
  \n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 ·
   GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · 
  G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · P
- ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2
- 026 20:38 (CEST)\nFont: LaLiga
+ ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/2
+ 026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio La Cartuja
 DTSTART;TZID=Europe/Madrid:20261018T020000
@@ -373,29 +373,29 @@ DTEND;TZID=Europe/Madrid:20261018T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049589@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Paris - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  3\nLocal: Paris\nVisitant: FC Barcelona\nEstat: Partit\n\nClassificació e
- ncara no disponible\n\nActualitzat: 29/08/2026 20:38 (CEST)\nFont: UEFA
+ ncara no disponible\n\nActualitzat: 30/08/2026 12:12 (CEST)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261020T210000
 DTEND;TZID=Europe/Madrid:20261020T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650856@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Real Madrid Club de Fútbol · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 10\nLocal: FC Barcelona\nVisitant
  : Real Madrid Club de Fútbol\nEstat: Partit\nEstadi: Spotify Camp Nou\n\n
- Classificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 
- 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 
- · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Clu
- b de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +
- 4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF
-  5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 
- · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD ·
-  PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atl
+ Classificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 
+ · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alav
+ és SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3.
+  FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG 
+ +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 
+ · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · 
+ G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD ·
+  PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atl
  ético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG
   +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1
   · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1
@@ -413,8 +413,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 10\nLocal: FC Barcelona\nVisitant
  DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P
   1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 
  1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2
-  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29
- /08/2026 20:38 (CEST)\nFont: LaLiga
+  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30
+ /08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20261025T020000
@@ -422,23 +422,23 @@ DTEND;TZID=Europe/Madrid:20261025T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650866@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Deportivo Alavés SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 11\nLocal: FC Barcelona\nVisitant
  : Deportivo Alavés SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\nClassi
- ficació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · G
-  2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts 
- 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de F
- útbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. 
- Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · 
- GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 
- · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 
- · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético 
- Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8.
-  Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 
- 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1
-  · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 ·
-  Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de F
+ ficació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pts
+  7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SAD
+  · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Bar
+ celona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4. 
+ Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 
+ · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · E
+  0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 ·
+  Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético Os
+ asuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. L
+ evante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 
+ · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 
+ · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · 
+ Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de F
  útbol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\
  n12. Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 ·
   GF 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 
@@ -451,8 +451,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 11\nLocal: FC Barcelona\nVisitant
  n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · 
  GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G
   0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pt
- s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/20
- 26 20:38 (CEST)\nFont: LaLiga
+ s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/20
+ 26 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20261101T010000
@@ -460,11 +460,11 @@ DTEND;TZID=Europe/Madrid:20261101T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049607@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Aston Villa · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  4\nLocal: FC Barcelona\nVisitant: Aston Villa\nEstat: Partit\n\nClassifica
- ció encara no disponible\n\nActualitzat: 29/08/2026 20:38 (CEST)\nFont: U
+ ció encara no disponible\n\nActualitzat: 30/08/2026 12:12 (CEST)\nFont: U
  EFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261103T210000
@@ -472,18 +472,18 @@ DTEND;TZID=Europe/Madrid:20261103T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650872@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Club Atlético de Madrid SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 12\nLocal: Club Atlético de Madr
  id SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Riyadh Air Metropol
- itano\n\nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 
- 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona 
- · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Ma
- drid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2
-  · DG +4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P
-  0 · GF 5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 
- · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid
-  SAD · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Cl
+ itano\n\nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD
+  · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deport
+ ivo Alavés SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · D
+ G +4\n3. FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 
+ 0 · DG +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 
+ · P 0 · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pt
+ s 6 · G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié
+  SAD · PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Cl
  ub Atlético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1
   · DG +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 
  · P 1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 
@@ -502,7 +502,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 12\nLocal: Club Atlético de Madr
  1 · P 1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 
  · Pts 1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club 
  · PJ 2 · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualit
- zat: 29/08/2026 20:38 (CEST)\nFont: LaLiga
+ zat: 30/08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Riyadh Air Metropolitano
 DTSTART;TZID=Europe/Madrid:20261108T010000
@@ -510,18 +510,18 @@ DTEND;TZID=Europe/Madrid:20261108T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650884@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Villarreal Club de Fútbol SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 13\nLocal: FC Barcelona\nVisitant
  : Villarreal Club de Fútbol SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\
- n\nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · P
- ts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 
- 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid C
- lub de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG
-  +4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · 
- GF 5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2
-  · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD 
- · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club At
+ n\nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ
+  3 · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Al
+ avés SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n
+ 3. FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · D
+ G +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0
+  · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 ·
+  G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD 
+ · PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club At
  lético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · D
  G +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 
  1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 
@@ -540,7 +540,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 13\nLocal: FC Barcelona\nVisitant
  · P 1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · 
  Pts 1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · 
  PJ 2 · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat
- : 29/08/2026 20:38 (CEST)\nFont: LaLiga
+ : 30/08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20261122T010000
@@ -548,29 +548,29 @@ DTEND;TZID=Europe/Madrid:20261122T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049642@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Sabah - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  5\nLocal: Sabah\nVisitant: FC Barcelona\nEstat: Partit\n\nClassificació e
- ncara no disponible\n\nActualitzat: 29/08/2026 20:38 (CEST)\nFont: UEFA
+ ncara no disponible\n\nActualitzat: 30/08/2026 12:12 (CEST)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261125T184500
 DTEND;TZID=Europe/Madrid:20261125T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650894@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Real Club Deportivo de A Coruña SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 14\nLocal: Real Club Deportivo de
   A Coruña SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Estadio ABA
- NCA-RIAZOR\n\nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD 
- · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barc
- elona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. R
- eal Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 
- · GC 2 · DG +4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E
-  0 · P 0 · GF 5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 ·
-  Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de
-  Madrid SAD · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2
+ NCA-RIAZOR\n\nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madri
+ d SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. D
+ eportivo Alavés SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1
+  · DG +4\n3. FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 
+ · GC 0 · DG +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 
+ · E 0 · P 0 · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 
+ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Ba
+ lompié SAD · PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1
  \n7. Club Atlético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 
  · GC 1 · DG +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 
  · E 1 · P 1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 ·
@@ -589,7 +589,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 14\nLocal: Real Club Deportivo de
  0 · E 1 · P 1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD ·
   PJ 3 · Pts 1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic
   Club · PJ 2 · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nAc
- tualitzat: 29/08/2026 20:38 (CEST)\nFont: LaLiga
+ tualitzat: 30/08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio ABANCA-RIAZOR
 DTSTART;TZID=Europe/Madrid:20261129T010000
@@ -597,18 +597,18 @@ DTEND;TZID=Europe/Madrid:20261129T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650905@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Real Club Celta de Vigo SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 15\nLocal: FC Barcelona\nVisitant
  : Real Club Celta de Vigo SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\n
- Classificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 
- 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 
- · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Clu
- b de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +
- 4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF
-  5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 
- · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD ·
-  PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atl
+ Classificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 
+ · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alav
+ és SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3.
+  FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG 
+ +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 
+ · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · 
+ G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD ·
+  PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atl
  ético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG
   +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1
   · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1
@@ -626,8 +626,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 15\nLocal: FC Barcelona\nVisitant
  DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P
   1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 
  1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2
-  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29
- /08/2026 20:38 (CEST)\nFont: LaLiga
+  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30
+ /08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20261206T010000
@@ -635,11 +635,11 @@ DTEND;TZID=Europe/Madrid:20261206T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049644@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Man City · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  6\nLocal: FC Barcelona\nVisitant: Man City\nEstat: Partit\n\nClassificaci
- ó encara no disponible\n\nActualitzat: 29/08/2026 20:38 (CEST)\nFont: UEF
+ ó encara no disponible\n\nActualitzat: 30/08/2026 12:12 (CEST)\nFont: UEF
  A
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261208T210000
@@ -647,18 +647,18 @@ DTEND;TZID=Europe/Madrid:20261208T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650918@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Málaga Club de Fútbol SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 16\nLocal: Málaga Club de Fútbo
  l SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: La Rosaleda\n\nClass
- ificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · 
- G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts
-  6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de F
- útbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. 
- Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · 
- GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 
- · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 
- · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético 
+ ificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pt
+ s 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SA
+ D · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Ba
+ rcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4.
+  Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6
+  · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · 
+ E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 
+ · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético 
  Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8.
   Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 
  5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1
@@ -676,8 +676,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 16\nLocal: Málaga Club de Fútbo
  n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · 
  GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G
   0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pt
- s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/20
- 26 20:38 (CEST)\nFont: LaLiga
+ s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/20
+ 26 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:La Rosaleda
 DTSTART;TZID=Europe/Madrid:20261213T010000
@@ -685,18 +685,18 @@ DTEND;TZID=Europe/Madrid:20261213T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650926@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Real Sociedad de Fútbol SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 17\nLocal: FC Barcelona\nVisitant
  : Real Sociedad de Fútbol SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\
- nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts
-  7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 
- · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Clu
- b de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +
- 4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF
-  5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 
- · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD ·
-  PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atl
+ nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3
+  · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alav
+ és SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3.
+  FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG 
+ +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 
+ · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · 
+ G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD ·
+  PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atl
  ético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG
   +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1
   · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1
@@ -714,8 +714,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 17\nLocal: FC Barcelona\nVisitant
  DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P
   1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 
  1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2
-  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29
- /08/2026 20:38 (CEST)\nFont: LaLiga
+  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30
+ /08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20261220T010000
@@ -723,23 +723,23 @@ DTEND;TZID=Europe/Madrid:20261220T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650934@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:RCD Espanyol de Barcelona - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 18\nLocal: RCD Espanyol de Barcel
  ona\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: RCDE Stadium\n\nClassi
- ficació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · G
-  2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts 
- 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de F
- útbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. 
- Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · 
- GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 
- · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 
- · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético 
- Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8.
-  Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 
- 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1
-  · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 ·
-  Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de F
+ ficació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pts
+  7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SAD
+  · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Bar
+ celona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4. 
+ Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 
+ · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · E
+  0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 ·
+  Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético Os
+ asuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. L
+ evante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 
+ · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 
+ · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · 
+ Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de F
  útbol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\
  n12. Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 ·
   GF 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 
@@ -752,8 +752,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 18\nLocal: RCD Espanyol de Barcel
  n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · 
  GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G
   0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pt
- s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/20
- 26 20:38 (CEST)\nFont: LaLiga
+ s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/20
+ 26 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:RCDE Stadium
 DTSTART;TZID=Europe/Madrid:20270103T010000
@@ -761,18 +761,18 @@ DTEND;TZID=Europe/Madrid:20270103T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650948@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Club Atlético Osasuna - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 19\nLocal: Club Atlético Osasuna
  \nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Estadio El Sadar\n\nClass
- ificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · 
- G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts
-  6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de F
- útbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. 
- Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · 
- GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 
- · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 
- · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético 
+ ificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pt
+ s 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SA
+ D · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Ba
+ rcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4.
+  Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6
+  · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · 
+ E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 
+ · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético 
  Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8.
   Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 
  5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1
@@ -790,8 +790,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 19\nLocal: Club Atlético Osasuna
  n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · 
  GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G
   0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pt
- s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/20
- 26 20:38 (CEST)\nFont: LaLiga
+ s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/20
+ 26 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio El Sadar
 DTSTART;TZID=Europe/Madrid:20270110T010000
@@ -799,18 +799,18 @@ DTEND;TZID=Europe/Madrid:20270110T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650955@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Elche Club de Fútbol SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 20\nLocal: FC Barcelona\nVisitant
  : Elche Club de Fútbol SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\nCl
- assificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 
- · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · 
- Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club d
- e Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n
- 4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 
- · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E
-  0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 
- 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlétic
+ assificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 ·
+  Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés
+  SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC
+  Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\
+ n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · G
+ F 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 
+ · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 
+ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlétic
  o Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n
  8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · G
  F 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E
@@ -828,8 +828,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 20\nLocal: FC Barcelona\nVisitant
  \n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 ·
   GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · 
  G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · P
- ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2
- 026 20:38 (CEST)\nFont: LaLiga
+ ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/2
+ 026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20270117T010000
@@ -837,11 +837,11 @@ DTEND;TZID=Europe/Madrid:20270117T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049670@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Sporting CP - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  7\nLocal: Sporting CP\nVisitant: FC Barcelona\nEstat: Partit\n\nClassifica
- ció encara no disponible\n\nActualitzat: 29/08/2026 20:38 (CEST)\nFont: U
+ ció encara no disponible\n\nActualitzat: 30/08/2026 12:12 (CEST)\nFont: U
  EFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20270120T210000
@@ -849,37 +849,37 @@ DTEND;TZID=Europe/Madrid:20270120T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650962@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Deportivo Alavés SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 21\nLocal: Deportivo Alavés SAD\
  nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Mendizorroza\n\nClassifica
- ció\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · G 2 
- · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts 6 
- · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de Fút
- bol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. Sev
- illa Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · GC 
- 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 · 
- P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 · P
- ts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético Osas
- una · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. Lev
- ante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 ·
-  GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 · 
- P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · Pts
-  3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de Fútb
- ol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\n12.
-  Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 
- 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 · Pt
- s 2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villarreal Club de 
- Fútbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 · GC 5 · DG -1
- \n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 
- · GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD · PJ 2 · Pts 1
-  · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia Club de Fútb
- ol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1 · DG -1\n18.
-  Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1
-  · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G 0 
- · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pts 0
-  · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2026 
- 20:38 (CEST)\nFont: LaLiga
+ ció\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pts 7 
+ · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SAD ·
+  PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Barcel
+ ona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4. Rea
+ l Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · 
+ GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · E 0 
+ · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 · Pt
+ s 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético Osasu
+ na · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. Leva
+ nte Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 · 
+ GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 · P
+  1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · Pts 
+ 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de Fútbo
+ l SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\n12. 
+ Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 3
+  · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 · Pts
+  2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villarreal Club de F
+ útbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 · GC 5 · DG -1\
+ n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 ·
+  GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD · PJ 2 · Pts 1 
+ · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia Club de Fútbo
+ l SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1 · DG -1\n18. 
+ Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1 
+ · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G 0 ·
+  E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pts 0 
+ · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/2026 1
+ 2:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Mendizorroza
 DTSTART;TZID=Europe/Madrid:20270124T010000
@@ -887,29 +887,29 @@ DTEND;TZID=Europe/Madrid:20270124T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049684@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Como · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  8\nLocal: FC Barcelona\nVisitant: Como\nEstat: Partit\n\nClassificació en
- cara no disponible\n\nActualitzat: 29/08/2026 20:38 (CEST)\nFont: UEFA
+ cara no disponible\n\nActualitzat: 30/08/2026 12:12 (CEST)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20270127T210000
 DTEND;TZID=Europe/Madrid:20270127T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650975@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Valencia Club de Fútbol SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 22\nLocal: FC Barcelona\nVisitant
  : Valencia Club de Fútbol SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\
- nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts
-  7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 
- · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Clu
- b de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +
- 4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF
-  5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 
- · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD ·
-  PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atl
+ nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3
+  · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alav
+ és SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3.
+  FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG 
+ +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 
+ · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · 
+ G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD ·
+  PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atl
  ético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG
   +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1
   · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1
@@ -927,8 +927,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 22\nLocal: FC Barcelona\nVisitant
  DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P
   1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 
  1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2
-  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29
- /08/2026 20:38 (CEST)\nFont: LaLiga
+  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30
+ /08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20270131T010000
@@ -936,18 +936,18 @@ DTEND;TZID=Europe/Madrid:20270131T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650988@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Club Atlético de Madrid SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 23\nLocal: FC Barcelona\nVisitant
  : Club Atlético de Madrid SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\
- nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts
-  7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 
- · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Clu
- b de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +
- 4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF
-  5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 
- · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD ·
-  PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atl
+ nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3
+  · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alav
+ és SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3.
+  FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG 
+ +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 
+ · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · 
+ G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD ·
+  PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atl
  ético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG
   +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1
   · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1
@@ -965,8 +965,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 23\nLocal: FC Barcelona\nVisitant
  DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P
   1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 
  1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2
-  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29
- /08/2026 20:38 (CEST)\nFont: LaLiga
+  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30
+ /08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20270207T010000
@@ -974,37 +974,37 @@ DTEND;TZID=Europe/Madrid:20270207T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651001@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Villarreal Club de Fútbol SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 24\nLocal: Villarreal Club de Fú
  tbol SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Estadio de la Cer
- ámica\n\nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ
-  3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona
-  · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real M
- adrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 
- 2 · DG +4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · 
- P 0 · GF 5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6
-  · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madri
- d SAD · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. C
- lub Atlético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 
- 1 · DG +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1
-  · P 1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4
-  · G 1 · E 1 · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcel
- ona · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Ge
- tafe Club de Fútbol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · 
- GC 3 · DG -2\n12. Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 ·
-  E 0 · P 2 · GF 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña
-  SAD · PJ 2 · Pts 2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. V
- illarreal Club de Fútbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 
- 4 · GC 5 · DG -1\n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G
-  0 · E 1 · P 1 · GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD
-  · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valen
- cia Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · G
- C 1 · DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E
-  1 · P 1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 
- · Pts 1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club 
- · PJ 2 · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualit
- zat: 29/08/2026 20:38 (CEST)\nFont: LaLiga
+ ámica\n\nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SA
+ D · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Depor
+ tivo Alavés SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · 
+ DG +4\n3. FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC
+  0 · DG +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0
+  · P 0 · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · P
+ ts 6 · G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompi
+ é SAD · PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. 
+ Club Atlético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC
+  1 · DG +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 
+ 1 · P 1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 
+ 4 · G 1 · E 1 · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barce
+ lona · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. G
+ etafe Club de Fútbol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 ·
+  GC 3 · DG -2\n12. Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 
+ · E 0 · P 2 · GF 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coru
+ ña SAD · PJ 2 · Pts 2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14
+ . Villarreal Club de Fútbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · 
+ GF 4 · GC 5 · DG -1\n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 
+ · G 0 · E 1 · P 1 · GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo
+  SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. V
+ alencia Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 
+ · GC 1 · DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 
+ · E 1 · P 1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · P
+ J 3 · Pts 1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic C
+ lub · PJ 2 · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActu
+ alitzat: 30/08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio de la Cerámica
 DTSTART;TZID=Europe/Madrid:20270214T010000
@@ -1012,18 +1012,18 @@ DTEND;TZID=Europe/Madrid:20270214T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651007@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Levante Unión Deportiva SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 25\nLocal: FC Barcelona\nVisitant
  : Levante Unión Deportiva SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\
- nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts
-  7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 
- · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Clu
- b de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +
- 4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF
-  5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 
- · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD ·
-  PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atl
+ nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3
+  · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alav
+ és SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3.
+  FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG 
+ +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 
+ · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · 
+ G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD ·
+  PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atl
  ético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG
   +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1
   · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1
@@ -1041,8 +1041,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 25\nLocal: FC Barcelona\nVisitant
  DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P
   1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 
  1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2
-  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29
- /08/2026 20:38 (CEST)\nFont: LaLiga
+  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30
+ /08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20270221T010000
@@ -1050,18 +1050,18 @@ DTEND;TZID=Europe/Madrid:20270221T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651012@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Athletic Club - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 26\nLocal: Athletic Club\nVisitan
  t: FC Barcelona\nEstat: Partit\nEstadi: Estadio San Mamés\n\nClassificaci
- ó\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · G 2 · 
- E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts 6 · G
-  2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de Fútbol 
- · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. Sevilla
-  Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · GC 2 ·
-  DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 · P 1 
- · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 · Pts 4
-  · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético Osasuna 
+ ó\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pts 7 · 
+ G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SAD · PJ
+  3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Barcelona
+  · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4. Real M
+ adrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 
+ 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · E 0 · 
+ P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 · Pts 6
+  · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético Osasuna 
  · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. Levante
   Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 · GC 
  5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 
@@ -1079,8 +1079,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 26\nLocal: Athletic Club\nVisitan
  Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1 
  · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G 0 ·
   E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pts 0 
- · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2026 2
- 0:38 (CEST)\nFont: LaLiga
+ · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/2026 1
+ 2:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio San Mamés
 DTSTART;TZID=Europe/Madrid:20270228T010000
@@ -1088,18 +1088,18 @@ DTEND;TZID=Europe/Madrid:20270228T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651027@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Real Betis Balompié SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 27\nLocal: FC Barcelona\nVisitant
  : Real Betis Balompié SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\nCla
- ssificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 
- · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · 
- Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club d
- e Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n
- 4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 
- · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E
-  0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 
- 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlétic
+ ssificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · 
+ Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés 
+ SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC 
+ Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n
+ 4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF
+  6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 
+ · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 
+ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlétic
  o Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n
  8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · G
  F 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E
@@ -1117,8 +1117,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 27\nLocal: FC Barcelona\nVisitant
  \n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 ·
   GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · 
  G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · P
- ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2
- 026 20:38 (CEST)\nFont: LaLiga
+ ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/2
+ 026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20270307T010000
@@ -1126,18 +1126,18 @@ DTEND;TZID=Europe/Madrid:20270307T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651036@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Real Club Deportivo de A Coruña SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 28\nLocal: FC Barcelona\nVisitant
  : Real Club Deportivo de A Coruña SAD\nEstat: Partit\nEstadi: Spotify Cam
- p Nou\n\nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 
- 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona 
- · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Ma
- drid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2
-  · DG +4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P
-  0 · GF 5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 
- · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid
-  SAD · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Cl
+ p Nou\n\nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD
+  · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deport
+ ivo Alavés SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · D
+ G +4\n3. FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 
+ 0 · DG +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 
+ · P 0 · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pt
+ s 6 · G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié
+  SAD · PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Cl
  ub Atlético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1
   · DG +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 
  · P 1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 
@@ -1156,7 +1156,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 28\nLocal: FC Barcelona\nVisitant
  1 · P 1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 
  · Pts 1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club 
  · PJ 2 · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualit
- zat: 29/08/2026 20:38 (CEST)\nFont: LaLiga
+ zat: 30/08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20270314T010000
@@ -1164,37 +1164,37 @@ DTEND;TZID=Europe/Madrid:20270314T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651047@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Rayo Vallecano de Madrid SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 29\nLocal: Rayo Vallecano de Madr
  id SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Estadio de Vallecas
- \n\nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · 
- Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ
-  2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid 
- Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · D
- G +4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 ·
-  GF 5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 
- 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD 
- · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club At
- lético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · D
- G +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 
- 1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 
- 1 · E 1 · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona ·
-  PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe C
- lub de Fútbol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 
- · DG -2\n12. Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 
- · P 2 · GF 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD 
- · PJ 2 · Pts 2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villar
- real Club de Fútbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 · 
- GC 5 · DG -1\n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 ·
-  E 1 · P 1 · GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD · P
- J 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia C
- lub de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1 
- · DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 
+ \n\nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · P
+ J 3 · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo A
+ lavés SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\
+ n3. FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · 
+ DG +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 
+ 0 · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 
+ · G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD
+  · PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club A
+ tlético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · 
+ DG +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P
+  1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G
+  1 · E 1 · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona 
+ · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe
+  Club de Fútbol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3
+  · DG -2\n12. Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0
+  · P 2 · GF 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD
+  · PJ 2 · Pts 2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villa
+ rreal Club de Fútbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 ·
+  GC 5 · DG -1\n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 
+ · E 1 · P 1 · GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD ·
+  PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia
+  Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1
+  · DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 
  · P 1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · 
  Pts 1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · 
  PJ 2 · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat
- : 29/08/2026 20:38 (CEST)\nFont: LaLiga
+ : 30/08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio de Vallecas
 DTSTART;TZID=Europe/Madrid:20270321T010000
@@ -1202,18 +1202,18 @@ DTEND;TZID=Europe/Madrid:20270321T031500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651056@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Sevilla Fútbol Club SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 30\nLocal: FC Barcelona\nVisitant
  : Sevilla Fútbol Club SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\nCla
- ssificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 
- · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · 
- Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club d
- e Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n
- 4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 
- · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E
-  0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 
- 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlétic
+ ssificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · 
+ Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés 
+ SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC 
+ Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n
+ 4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF
+  6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 
+ · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 
+ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlétic
  o Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n
  8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · G
  F 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E
@@ -1231,8 +1231,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 30\nLocal: FC Barcelona\nVisitant
  \n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 ·
   GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · 
  G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · P
- ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2
- 026 20:38 (CEST)\nFont: LaLiga
+ ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/2
+ 026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20270404T020000
@@ -1240,25 +1240,25 @@ DTEND;TZID=Europe/Madrid:20270404T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651067@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Real Racing Club SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 31\nLocal: Real Racing Club SAD\n
  Visitant: FC Barcelona\nEstat: Partit\nEstadi: El Sardinero\n\nClassificac
- ió\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · G 2 ·
-  E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts 6 · 
- G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de Fútbol
-  · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. Sevill
- a Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · GC 2 
- · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 · P 
- 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 · Pts
-  4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético Osasun
- a · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. Levan
- te Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 · G
- C 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 
- 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · Pts 3
-  · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de Fútbol
-  SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\n12. R
- eal Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 3 
+ ió\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pts 7 ·
+  G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SAD · P
+ J 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Barcelon
+ a · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4. Real 
+ Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC
+  2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · E 0 ·
+  P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 · Pts 
+ 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético Osasuna
+  · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. Levant
+ e Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 · GC
+  5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1
+  · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · Pts 3 
+ · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de Fútbol 
+ SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\n12. Re
+ al Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 3 
  · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 · Pts 
  2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villarreal Club de F
  útbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 · GC 5 · DG -1\
@@ -1269,8 +1269,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 31\nLocal: Real Racing Club SAD\n
  Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1 
  · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G 0 ·
   E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pts 0 
- · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2026 2
- 0:38 (CEST)\nFont: LaLiga
+ · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/2026 1
+ 2:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:El Sardinero
 DTSTART;TZID=Europe/Madrid:20270411T020000
@@ -1278,18 +1278,18 @@ DTEND;TZID=Europe/Madrid:20270411T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651077@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - RCD Espanyol de Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 32\nLocal: FC Barcelona\nVisitant
  : RCD Espanyol de Barcelona\nEstat: Partit\nEstadi: Spotify Camp Nou\n\nCl
- assificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 
- · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · 
- Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club d
- e Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n
- 4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 
- · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E
-  0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 
- 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlétic
+ assificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 ·
+  Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés
+  SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC
+  Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\
+ n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · G
+ F 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 
+ · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 
+ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlétic
  o Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n
  8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · G
  F 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E
@@ -1307,8 +1307,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 32\nLocal: FC Barcelona\nVisitant
  \n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 ·
   GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · 
  G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · P
- ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2
- 026 20:38 (CEST)\nFont: LaLiga
+ ts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/2
+ 026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20270418T020000
@@ -1316,18 +1316,18 @@ DTEND;TZID=Europe/Madrid:20270418T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651083@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Real Club Celta de Vigo SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 33\nLocal: Real Club Celta de Vig
  o SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Estadio ABANCA Bala
- ídos\n\nClassificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 
- 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona 
- · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Ma
- drid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2
-  · DG +4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P
-  0 · GF 5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 
- · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid
-  SAD · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Cl
+ ídos\n\nClassificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD
+  · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deport
+ ivo Alavés SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · D
+ G +4\n3. FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 
+ 0 · DG +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 
+ · P 0 · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pt
+ s 6 · G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié
+  SAD · PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Cl
  ub Atlético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1
   · DG +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 
  · P 1 · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 
@@ -1346,7 +1346,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 33\nLocal: Real Club Celta de Vig
  1 · P 1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 
  · Pts 1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club 
  · PJ 2 · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualit
- zat: 29/08/2026 20:38 (CEST)\nFont: LaLiga
+ zat: 30/08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio ABANCA Balaídos
 DTSTART;TZID=Europe/Madrid:20270421T020000
@@ -1354,18 +1354,18 @@ DTEND;TZID=Europe/Madrid:20270421T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651097@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Club Atlético Osasuna · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 34\nLocal: FC Barcelona\nVisitant
  : Club Atlético Osasuna\nEstat: Partit\nEstadi: Spotify Camp Nou\n\nClass
- ificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · 
- G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts
-  6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de F
- útbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. 
- Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · 
- GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 
- · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 
- · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético 
+ ificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pt
+ s 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SA
+ D · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Ba
+ rcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4.
+  Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6
+  · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · 
+ E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 
+ · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético 
  Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8.
   Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 
  5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1
@@ -1383,8 +1383,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 34\nLocal: FC Barcelona\nVisitant
  n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · 
  GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G
   0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pt
- s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/20
- 26 20:38 (CEST)\nFont: LaLiga
+ s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/20
+ 26 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20270502T020000
@@ -1392,23 +1392,23 @@ DTEND;TZID=Europe/Madrid:20270502T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651109@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Real Madrid Club de Fútbol - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 35\nLocal: Real Madrid Club de F
  útbol\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Bernabéu\n\nClassi
- ficació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · G
-  2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts 
- 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de F
- útbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. 
- Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · 
- GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 
- · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 
- · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético 
- Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8.
-  Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 
- 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1
-  · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 ·
-  Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de F
+ ficació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pts
+  7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SAD
+  · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Bar
+ celona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4. 
+ Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 
+ · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · E
+  0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 ·
+  Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético Os
+ asuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. L
+ evante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 
+ · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 
+ · P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · 
+ Pts 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de F
  útbol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\
  n12. Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 ·
   GF 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 
@@ -1421,8 +1421,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 35\nLocal: Real Madrid Club de F
  n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · 
  GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G
   0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pt
- s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/20
- 26 20:38 (CEST)\nFont: LaLiga
+ s 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/20
+ 26 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Bernabéu
 DTSTART;TZID=Europe/Madrid:20270509T020000
@@ -1430,37 +1430,37 @@ DTEND;TZID=Europe/Madrid:20270509T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651120@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Real Sociedad de Fútbol SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 36\nLocal: Real Sociedad de Fútb
  ol SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Anoeta\n\nClassific
- ació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · G 2 
- · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts 6 
- · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de Fút
- bol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. Sev
- illa Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · GC 
- 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 · 
- P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 · P
- ts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético Osas
- una · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. Lev
- ante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 ·
-  GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 · 
- P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · Pts
-  3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de Fútb
- ol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\n12.
-  Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 
- 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 · Pt
- s 2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villarreal Club de 
- Fútbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 · GC 5 · DG -1
- \n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 
- · GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD · PJ 2 · Pts 1
-  · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia Club de Fútb
- ol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1 · DG -1\n18.
-  Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1
-  · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G 0 
- · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pts 0
-  · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2026 
- 20:38 (CEST)\nFont: LaLiga
+ ació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pts 7 
+ · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SAD ·
+  PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Barcel
+ ona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4. Rea
+ l Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · 
+ GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · E 0 
+ · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 · Pt
+ s 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético Osasu
+ na · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. Leva
+ nte Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 · 
+ GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 · P
+  1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · Pts 
+ 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de Fútbo
+ l SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\n12. 
+ Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 3
+  · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 · Pts
+  2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villarreal Club de F
+ útbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 · GC 5 · DG -1\
+ n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 ·
+  GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD · PJ 2 · Pts 1 
+ · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia Club de Fútbo
+ l SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1 · DG -1\n18. 
+ Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1 
+ · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G 0 ·
+  E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pts 0 
+ · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/2026 1
+ 2:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Anoeta
 DTSTART;TZID=Europe/Madrid:20270516T020000
@@ -1468,18 +1468,18 @@ DTEND;TZID=Europe/Madrid:20270516T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651126@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:FC Barcelona - Málaga Club de Fútbol SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 37\nLocal: FC Barcelona\nVisitant
  : Málaga Club de Fútbol SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\n
- Classificació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 
- 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 
- · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Clu
- b de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +
- 4\n4. Sevilla Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF
-  5 · GC 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 
- · E 0 · P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD ·
-  PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atl
+ Classificació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 
+ · Pts 7 · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alav
+ és SAD · PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3.
+  FC Barcelona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG 
+ +7\n4. Real Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 
+ · GF 6 · GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · 
+ G 2 · E 0 · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD ·
+  PJ 3 · Pts 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atl
  ético Osasuna · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG
   +1\n8. Levante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1
   · GF 5 · GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1
@@ -1497,8 +1497,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 37\nLocal: FC Barcelona\nVisitant
  DG -1\n18. Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P
   1 · GF 1 · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 
  1 · G 0 · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2
-  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29
- /08/2026 20:38 (CEST)\nFont: LaLiga
+  · Pts 0 · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30
+ /08/2026 12:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20270523T020000
@@ -1506,37 +1506,37 @@ DTEND;TZID=Europe/Madrid:20270523T041500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651136@barca-calendar
-DTSTAMP:20260829T183812Z
+DTSTAMP:20260830T101237Z
 SUMMARY:Getafe Club de Fútbol SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 38\nLocal: Getafe Club de Fútbol
   SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Coliseum\n\nClassific
- ació\nPos Equip PJ Pts\n1. Deportivo Alavés SAD · PJ 3 · Pts 7 · G 2 
- · E 1 · P 0 · GF 5 · GC 1 · DG +4\n2. FC Barcelona · PJ 2 · Pts 6 
- · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n3. Real Madrid Club de Fút
- bol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · GC 2 · DG +4\n4. Sev
- illa Fútbol Club SAD · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 5 · GC 
- 2 · DG +3\n5. Real Betis Balompié SAD · PJ 3 · Pts 6 · G 2 · E 0 · 
- P 1 · GF 4 · GC 5 · DG -1\n6. Club Atlético de Madrid SAD · PJ 2 · P
- ts 4 · G 1 · E 1 · P 0 · GF 4 · GC 2 · DG +2\n7. Club Atlético Osas
- una · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. Lev
- ante Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 ·
-  GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 · 
- P 1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · Pts
-  3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de Fútb
- ol SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\n12.
-  Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 
- 3 · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 · Pt
- s 2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villarreal Club de 
- Fútbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 · GC 5 · DG -1
- \n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 
- · GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD · PJ 2 · Pts 1
-  · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia Club de Fútb
- ol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1 · DG -1\n18.
-  Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1
-  · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G 0 
- · E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pts 0
-  · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 29/08/2026 
- 20:38 (CEST)\nFont: LaLiga
+ ació\nPos Equip PJ Pts\n1. Club Atlético de Madrid SAD · PJ 3 · Pts 7 
+ · G 2 · E 1 · P 0 · GF 7 · GC 3 · DG +4\n2. Deportivo Alavés SAD ·
+  PJ 3 · Pts 7 · G 2 · E 1 · P 0 · GF 5 · GC 1 · DG +4\n3. FC Barcel
+ ona · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 7 · GC 0 · DG +7\n4. Rea
+ l Madrid Club de Fútbol · PJ 2 · Pts 6 · G 2 · E 0 · P 0 · GF 6 · 
+ GC 2 · DG +4\n5. Sevilla Fútbol Club SAD · PJ 3 · Pts 6 · G 2 · E 0 
+ · P 1 · GF 6 · GC 5 · DG +1\n6. Real Betis Balompié SAD · PJ 3 · Pt
+ s 6 · G 2 · E 0 · P 1 · GF 4 · GC 5 · DG -1\n7. Club Atlético Osasu
+ na · PJ 2 · Pts 4 · G 1 · E 1 · P 0 · GF 2 · GC 1 · DG +1\n8. Leva
+ nte Unión Deportiva SAD · PJ 3 · Pts 4 · G 1 · E 1 · P 1 · GF 5 · 
+ GC 5 · DG +0\n9. Real Racing Club SAD · PJ 3 · Pts 4 · G 1 · E 1 · P
+  1 · GF 5 · GC 5 · DG +0\n10. RCD Espanyol de Barcelona · PJ 3 · Pts 
+ 3 · G 1 · E 0 · P 2 · GF 5 · GC 4 · DG +1\n11. Getafe Club de Fútbo
+ l SAD · PJ 2 · Pts 3 · G 1 · E 0 · P 1 · GF 1 · GC 3 · DG -2\n12. 
+ Real Sociedad de Fútbol SAD · PJ 3 · Pts 3 · G 1 · E 0 · P 2 · GF 3
+  · GC 6 · DG -3\n13. Real Club Deportivo de A Coruña SAD · PJ 2 · Pts
+  2 · G 0 · E 2 · P 0 · GF 2 · GC 2 · DG +0\n14. Villarreal Club de F
+ útbol SAD · PJ 3 · Pts 2 · G 0 · E 2 · P 1 · GF 4 · GC 5 · DG -1\
+ n15. Rayo Vallecano de Madrid SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 ·
+  GF 2 · GC 3 · DG -1\n16. Real Club Celta de Vigo SAD · PJ 2 · Pts 1 
+ · G 0 · E 1 · P 1 · GF 1 · GC 2 · DG -1\n17. Valencia Club de Fútbo
+ l SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 0 · GC 1 · DG -1\n18. 
+ Málaga Club de Fútbol SAD · PJ 2 · Pts 1 · G 0 · E 1 · P 1 · GF 1 
+ · GC 3 · DG -2\n19. Elche Club de Fútbol SAD · PJ 3 · Pts 1 · G 0 ·
+  E 1 · P 2 · GF 3 · GC 9 · DG -6\n20. Athletic Club · PJ 2 · Pts 0 
+ · G 0 · E 0 · P 2 · GF 1 · GC 5 · DG -4\n\nActualitzat: 30/08/2026 1
+ 2:12 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Coliseum
 DTSTART;TZID=Europe/Madrid:20270530T020000
