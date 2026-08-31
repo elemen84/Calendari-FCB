@@ -15,7 +15,12 @@ def test_landing_has_three_competitions_and_requested_copy() -> None:
     assert "Des d'un ordinador, obre Google Calendar." in html
     assert "Des d'URL" in html
     assert "Apple Calendar" in html
-    assert "Altres calendaris" in html
+    assert "Google Calendar" in html
+    assert "Actualització automàtica cada 24 hores." in html
+    assert "03 · ALTRES" not in html
+    assert "other-link" not in html
+    assert "OBRE AMB EL TEU CALENDARI" not in html
+    assert html.count("<h3>Altres calendaris</h3>") == 0
 
 
 def test_landing_uses_webcal_and_no_download_cta() -> None:

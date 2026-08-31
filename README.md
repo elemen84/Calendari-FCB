@@ -12,7 +12,7 @@ juvenil, femení, Copa Catalunya ni cap altra competició.
 - `src/calendar/` genera un ICS amb timezone `Europe/Madrid`.
 - `data/provider-cache/` conserva l'últim conjunt de partits vàlid per provider.
 - `data/standings/laliga/` i `data/standings/champions/` guarden snapshots per jornada.
-- `data/sync-state.json` aplica un gate de 48 hores entre syncs correctes.
+- `data/sync-state.json` aplica un gate de 24 hores entre syncs correctes.
 - `public/` és una landing estàtica i el feed publicable a GitHub Pages.
 
 La temporada se configura con `BARCA_SEASON_START_YEAR` (por defecto `2026`). Los providers
@@ -133,7 +133,7 @@ Variables suportades:
 La landing es pot servir amb `python -m http.server --directory public 8000`. El fitxer
 `public/app.js` calcula el feed a partir de la URL actual, o permet establir una única constant
 `PUBLIC_FEED_URL_OVERRIDE` després de crear el repositori. No hi ha cap URL GitHub inventada repetida
-en el projecte. Apple i altres calendaris reben l'equivalent `webcal://`; Google rep una guia manual
+en el projecte. Apple Calendar rep l'equivalent `webcal://`; Google rep una guia manual
 per afegir el feed des d'un ordinador, sense Google Calendar API, OAuth ni Service Account.
 
 ## GitHub Pages i Actions
@@ -144,12 +144,15 @@ per afegir el feed des d'un ordinador, sense Google Calendar API, OAuth ni Servi
    credencials públiques del frontend, no secrets privats.
 4. Revisar la URL final i, si es vol, configurar `PUBLIC_FEED_URL_OVERRIDE` a `public/app.js`.
 5. El workflow programat/manual fa checkout, sync, actualitza dades generades, fa commit automàtic
-   només de dades i desplega Pages. `workflow_dispatch` amb `force: true` salta el gate de 48 hores.
+   només de dades i desplega Pages. El cron diari respecta el gate de ~24 hores; `workflow_dispatch`
+   amb `force: true` el salta.
 6. Un push de frontend només fa checkout, upload de `public/` i deploy; no executa providers.
 
 El trigger de frontend inclou `index.html`, `styles.css`, `app.js`, `favicon.svg` i `public/assets/**`,
 però no `public/barca.ics`, evitant bucles causats pels commits automàtics del sync.
 
-Google Calendar, Apple Calendar i altres clients decideixen el seu propi interval de consulta del
-feed; la propagació d'un canvi no és instantània ni controlable per aquest projecte. La subscripció
-és persistent, però un client pot trigar hores (o més, segons cache i configuració) a mostrar un canvi.
+El feed es comprova/sincronitza aproximadament cada 24 hores. Google Calendar i Apple Calendar
+decideixen el seu propi interval de consulta del feed; la propagació d'un canvi no és instantània ni
+controlable per aquest projecte. La promesa és la sincronització del feed, no un refresco exacte
+del client de l'usuari. La subscripció és persistent, però un client pot trigar hores (o més, segons
+cache i configuració) a mostrar un canvi.

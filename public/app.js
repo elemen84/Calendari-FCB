@@ -18,11 +18,9 @@
   const copyButton = document.querySelector("#copy-feed");
   const feedback = document.querySelector("#copy-feedback");
   const appleLink = document.querySelector("#apple-link");
-  const otherLink = document.querySelector("#other-link");
 
   if (urlElement) urlElement.textContent = url;
   if (appleLink) appleLink.href = webcalUrl(url);
-  if (otherLink) otherLink.href = webcalUrl(url);
 
   const openModal = () => {
     if (modal && typeof modal.showModal === "function") modal.showModal();

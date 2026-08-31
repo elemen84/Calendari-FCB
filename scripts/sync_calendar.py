@@ -10,9 +10,13 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args(*, interval_hours: int) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Actualitza el calendari del FC Barcelona")
-    parser.add_argument("--force", action="store_true", help="ignora el gate de 48 hores")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help=f"ignora el gate de {interval_hours} hores",
+    )
     parser.add_argument(
         "--dry-run", action="store_true", help="consulta i valida sense escriure fitxers"
     )
@@ -21,7 +25,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     sys.path.insert(0, str(ROOT))
-    from src.config import load_config
+    from src.config import SYNC_INTERVAL_HOURS, load_config
     from src.http_client import OfficialHttpError, RequestsJsonClient
     from src.providers.common import SourceDataError
     from src.providers.copa import CopaProvider
@@ -29,14 +33,17 @@ def main() -> int:
     from src.providers.uefa import UEFAProvider
     from src.sync import build_calendar, load_sync_state, persist_build, should_sync
 
-    args = parse_args()
+    args = parse_args(interval_hours=SYNC_INTERVAL_HOURS)
     try:
         config = load_config()
         now = datetime.now(ZoneInfo(config.timezone))
         state_path = ROOT / "data" / "sync-state.json"
         state = load_sync_state(state_path)
         if not should_sync(state, now, force=args.force):
-            print("Sync omès: encara no han passat 48 hores des de l'últim sync correcte.")
+            print(
+                "Sync omès: encara no han passat "
+                f"{SYNC_INTERVAL_HOURS} hores des de l'últim sync correcte."
+            )
             return 0
 
         client = RequestsJsonClient()

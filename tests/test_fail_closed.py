@@ -10,15 +10,15 @@ from src.sync import build_calendar, should_sync
 from .conftest import config
 
 
-def test_sync_gate_waits_48_hours_unless_forced() -> None:
+def test_sync_gate_waits_24_hours_unless_forced() -> None:
     now = datetime.fromisoformat("2026-08-29T12:00:00+02:00")
-    state = {"last_successful_sync": "2026-08-27T13:00:00+02:00"}
+    # 23h elapsed → omit
+    state = {"last_successful_sync": "2026-08-28T13:00:00+02:00"}
     assert should_sync(state, now) is False
+    # manual force → allow even before 24h
     assert should_sync(state, now, force=True) is True
-    assert (
-        should_sync({"last_successful_sync": "2026-08-27T12:00:00+02:00"}, now.replace(hour=13))
-        is True
-    )
+    # exactly 24h elapsed → allow
+    assert should_sync({"last_successful_sync": "2026-08-28T12:00:00+02:00"}, now) is True
 
 
 def test_unexpected_empty_source_raises_before_any_write(tmp_path) -> None:

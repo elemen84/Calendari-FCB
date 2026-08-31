@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       force:
-        description: "Força el sync encara que no hagin passat 48 hores"
+        description: "Força el sync encara que no hagin passat 24 hores"
         required: false
         default: true
         type: boolean
@@ -51,7 +51,7 @@ jobs:
           UEFA_API_KEY: ${{ vars.UEFA_API_KEY }}
         run: |
           # workflow_dispatch must always regenerate ICS (presentation/code
-          # changes are otherwise masked by the 48h gate and stale public/).
+          # changes are otherwise masked by the 24h gate and stale public/).
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ inputs.force }}" = "true" ]; then
             python scripts/sync_calendar.py --force
           else

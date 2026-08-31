@@ -5,7 +5,7 @@ from dataclasses import dataclass
 
 TIMEZONE_NAME = "Europe/Madrid"
 DEFAULT_MATCH_DURATION_MINUTES = 135
-SYNC_INTERVAL_HOURS = 48
+SYNC_INTERVAL_HOURS = 24
 
 
 def _env_int(name: str, default: int) -> int:
