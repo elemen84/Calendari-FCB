@@ -13,8 +13,7 @@ from src.providers.common import (
     as_dict,
     as_list,
     int_or_none,
-    parse_date,
-    parse_datetime,
+    parse_laliga_style_kickoff,
     parse_status,
     required_int,
     score_pair,
@@ -157,13 +156,7 @@ class LaLigaProvider:
         gameweek = item.get("gameweek")
         gameweek_dict = as_dict(gameweek, "LaLiga gameweek") if gameweek is not None else {}
         round_number = int_or_none(gameweek_dict.get("week"))
-        date_raw = item.get("date")
-        date_value = parse_date(date_raw, "LaLiga date")
-        start_datetime = parse_datetime(item.get("time"), "LaLiga time")
-        if start_datetime is None and isinstance(date_raw, str) and "T" in date_raw:
-            start_datetime = parse_datetime(date_raw, "LaLiga date/time")
-        if start_datetime is None and date_value is None:
-            raise SourceDataError("LaLiga partit sense data")
+        start_datetime, date_value, time_confirmed = parse_laliga_style_kickoff(item, "LaLiga")
         home_score, away_score = score_pair(item)
         venue = item.get("venue")
         venue_name = venue.get("name") if isinstance(venue, dict) else None
@@ -187,6 +180,7 @@ class LaLigaProvider:
             phase="Lliga",
             start_datetime=start_datetime,
             start_date=date_value,
+            time_confirmed=time_confirmed,
             venue=venue_name if isinstance(venue_name, str) else None,
             home_score=home_score,
             away_score=away_score,

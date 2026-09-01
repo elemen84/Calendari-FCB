@@ -12,8 +12,7 @@ from src.providers.common import (
     as_dict,
     as_list,
     int_or_none,
-    parse_date,
-    parse_datetime,
+    parse_laliga_style_kickoff,
     parse_status,
     score_pair,
     team_name,
@@ -119,12 +118,7 @@ class CopaProvider:
         if competition_data.get("slug") not in {"copa-del-rey", None}:
             raise SourceDataError("Competición inesperada en Copa")
         source_id = item.get("opta_id") or item.get("id") or item.get("lde_id")
-        date_value = parse_date(item.get("date"), "Copa date")
-        start_datetime = parse_datetime(item.get("time"), "Copa time")
-        if start_datetime is None and isinstance(item.get("date"), str) and "T" in item["date"]:
-            start_datetime = parse_datetime(item["date"], "Copa date/time")
-        if start_datetime is None and date_value is None:
-            raise SourceDataError("Copa partit sense data")
+        start_datetime, date_value, time_confirmed = parse_laliga_style_kickoff(item, "Copa")
         gameweek = item.get("gameweek")
         gameweek_data = as_dict(gameweek, "Copa gameweek") if gameweek is not None else {}
         round_name = gameweek_data.get("name") or gameweek_data.get("shortname")
@@ -143,6 +137,7 @@ class CopaProvider:
             round_name=str(round_name).strip() if round_name else None,
             start_datetime=start_datetime,
             start_date=date_value,
+            time_confirmed=time_confirmed,
             venue=venue_name if isinstance(venue_name, str) else None,
             home_score=home_score,
             away_score=away_score,

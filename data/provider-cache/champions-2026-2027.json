@@ -14,9 +14,10 @@
     "source_game_id": "2049561",
     "source_url": "https://www.uefa.com/uefachampionsleague/fixtures-results/",
     "standings_eligible": true,
-    "start_date": null,
+    "start_date": "2026-09-09",
     "start_datetime": "2026-09-09T18:45:00+02:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": null
   },
   {
@@ -34,9 +35,10 @@
     "source_game_id": "2049576",
     "source_url": "https://www.uefa.com/uefachampionsleague/fixtures-results/",
     "standings_eligible": true,
-    "start_date": null,
+    "start_date": "2026-10-13",
     "start_datetime": "2026-10-13T21:00:00+02:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": null
   },
   {
@@ -54,9 +56,10 @@
     "source_game_id": "2049589",
     "source_url": "https://www.uefa.com/uefachampionsleague/fixtures-results/",
     "standings_eligible": true,
-    "start_date": null,
+    "start_date": "2026-10-20",
     "start_datetime": "2026-10-20T21:00:00+02:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": null
   },
   {
@@ -74,9 +77,10 @@
     "source_game_id": "2049607",
     "source_url": "https://www.uefa.com/uefachampionsleague/fixtures-results/",
     "standings_eligible": true,
-    "start_date": null,
+    "start_date": "2026-11-03",
     "start_datetime": "2026-11-03T21:00:00+01:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": null
   },
   {
@@ -94,9 +98,10 @@
     "source_game_id": "2049642",
     "source_url": "https://www.uefa.com/uefachampionsleague/fixtures-results/",
     "standings_eligible": true,
-    "start_date": null,
+    "start_date": "2026-11-25",
     "start_datetime": "2026-11-25T18:45:00+01:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": null
   },
   {
@@ -114,9 +119,10 @@
     "source_game_id": "2049644",
     "source_url": "https://www.uefa.com/uefachampionsleague/fixtures-results/",
     "standings_eligible": true,
-    "start_date": null,
+    "start_date": "2026-12-08",
     "start_datetime": "2026-12-08T21:00:00+01:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": null
   },
   {
@@ -134,9 +140,10 @@
     "source_game_id": "2049670",
     "source_url": "https://www.uefa.com/uefachampionsleague/fixtures-results/",
     "standings_eligible": true,
-    "start_date": null,
+    "start_date": "2027-01-20",
     "start_datetime": "2027-01-20T21:00:00+01:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": null
   },
   {
@@ -154,9 +161,10 @@
     "source_game_id": "2049684",
     "source_url": "https://www.uefa.com/uefachampionsleague/fixtures-results/",
     "standings_eligible": true,
-    "start_date": null,
+    "start_date": "2027-01-27",
     "start_datetime": "2027-01-27T21:00:00+01:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": null
   }
 ]

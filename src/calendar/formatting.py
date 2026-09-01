@@ -75,7 +75,10 @@ def _competition_title(game: Game) -> str:
 
 
 def title_for_game(game: Game) -> str:
-    title = f"{game.home} - {game.away} · {_competition_title(game)}"
+    if game.time_confirmed:
+        title = f"{game.home} - {game.away} · {_competition_title(game)}"
+    else:
+        title = f"{game.home} - {game.away} · Horari per confirmar"
     if game.status == "postponed":
         return f"Ajornat · {title}"
     if game.status == "cancelled":
@@ -119,7 +122,10 @@ def description_for_game(
     *,
     updated_at: datetime,
 ) -> str:
-    lines = [f"Competició: {game.competition_name}"]
+    lines: list[str] = []
+    if not game.time_confirmed:
+        lines.append("Hora del partit encara per confirmar.")
+    lines.append(f"Competició: {game.competition_name}")
     if game.competition_key == "laliga":
         lines.append(
             f"Jornada: {game.round_number}"

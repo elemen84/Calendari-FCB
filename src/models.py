@@ -43,6 +43,7 @@ class Game:
     leg: str | None = None
     start_datetime: datetime | None = None
     start_date: date | None = None
+    time_confirmed: bool = True
     venue: str | None = None
     home_score: int | None = None
     away_score: int | None = None
@@ -56,6 +57,10 @@ class Game:
             raise ValueError("Un partit ha de tenir data o data i hora")
         if self.start_datetime is not None and self.start_datetime.tzinfo is None:
             raise ValueError("start_datetime ha de tenir timezone")
+        if self.time_confirmed and self.start_datetime is None:
+            raise ValueError("Hora confirmada sense start_datetime")
+        if not self.time_confirmed and self.start_date is None:
+            raise ValueError("Hora no confirmada sense start_date")
 
     def to_dict(self) -> dict[str, Any]:
         value = asdict(self)
@@ -67,21 +72,23 @@ class Game:
 
     @classmethod
     def from_dict(cls, value: dict[str, Any]) -> Game:
-        start_datetime = value.get("start_datetime")
-        start_date = value.get("start_date")
-        return cls(
-            **{
-                **value,
-                "start_datetime": (
-                    datetime.fromisoformat(start_datetime)
-                    if isinstance(start_datetime, str)
-                    else None
-                ),
-                "start_date": date.fromisoformat(start_date)
-                if isinstance(start_date, str)
-                else None,
-            }
+        start_datetime_raw = value.get("start_datetime")
+        start_date_raw = value.get("start_date")
+        start_datetime = (
+            datetime.fromisoformat(start_datetime_raw)
+            if isinstance(start_datetime_raw, str)
+            else None
         )
+        start_date = (
+            date.fromisoformat(start_date_raw) if isinstance(start_date_raw, str) else None
+        )
+        payload = dict(value)
+        payload["start_datetime"] = start_datetime
+        payload["start_date"] = start_date
+        if "time_confirmed" not in payload:
+            # Caches antics sense el camp: només són timed si tenen datetime.
+            payload["time_confirmed"] = start_datetime is not None
+        return cls(**payload)
 
 
 @dataclass(frozen=True, slots=True)

@@ -28,6 +28,19 @@ def test_uid_does_not_change_when_time_changes() -> None:
     assert event_uid(game()) == event_uid(changed)
 
 
+def test_uid_does_not_change_when_time_confirmed_changes() -> None:
+    from datetime import date
+
+    tbd = replace(
+        game(),
+        start_datetime=None,
+        start_date=date(2026, 9, 20),
+        time_confirmed=False,
+    )
+    assert source_key(game()) == source_key(tbd)
+    assert event_uid(game()) == event_uid(tbd)
+
+
 def test_uid_does_not_change_when_stadium_changes() -> None:
     changed = replace(game(), venue="Estadi Olímpic")
     assert event_uid(game()) == event_uid(changed)

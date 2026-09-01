@@ -13,6 +13,7 @@ from src.providers.common import (
     as_dict,
     as_list,
     int_or_none,
+    parse_date,
     parse_datetime,
     parse_status,
     required_int,
@@ -200,8 +201,14 @@ class UEFAProvider:
             raise SourceDataError("Competición inesperada en la respuesta UEFA")
         round_data = as_dict(item.get("round"), "UEFA round")
         kickoff = as_dict(item.get("kickOffTime"), "UEFA kickOffTime")
-        start_datetime = parse_datetime(kickoff.get("dateTime"), "UEFA dateTime")
-        if start_datetime is None:
+        date_time_raw = kickoff.get("dateTime")
+        # UEFA exposes date and dateTime separately. Only dateTime means a confirmed hour.
+        time_confirmed = isinstance(date_time_raw, str) and bool(date_time_raw.strip())
+        start_datetime = (
+            parse_datetime(date_time_raw, "UEFA dateTime") if time_confirmed else None
+        )
+        start_date = parse_date(kickoff.get("date") or date_time_raw, "UEFA date")
+        if start_datetime is None and start_date is None:
             raise SourceDataError("UEFA partit sense data")
         home = team_name(item.get("homeTeam"), "UEFA homeTeam")
         away = team_name(item.get("awayTeam"), "UEFA awayTeam")
@@ -229,6 +236,8 @@ class UEFAProvider:
             round_name=_stage_name(round_data),
             leg=_leg_name(item.get("leg")),
             start_datetime=start_datetime,
+            start_date=start_date,
+            time_confirmed=time_confirmed,
             venue=stadium_name,
             home_score=home_score,
             away_score=away_score,

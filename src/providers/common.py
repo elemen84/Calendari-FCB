@@ -76,6 +76,27 @@ def parse_date(value: Any, context: str) -> date | None:
         raise SourceDataError(f"Data invàlida ({context}): {value}") from exc
 
 
+def parse_laliga_style_kickoff(
+    item: dict[str, Any], context: str
+) -> tuple[datetime | None, date | None, bool]:
+    """Parse LaLiga/Copa kickoff using the explicit `time` field as confirmation.
+
+    Official payloads set `time` to the real UTC kickoff when confirmed. When the
+    hour is still TBD, `time` is absent/null and `date` is midnight UTC for the
+    calendar day only — that midnight must not be treated as a real kickoff.
+    """
+    date_raw = item.get("date")
+    time_raw = item.get("time")
+    date_value = parse_date(date_raw, f"{context} date")
+    time_confirmed = isinstance(time_raw, str) and bool(time_raw.strip())
+    start_datetime = (
+        parse_datetime(time_raw, f"{context} time") if time_confirmed else None
+    )
+    if start_datetime is None and date_value is None:
+        raise SourceDataError(f"{context} partit sense data")
+    return start_datetime, date_value, time_confirmed
+
+
 def parse_status(value: Any, context: str) -> str:
     normalized = str(value or "scheduled").strip().lower().replace("_", "").replace("-", "")
     mapping = {

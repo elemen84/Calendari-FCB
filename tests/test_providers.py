@@ -132,6 +132,17 @@ def test_laliga_parse_has_dynamic_identity_and_fields() -> None:
     assert game.round_number == 3
     assert game.venue == "Spotify Camp Nou"
     assert game.status == "scheduled"
+    assert game.time_confirmed is True
+
+
+def test_laliga_missing_time_is_not_parsed_from_midnight_date() -> None:
+    raw = deepcopy(laliga_match())
+    raw["date"] = "2026-10-11T00:00:00+00:00"
+    raw["time"] = None
+    game = LaLigaProvider(config(), FakeClient({}))._parse_match(raw)
+    assert game.time_confirmed is False
+    assert game.start_datetime is None
+    assert game.start_date.isoformat() == "2026-10-11"
 
 
 def test_champions_parse_league_phase_and_matchday() -> None:

@@ -81,17 +81,20 @@ def render_ics(
         )
         if game.venue:
             lines.append(f"LOCATION:{_escape(game.venue)}")
-        if game.start_datetime is not None:
+        if game.time_confirmed and game.start_datetime is not None:
             start = game.start_datetime.astimezone(MADRID_TZ)
             end = start + timedelta(minutes=duration_minutes)
             lines.append(f"DTSTART;TZID={TIMEZONE_NAME}:{_datetime_value(start)}")
             lines.append(f"DTEND;TZID={TIMEZONE_NAME}:{_datetime_value(end)}")
         else:
-            assert game.start_date is not None
-            lines.append(f"DTSTART;VALUE=DATE:{game.start_date.strftime('%Y%m%d')}")
-            lines.append(
-                f"DTEND;VALUE=DATE:{(game.start_date + timedelta(days=1)).strftime('%Y%m%d')}"
+            day = game.start_date or (
+                game.start_datetime.astimezone(MADRID_TZ).date()
+                if game.start_datetime is not None
+                else None
             )
+            assert day is not None
+            lines.append(f"DTSTART;VALUE=DATE:{day.strftime('%Y%m%d')}")
+            lines.append(f"DTEND;VALUE=DATE:{(day + timedelta(days=1)).strftime('%Y%m%d')}")
         lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
     return "\r\n".join(part for line in lines for part in _fold(line)) + "\r\n"
