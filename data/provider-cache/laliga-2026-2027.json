@@ -17,6 +17,7 @@
     "start_date": "2026-08-27",
     "start_datetime": "2026-08-27T21:00:00+02:00",
     "status": "completed",
+    "time_confirmed": true,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -37,6 +38,7 @@
     "start_date": "2026-08-23",
     "start_datetime": "2026-08-23T21:30:00+02:00",
     "status": "completed",
+    "time_confirmed": true,
     "venue": "Estadio Martínez Valero"
   },
   {
@@ -57,6 +59,7 @@
     "start_date": "2026-08-31",
     "start_datetime": "2026-08-31T21:30:00+02:00",
     "status": "completed",
+    "time_confirmed": true,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -77,6 +80,7 @@
     "start_date": "2026-09-06",
     "start_datetime": "2026-09-06T16:15:00+02:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": "Camp de Mestalla"
   },
   {
@@ -97,6 +101,7 @@
     "start_date": "2026-09-13",
     "start_datetime": "2026-09-13T16:15:00+02:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": "Estadio Ciutat de València"
   },
   {
@@ -117,6 +122,7 @@
     "start_date": "2026-09-16",
     "start_datetime": "2026-09-16T21:30:00+02:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -137,6 +143,7 @@
     "start_date": "2026-09-19",
     "start_datetime": "2026-09-19T21:00:00+02:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": "Ramón Sánchez-Pizjuán"
   },
   {
@@ -155,8 +162,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-10-11",
-    "start_datetime": "2026-10-11T02:00:00+02:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -175,8 +183,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-10-18",
-    "start_datetime": "2026-10-18T02:00:00+02:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Estadio La Cartuja"
   },
   {
@@ -195,8 +204,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-10-25",
-    "start_datetime": "2026-10-25T02:00:00+02:00",
+    "start_datetime": "2026-10-25T21:00:00+01:00",
     "status": "scheduled",
+    "time_confirmed": true,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -215,8 +225,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-11-01",
-    "start_datetime": "2026-11-01T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -235,8 +246,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-11-08",
-    "start_datetime": "2026-11-08T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Riyadh Air Metropolitano"
   },
   {
@@ -255,8 +267,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-11-22",
-    "start_datetime": "2026-11-22T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -275,8 +288,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-11-29",
-    "start_datetime": "2026-11-29T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Estadio ABANCA-RIAZOR"
   },
   {
@@ -295,8 +309,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-12-06",
-    "start_datetime": "2026-12-06T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -315,8 +330,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-12-13",
-    "start_datetime": "2026-12-13T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "La Rosaleda"
   },
   {
@@ -335,8 +351,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-12-20",
-    "start_datetime": "2026-12-20T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -355,8 +372,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-01-03",
-    "start_datetime": "2027-01-03T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "RCDE Stadium"
   },
   {
@@ -375,8 +393,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-01-10",
-    "start_datetime": "2027-01-10T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Estadio El Sadar"
   },
   {
@@ -395,8 +414,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-01-17",
-    "start_datetime": "2027-01-17T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -415,8 +435,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-01-24",
-    "start_datetime": "2027-01-24T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Mendizorroza"
   },
   {
@@ -435,8 +456,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-01-31",
-    "start_datetime": "2027-01-31T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -455,8 +477,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-02-07",
-    "start_datetime": "2027-02-07T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -475,8 +498,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-02-14",
-    "start_datetime": "2027-02-14T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Estadio de la Cerámica"
   },
   {
@@ -495,8 +519,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-02-21",
-    "start_datetime": "2027-02-21T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -515,8 +540,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-02-28",
-    "start_datetime": "2027-02-28T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Estadio San Mamés"
   },
   {
@@ -535,8 +561,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-03-07",
-    "start_datetime": "2027-03-07T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -555,8 +582,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-03-14",
-    "start_datetime": "2027-03-14T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -575,8 +603,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-03-21",
-    "start_datetime": "2027-03-21T01:00:00+01:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Estadio de Vallecas"
   },
   {
@@ -595,8 +624,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-04-04",
-    "start_datetime": "2027-04-04T02:00:00+02:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -615,8 +645,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-04-11",
-    "start_datetime": "2027-04-11T02:00:00+02:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "El Sardinero"
   },
   {
@@ -635,8 +666,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-04-18",
-    "start_datetime": "2027-04-18T02:00:00+02:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -655,8 +687,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-04-21",
-    "start_datetime": "2027-04-21T02:00:00+02:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Estadio ABANCA Balaídos"
   },
   {
@@ -675,8 +708,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-05-02",
-    "start_datetime": "2027-05-02T02:00:00+02:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -695,8 +729,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-05-09",
-    "start_datetime": "2027-05-09T02:00:00+02:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Bernabéu"
   },
   {
@@ -715,8 +750,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-05-16",
-    "start_datetime": "2027-05-16T02:00:00+02:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Anoeta"
   },
   {
@@ -735,8 +771,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-05-23",
-    "start_datetime": "2027-05-23T02:00:00+02:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Spotify Camp Nou"
   },
   {
@@ -755,8 +792,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2027-05-30",
-    "start_datetime": "2027-05-30T02:00:00+02:00",
+    "start_datetime": null,
     "status": "scheduled",
+    "time_confirmed": false,
     "venue": "Coliseum"
   }
 ]
