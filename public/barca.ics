@@ -7,7 +7,7 @@ X-WR-CALNAME:FC Barcelona 2026/2027
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:laliga:20262027:g2650775@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Elche Club de Fútbol SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 2\nLocal: Elche Club de Fútbol S
  AD\nVisitant: FC Barcelona\nEstat: Finalitzat\nResultat: 0-5\nEstadi: Esta
@@ -29,7 +29,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 2\nLocal: Elche Club de Fútbol S
   Levante — 1 pts\n   2 PJ · 0 G · 1 E · 1 P · -3 DG\n\n18. Elche —
   1 pts\n   2 PJ · 0 G · 1 E · 1 P · -5 DG\n\n19. Athletic Club — 0 p
  ts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG\n\n20. Real Sociedad — 0 pts\n
-    2 PJ · 0 G · 0 E · 2 P · -4 DG\n\nActualitzat: 02/09/2026 07:39 (CE
+    2 PJ · 0 G · 0 E · 2 P · -4 DG\n\nActualitzat: 03/09/2026 10:56 (CE
  ST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio Martínez Valero
@@ -38,7 +38,7 @@ DTEND;TZID=Europe/Madrid:20260823T234500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650767@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Athletic Club · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 1\nLocal: FC Barcelona\nVisitant:
   Athletic Club\nEstat: Finalitzat\nResultat: 2-0\nEstadi: Spotify Camp Nou
@@ -60,7 +60,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 1\nLocal: FC Barcelona\nVisitant:
  pts\n   1 PJ · 0 G · 0 E · 1 P · -2 DG\n\n18. Real Sociedad — 0 pts\
  n   1 PJ · 0 G · 0 E · 1 P · -3 DG\n\n19. Levante — 0 pts\n   1 PJ 
  · 0 G · 0 E · 1 P · -3 DG\n\n20. Getafe — 0 pts\n   1 PJ · 0 G · 0
-  E · 1 P · -3 DG\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: LaLiga
+  E · 1 P · -3 DG\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20260827T210000
@@ -68,7 +68,7 @@ DTEND;TZID=Europe/Madrid:20260827T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650785@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Rayo Vallecano de Madrid SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 3\nLocal: FC Barcelona\nVisitant:
   Rayo Vallecano de Madrid SAD\nEstat: Finalitzat\nResultat: 5-2\nEstadi: S
@@ -90,7 +90,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 3\nLocal: FC Barcelona\nVisitant:
  a de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG\n\n18. Rayo Val
  lecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\n19. Elche — 1
   pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga — 1 pts\n   3
-  PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/2026 07:39 (CEST)\
+  PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/2026 10:56 (CEST)\
  nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
@@ -99,7 +99,7 @@ DTEND;TZID=Europe/Madrid:20260831T234500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650800@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Valencia Club de Fútbol SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 4\nLocal: Valencia Club de Fútbo
  l SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Camp de Mestalla\n\n
@@ -121,7 +121,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 4\nLocal: Valencia Club de Fútbo
  \n   3 PJ · 0 G · 1 E · 2 P · -3 DG\n\n18. Rayo Vallecano — 1 pts\n 
    3 PJ · 0 G · 1 E · 2 P · -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 
  G · 1 E · 2 P · -6 DG\n\n20. Málaga — 1 pts\n   3 PJ · 0 G · 1 E 
- · 2 P · -6 DG\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: LaLiga
+ · 2 P · -6 DG\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Camp de Mestalla
 DTSTART;TZID=Europe/Madrid:20260906T161500
@@ -129,11 +129,11 @@ DTEND;TZID=Europe/Madrid:20260906T183000
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049561@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Feyenoord · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  1\nLocal: FC Barcelona\nVisitant: Feyenoord\nEstat: Partit\n\nClassificaci
- ó encara no disponible\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: UEF
+ ó encara no disponible\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: UEF
  A
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20260909T184500
@@ -141,7 +141,7 @@ DTEND;TZID=Europe/Madrid:20260909T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650805@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Levante Unión Deportiva SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 5\nLocal: Levante Unión Deportiv
  a SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Estadio Ciutat de Va
@@ -163,7 +163,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 5\nLocal: Levante Unión Deportiv
  igo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG\n\n18. Rayo Vallecano
   — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\n19. Elche — 1 pts\n
     3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga — 1 pts\n   3 PJ ·
-  0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont:
+  0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont:
   LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio Ciutat de València
@@ -172,7 +172,7 @@ DTEND;TZID=Europe/Madrid:20260913T183000
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650817@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Real Racing Club SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 6\nLocal: FC Barcelona\nVisitant:
   Real Racing Club SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\n\nClassifi
@@ -194,7 +194,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 6\nLocal: FC Barcelona\nVisitant:
  J · 0 G · 1 E · 2 P · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ 
  · 0 G · 1 E · 2 P · -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 
  E · 2 P · -6 DG\n\n20. Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P 
- · -6 DG\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: LaLiga
+ · -6 DG\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20260916T213000
@@ -202,7 +202,7 @@ DTEND;TZID=Europe/Madrid:20260916T234500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650829@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Sevilla Fútbol Club SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 7\nLocal: Sevilla Fútbol Club SA
  D\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Ramón Sánchez-Pizjuán
@@ -224,7 +224,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 7\nLocal: Sevilla Fútbol Club SA
  1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG\n\n18. Rayo Vallecano — 1 p
  ts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\n19. Elche — 1 pts\n   3 PJ 
  · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga — 1 pts\n   3 PJ · 0 G · 
- 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: LaLiga
+ 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Ramón Sánchez-Pizjuán
 DTSTART;TZID=Europe/Madrid:20260919T210000
@@ -232,7 +232,7 @@ DTEND;TZID=Europe/Madrid:20260919T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650835@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Getafe Club de Fútbol SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 8\nLocal: FC Barcelona\nVisitant: Getafe Club de Fútbol SAD\nEstat:
@@ -254,8 +254,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  · -3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -
  3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 D
  G\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Má
- laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/0
- 9/2026 07:39 (CEST)\nFont: LaLiga
+ laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/0
+ 9/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20261011
@@ -263,11 +263,11 @@ DTEND;VALUE=DATE:20261012
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049576@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Galatasaray - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  2\nLocal: Galatasaray\nVisitant: FC Barcelona\nEstat: Partit\n\nClassifica
- ció encara no disponible\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: U
+ ció encara no disponible\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: U
  EFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261013T210000
@@ -275,7 +275,7 @@ DTEND;TZID=Europe/Madrid:20261013T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650842@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Real Betis Balompié SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 9\nLocal: Real Betis Balompié SAD\nVisitant: FC Barcelona\nEstat: P
@@ -297,8 +297,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  · -3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -
  3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 D
  G\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Má
- laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/0
- 9/2026 07:39 (CEST)\nFont: LaLiga
+ laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/0
+ 9/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio La Cartuja
 DTSTART;VALUE=DATE:20261018
@@ -306,18 +306,18 @@ DTEND;VALUE=DATE:20261019
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049589@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Paris - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  3\nLocal: Paris\nVisitant: FC Barcelona\nEstat: Partit\n\nClassificació e
- ncara no disponible\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: UEFA
+ ncara no disponible\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261020T210000
 DTEND;TZID=Europe/Madrid:20261020T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650856@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Real Madrid Club de Fútbol · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 10\nLocal: FC Barcelona\nVisitant
  : Real Madrid Club de Fútbol\nEstat: Partit\nEstadi: Spotify Camp Nou\n\n
@@ -339,7 +339,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 10\nLocal: FC Barcelona\nVisitant
  \n   3 PJ · 0 G · 1 E · 2 P · -3 DG\n\n18. Rayo Vallecano — 1 pts\n 
    3 PJ · 0 G · 1 E · 2 P · -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 
  G · 1 E · 2 P · -6 DG\n\n20. Málaga — 1 pts\n   3 PJ · 0 G · 1 E 
- · 2 P · -6 DG\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: LaLiga
+ · 2 P · -6 DG\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20261025T210000
@@ -347,7 +347,7 @@ DTEND;TZID=Europe/Madrid:20261025T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650866@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Deportivo Alavés SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 11\nLocal: FC Barcelona\nVisitant: Deportivo Alavés SAD\nEstat: Par
@@ -369,8 +369,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG
  \n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\
  n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga
-  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/20
- 26 07:39 (CEST)\nFont: LaLiga
+  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/20
+ 26 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20261101
@@ -378,11 +378,11 @@ DTEND;VALUE=DATE:20261102
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049607@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Aston Villa · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  4\nLocal: FC Barcelona\nVisitant: Aston Villa\nEstat: Partit\n\nClassifica
- ció encara no disponible\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: U
+ ció encara no disponible\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: U
  EFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261103T210000
@@ -390,7 +390,7 @@ DTEND;TZID=Europe/Madrid:20261103T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650872@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Club Atlético de Madrid SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 12\nLocal: Club Atlético de Madrid SAD\nVisitant: FC Barcelona\nEst
@@ -413,7 +413,7 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   2 P · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 
  P · -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n
  \n20. Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualit
- zat: 02/09/2026 07:39 (CEST)\nFont: LaLiga
+ zat: 03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Riyadh Air Metropolitano
 DTSTART;VALUE=DATE:20261108
@@ -421,7 +421,7 @@ DTEND;VALUE=DATE:20261109
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650884@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Villarreal Club de Fútbol SAD · Horari per confirm
  ar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
@@ -445,7 +445,7 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P ·
   -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20
  . Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat:
-  02/09/2026 07:39 (CEST)\nFont: LaLiga
+  03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20261122
@@ -453,18 +453,18 @@ DTEND;VALUE=DATE:20261123
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049642@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Sabah - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  5\nLocal: Sabah\nVisitant: FC Barcelona\nEstat: Partit\n\nClassificació e
- ncara no disponible\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: UEFA
+ ncara no disponible\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261125T184500
 DTEND;TZID=Europe/Madrid:20261125T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650894@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Real Club Deportivo de A Coruña SAD - FC Barcelona · Horari per c
  onfirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
@@ -488,7 +488,7 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  1 E · 2 P · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E
   · 2 P · -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -
  6 DG\n\n20. Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nAc
- tualitzat: 02/09/2026 07:39 (CEST)\nFont: LaLiga
+ tualitzat: 03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio ABANCA-RIAZOR
 DTSTART;VALUE=DATE:20261129
@@ -496,7 +496,7 @@ DTEND;VALUE=DATE:20261130
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650905@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Real Club Celta de Vigo SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 15\nLocal: FC Barcelona\nVisitant: Real Club Celta de Vigo SAD\nEsta
@@ -518,8 +518,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   · -3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · 
  -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 
  DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. M
- álaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02
- /09/2026 07:39 (CEST)\nFont: LaLiga
+ álaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03
+ /09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20261206
@@ -527,11 +527,11 @@ DTEND;VALUE=DATE:20261207
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049644@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Man City · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  6\nLocal: FC Barcelona\nVisitant: Man City\nEstat: Partit\n\nClassificaci
- ó encara no disponible\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: UEF
+ ó encara no disponible\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: UEF
  A
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261208T210000
@@ -539,7 +539,7 @@ DTEND;TZID=Europe/Madrid:20261208T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650918@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Málaga Club de Fútbol SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 16\nLocal: Málaga Club de Fútbol SAD\nVisitant: FC Barcelona\nEsta
@@ -561,8 +561,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG
  \n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\
  n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga
-  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/20
- 26 07:39 (CEST)\nFont: LaLiga
+  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/20
+ 26 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:La Rosaleda
 DTSTART;VALUE=DATE:20261213
@@ -570,7 +570,7 @@ DTEND;VALUE=DATE:20261214
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650926@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Real Sociedad de Fútbol SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 17\nLocal: FC Barcelona\nVisitant: Real Sociedad de Fútbol SAD\nEst
@@ -593,7 +593,7 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P ·
   -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20
  . Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat:
-  02/09/2026 07:39 (CEST)\nFont: LaLiga
+  03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20261220
@@ -601,7 +601,7 @@ DTEND;VALUE=DATE:20261221
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650934@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:RCD Espanyol de Barcelona - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 18\nLocal: RCD Espanyol de Barcelona\nVisitant: FC Barcelona\nEstat:
@@ -623,8 +623,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG
  \n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\
  n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga
-  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/20
- 26 07:39 (CEST)\nFont: LaLiga
+  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/20
+ 26 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:RCDE Stadium
 DTSTART;VALUE=DATE:20270103
@@ -632,7 +632,7 @@ DTEND;VALUE=DATE:20270104
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650948@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Club Atlético Osasuna - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 19\nLocal: Club Atlético Osasuna\nVisitant: FC Barcelona\nEstat: Pa
@@ -654,8 +654,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG
  \n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\
  n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga
-  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/20
- 26 07:39 (CEST)\nFont: LaLiga
+  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/20
+ 26 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio El Sadar
 DTSTART;VALUE=DATE:20270110
@@ -663,7 +663,7 @@ DTEND;VALUE=DATE:20270111
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650955@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Elche Club de Fútbol SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 20\nLocal: FC Barcelona\nVisitant: Elche Club de Fútbol SAD\nEstat:
@@ -685,8 +685,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  · -3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -
  3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 D
  G\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Má
- laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/0
- 9/2026 07:39 (CEST)\nFont: LaLiga
+ laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/0
+ 9/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270117
@@ -694,11 +694,11 @@ DTEND;VALUE=DATE:20270118
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049670@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Sporting CP - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  7\nLocal: Sporting CP\nVisitant: FC Barcelona\nEstat: Partit\n\nClassifica
- ció encara no disponible\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: U
+ ció encara no disponible\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: U
  EFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20270120T210000
@@ -706,7 +706,7 @@ DTEND;TZID=Europe/Madrid:20270120T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650962@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Deportivo Alavés SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 21\nLocal: Deportivo Alavés SAD\nVisitant: FC Barcelona\nEstat: Par
@@ -728,8 +728,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG\n\n1
  8. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\n19. 
  Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga — 
- 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/2026 07
- :39 (CEST)\nFont: LaLiga
+ 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/2026 10
+ :56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Mendizorroza
 DTSTART;VALUE=DATE:20270124
@@ -737,18 +737,18 @@ DTEND;VALUE=DATE:20270125
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049684@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Como · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  8\nLocal: FC Barcelona\nVisitant: Como\nEstat: Partit\n\nClassificació en
- cara no disponible\n\nActualitzat: 02/09/2026 07:39 (CEST)\nFont: UEFA
+ cara no disponible\n\nActualitzat: 03/09/2026 10:56 (CEST)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20270127T210000
 DTEND;TZID=Europe/Madrid:20270127T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650975@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Valencia Club de Fútbol SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 22\nLocal: FC Barcelona\nVisitant: Valencia Club de Fútbol SAD\nEst
@@ -771,7 +771,7 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P ·
   -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20
  . Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat:
-  02/09/2026 07:39 (CEST)\nFont: LaLiga
+  03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270131
@@ -779,7 +779,7 @@ DTEND;VALUE=DATE:20270201
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650988@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Club Atlético de Madrid SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 23\nLocal: FC Barcelona\nVisitant: Club Atlético de Madrid SAD\nEst
@@ -802,7 +802,7 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P ·
   -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20
  . Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat:
-  02/09/2026 07:39 (CEST)\nFont: LaLiga
+  03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270207
@@ -810,7 +810,7 @@ DTEND;VALUE=DATE:20270208
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651001@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Villarreal Club de Fútbol SAD - FC Barcelona · Horari per confirm
  ar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
@@ -834,7 +834,7 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  · 2 P · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 
  2 P · -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG
  \n\n20. Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActual
- itzat: 02/09/2026 07:39 (CEST)\nFont: LaLiga
+ itzat: 03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio de la Cerámica
 DTSTART;VALUE=DATE:20270214
@@ -842,7 +842,7 @@ DTEND;VALUE=DATE:20270215
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651007@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Levante Unión Deportiva SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 25\nLocal: FC Barcelona\nVisitant: Levante Unión Deportiva SAD\nEst
@@ -865,7 +865,7 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P ·
   -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20
  . Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat:
-  02/09/2026 07:39 (CEST)\nFont: LaLiga
+  03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270221
@@ -873,7 +873,7 @@ DTEND;VALUE=DATE:20270222
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651012@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Athletic Club - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 26\nLocal: Athletic Club\nVisitant: FC Barcelona\nEstat: Partit\nEst
@@ -895,8 +895,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG\n\n1
  8. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\n19. 
  Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga — 
- 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/2026 07
- :39 (CEST)\nFont: LaLiga
+ 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/2026 10
+ :56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio San Mamés
 DTSTART;VALUE=DATE:20270228
@@ -904,7 +904,7 @@ DTEND;VALUE=DATE:20270301
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651027@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Real Betis Balompié SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 27\nLocal: FC Barcelona\nVisitant: Real Betis Balompié SAD\nEstat: 
@@ -926,8 +926,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  · -3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -
  3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 D
  G\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Má
- laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/0
- 9/2026 07:39 (CEST)\nFont: LaLiga
+ laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/0
+ 9/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270307
@@ -935,7 +935,7 @@ DTEND;VALUE=DATE:20270308
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651036@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Real Club Deportivo de A Coruña SAD · Horari per c
  onfirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
@@ -959,7 +959,7 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   2 P · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 
  P · -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n
  \n20. Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualit
- zat: 02/09/2026 07:39 (CEST)\nFont: LaLiga
+ zat: 03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270314
@@ -967,7 +967,7 @@ DTEND;VALUE=DATE:20270315
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651047@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Rayo Vallecano de Madrid SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 29\nLocal: Rayo Vallecano de Madrid SAD\nVisitant: FC Barcelona\nEst
@@ -990,7 +990,7 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   P · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P 
  · -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n
  20. Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitza
- t: 02/09/2026 07:39 (CEST)\nFont: LaLiga
+ t: 03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio de Vallecas
 DTSTART;VALUE=DATE:20270321
@@ -998,7 +998,7 @@ DTEND;VALUE=DATE:20270322
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651056@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Sevilla Fútbol Club SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 30\nLocal: FC Barcelona\nVisitant: Sevilla Fútbol Club SAD\nEstat: 
@@ -1020,8 +1020,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  · -3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -
  3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 D
  G\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Má
- laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/0
- 9/2026 07:39 (CEST)\nFont: LaLiga
+ laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/0
+ 9/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270404
@@ -1029,7 +1029,7 @@ DTEND;VALUE=DATE:20270405
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651067@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Real Racing Club SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 31\nLocal: Real Racing Club SAD\nVisitant: FC Barcelona\nEstat: Part
@@ -1051,8 +1051,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG\n\n1
  8. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\n19. 
  Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga — 
- 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/2026 07
- :39 (CEST)\nFont: LaLiga
+ 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/2026 10
+ :56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:El Sardinero
 DTSTART;VALUE=DATE:20270411
@@ -1060,7 +1060,7 @@ DTEND;VALUE=DATE:20270412
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651077@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - RCD Espanyol de Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 32\nLocal: FC Barcelona\nVisitant: RCD Espanyol de Barcelona\nEstat:
@@ -1082,8 +1082,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  · -3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -
  3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 D
  G\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Má
- laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/0
- 9/2026 07:39 (CEST)\nFont: LaLiga
+ laga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/0
+ 9/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270418
@@ -1091,7 +1091,7 @@ DTEND;VALUE=DATE:20270419
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651083@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Real Club Celta de Vigo SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 33\nLocal: Real Club Celta de Vigo SAD\nVisitant: FC Barcelona\nEsta
@@ -1114,7 +1114,7 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   2 P · -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 
  P · -4 DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n
  \n20. Málaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualit
- zat: 02/09/2026 07:39 (CEST)\nFont: LaLiga
+ zat: 03/09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio ABANCA Balaídos
 DTSTART;VALUE=DATE:20270421
@@ -1122,7 +1122,7 @@ DTEND;VALUE=DATE:20270422
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651097@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Club Atlético Osasuna · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 34\nLocal: FC Barcelona\nVisitant: Club Atlético Osasuna\nEstat: Pa
@@ -1144,8 +1144,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG
  \n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\
  n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga
-  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/20
- 26 07:39 (CEST)\nFont: LaLiga
+  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/20
+ 26 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270502
@@ -1153,7 +1153,7 @@ DTEND;VALUE=DATE:20270503
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651109@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Real Madrid Club de Fútbol - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 35\nLocal: Real Madrid Club de Fútbol\nVisitant: FC Barcelona\nEsta
@@ -1175,8 +1175,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG
  \n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\
  n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga
-  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/20
- 26 07:39 (CEST)\nFont: LaLiga
+  — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/20
+ 26 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Bernabéu
 DTSTART;VALUE=DATE:20270509
@@ -1184,7 +1184,7 @@ DTEND;VALUE=DATE:20270510
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651120@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Real Sociedad de Fútbol SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 36\nLocal: Real Sociedad de Fútbol SAD\nVisitant: FC Barcelona\nEst
@@ -1206,8 +1206,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG\n\n1
  8. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\n19. 
  Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga — 
- 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/2026 07
- :39 (CEST)\nFont: LaLiga
+ 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/2026 10
+ :56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Anoeta
 DTSTART;VALUE=DATE:20270516
@@ -1215,7 +1215,7 @@ DTEND;VALUE=DATE:20270517
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651126@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:FC Barcelona - Málaga Club de Fútbol SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 37\nLocal: FC Barcelona\nVisitant: Málaga Club de Fútbol SAD\nEsta
@@ -1237,8 +1237,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   · -3 DG\n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · 
  -3 DG\n\n18. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 
  DG\n\n19. Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. M
- álaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02
- /09/2026 07:39 (CEST)\nFont: LaLiga
+ álaga — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03
+ /09/2026 10:56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270523
@@ -1246,7 +1246,7 @@ DTEND;VALUE=DATE:20270524
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651136@barca-calendar
-DTSTAMP:20260902T053925Z
+DTSTAMP:20260903T085634Z
 SUMMARY:Getafe Club de Fútbol SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 38\nLocal: Getafe Club de Fútbol SAD\nVisitant: FC Barcelona\nEstat
@@ -1268,8 +1268,8 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  n\n17. Celta de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG\n\n1
  8. Rayo Vallecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\n19. 
  Elche — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga — 
- 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/09/2026 07
- :39 (CEST)\nFont: LaLiga
+ 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 03/09/2026 10
+ :56 (CEST)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Coliseum
 DTSTART;VALUE=DATE:20270530
