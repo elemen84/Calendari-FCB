@@ -64,11 +64,11 @@
   },
   {
     "away": "FC Barcelona",
-    "away_score": null,
+    "away_score": 5,
     "competition_key": "laliga",
     "competition_name": "LaLiga",
     "home": "Valencia Club de Fútbol SAD",
-    "home_score": null,
+    "home_score": 0,
     "leg": null,
     "phase": "Lliga",
     "round_name": null,
@@ -79,7 +79,7 @@
     "standings_eligible": true,
     "start_date": "2026-09-06",
     "start_datetime": "2026-09-06T16:15:00+02:00",
-    "status": "scheduled",
+    "status": "completed",
     "time_confirmed": true,
     "venue": "Camp de Mestalla"
   },
