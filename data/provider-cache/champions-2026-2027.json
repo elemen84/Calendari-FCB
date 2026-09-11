@@ -1,11 +1,11 @@
 [
   {
     "away": "Feyenoord",
-    "away_score": null,
+    "away_score": 1,
     "competition_key": "champions",
     "competition_name": "UEFA Champions League",
     "home": "FC Barcelona",
-    "home_score": null,
+    "home_score": 5,
     "leg": null,
     "phase": "Fase lliga",
     "round_name": "League Phase",
@@ -16,7 +16,7 @@
     "standings_eligible": true,
     "start_date": "2026-09-09",
     "start_datetime": "2026-09-09T18:45:00+02:00",
-    "status": "scheduled",
+    "status": "completed",
     "time_confirmed": true,
     "venue": null
   },
