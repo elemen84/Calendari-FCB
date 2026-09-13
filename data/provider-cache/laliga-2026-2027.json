@@ -161,10 +161,10 @@
     "source_game_id": "g2650835",
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
-    "start_date": "2026-10-11",
-    "start_datetime": null,
+    "start_date": "2026-10-10",
+    "start_datetime": "2026-10-10T18:30:00+02:00",
     "status": "scheduled",
-    "time_confirmed": false,
+    "time_confirmed": true,
     "venue": "Spotify Camp Nou"
   },
   {
