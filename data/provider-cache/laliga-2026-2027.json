@@ -85,11 +85,11 @@
   },
   {
     "away": "FC Barcelona",
-    "away_score": null,
+    "away_score": 4,
     "competition_key": "laliga",
     "competition_name": "LaLiga",
     "home": "Levante Unión Deportiva SAD",
-    "home_score": null,
+    "home_score": 2,
     "leg": null,
     "phase": "Lliga",
     "round_name": null,
@@ -100,7 +100,7 @@
     "standings_eligible": true,
     "start_date": "2026-09-13",
     "start_datetime": "2026-09-13T16:15:00+02:00",
-    "status": "scheduled",
+    "status": "completed",
     "time_confirmed": true,
     "venue": "Estadio Ciutat de València"
   },
