@@ -9,6 +9,7 @@ from src.http_client import JsonClient
 from src.models import Game, ProviderResult, StandingRow
 from src.normalize import is_barcelona
 from src.providers.common import (
+    TERMINAL_MATCH_STATUSES,
     SourceDataError,
     as_dict,
     as_list,
@@ -17,6 +18,7 @@ from src.providers.common import (
     parse_status,
     required_int,
     score_pair,
+    status_for_unit_completeness,
     team_name,
 )
 
@@ -87,15 +89,23 @@ class LaLigaProvider:
         games = tuple(self._parse_match(item) for item in team_matches)
         if any(not (is_barcelona(game.home) or is_barcelona(game.away)) for game in games):
             raise SourceDataError("LaLiga ha retornat un partit que no és del FC Barcelona")
-        round_statuses: dict[int, list[str]] = defaultdict(list)
+        # Completeness uses the full league slate. Unknown statuses on foreign
+        # fixtures must not abort the Barça calendar (fail-closed still applies
+        # to team_matches via _parse_match above).
+        round_statuses: dict[int, list[str | None]] = defaultdict(list)
         for item in all_matches:
-            parsed = self._parse_match(item)
-            if parsed.round_number is not None:
-                round_statuses[parsed.round_number].append(parsed.status)
+            gameweek = item.get("gameweek")
+            gameweek_dict = gameweek if isinstance(gameweek, dict) else {}
+            round_number = int_or_none(gameweek_dict.get("week"))
+            if round_number is None:
+                continue
+            round_statuses[round_number].append(
+                status_for_unit_completeness(item.get("status"), "LaLiga status")
+            )
         complete_units = frozenset(
             unit
             for unit, statuses in round_statuses.items()
-            if statuses and all(status in {"completed", "cancelled"} for status in statuses)
+            if statuses and all(status in TERMINAL_MATCH_STATUSES for status in statuses)
         )
         current = self.fetch_standings(None)
         return ProviderResult(

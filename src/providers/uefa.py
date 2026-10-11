@@ -9,6 +9,7 @@ from src.http_client import JsonClient
 from src.models import Game, ProviderResult, StandingRow
 from src.normalize import is_barcelona
 from src.providers.common import (
+    TERMINAL_MATCH_STATUSES,
     SourceDataError,
     as_dict,
     as_list,
@@ -18,6 +19,7 @@ from src.providers.common import (
     parse_status,
     required_int,
     score_pair,
+    status_for_unit_completeness,
     team_name,
 )
 
@@ -137,16 +139,23 @@ class UEFAProvider:
         if not games:
             raise SourceDataError("UEFA no ha descobert el FC Barcelona")
 
-        matchday_statuses: dict[int, list[str]] = defaultdict(list)
+        # Completeness scans every tournament fixture. Unknown statuses on
+        # non-Barça matches must keep the matchday incomplete without aborting
+        # the sync; Barça fixtures remain fail-closed via _parse_match above.
+        matchday_statuses: dict[int, list[str | None]] = defaultdict(list)
         for item in tournament_matches:
-            parsed = self._parse_match(item)
-            matchday = parsed.round_number
-            if matchday is not None:
-                matchday_statuses[matchday].append(parsed.status)
+            matchday_raw = item.get("matchday")
+            matchday_dict = matchday_raw if isinstance(matchday_raw, dict) else {}
+            matchday = int_or_none(matchday_dict.get("sequenceNumber"))
+            if matchday is None:
+                continue
+            matchday_statuses[matchday].append(
+                status_for_unit_completeness(item.get("status"), "UEFA status")
+            )
         complete_units = frozenset(
             unit
             for unit, statuses in matchday_statuses.items()
-            if statuses and all(status in {"completed", "cancelled"} for status in statuses)
+            if statuses and all(status in TERMINAL_MATCH_STATUSES for status in statuses)
         )
         return ProviderResult(
             competition_key=COMPETITION_KEY,
