@@ -96,74 +96,132 @@ class _TeamAwareLaLigaClient:
         raise AssertionError(f"URL inesperada: {url}")
 
 
-def test_foreign_unknown_status_does_not_block_laliga_sync() -> None:
-    barca = deepcopy(laliga_match())
-    foreign = deepcopy(laliga_match())
-    foreign["id"] = 99
-    foreign["opta_id"] = "g-99"
-    foreign["home_team"] = {"name": "Sevilla"}
-    foreign["away_team"] = {"name": "Valencia"}
-    foreign["status"] = "TotallyUnknownForeignStatus"
-    foreign["gameweek"] = {"week": 3}
+def _foreign_match(
+    *,
+    match_id: int,
+    home: str,
+    away: str,
+    status: str,
+    week: int,
+    home_score: int | None = None,
+    away_score: int | None = None,
+) -> dict[str, Any]:
+    raw = deepcopy(laliga_match())
+    raw["id"] = match_id
+    raw["opta_id"] = f"g-{match_id}"
+    raw["home_team"] = {"name": home}
+    raw["away_team"] = {"name": away}
+    raw["status"] = status
+    raw["gameweek"] = {"week": week}
+    raw["home_score"] = home_score
+    raw["away_score"] = away_score
+    return raw
 
-    other_completed = deepcopy(foreign)
-    other_completed["id"] = 100
-    other_completed["opta_id"] = "g-100"
-    other_completed["home_team"] = {"name": "Athletic Club"}
-    other_completed["away_team"] = {"name": "Getafe"}
-    other_completed["status"] = "FullTime"
-    other_completed["home_score"] = 1
-    other_completed["away_score"] = 0
+
+def test_foreign_unknown_status_does_not_block_laliga_sync() -> None:
+    # Barça lives in week 4 so week-3 completeness is decided only by foreign fixtures.
+    barca = deepcopy(laliga_match())
+    barca["gameweek"] = {"week": 4}
+    barca["status"] = "FullTime"
+    barca["home_score"] = 2
+    barca["away_score"] = 0
+
+    foreign_unknown = _foreign_match(
+        match_id=99,
+        home="Sevilla",
+        away="Valencia",
+        status="TotallyUnknownForeignStatus",
+        week=3,
+    )
+    foreign_completed = _foreign_match(
+        match_id=100,
+        home="Athletic Club",
+        away="Getafe",
+        status="FullTime",
+        week=3,
+        home_score=1,
+        away_score=0,
+    )
+    # Control round: every attributed fixture is terminal.
+    control_a = _foreign_match(
+        match_id=101,
+        home="Osasuna",
+        away="Elche",
+        status="FullTime",
+        week=2,
+        home_score=1,
+        away_score=1,
+    )
+    control_b = _foreign_match(
+        match_id=102,
+        home="Girona",
+        away="Mallorca",
+        status="Cancelled",
+        week=2,
+    )
 
     client = _TeamAwareLaLigaClient(
         team_matches=[barca],
-        all_matches=[barca, foreign, other_completed],
+        all_matches=[barca, foreign_unknown, foreign_completed, control_a, control_b],
     )
     result = LaLigaProvider(config(), client).fetch()
 
     assert len(result.games) == 1
     assert result.games[0].source_game_id == "g-10"
-    assert result.games[0].status == "scheduled"
-    # Round 3 has an unknown foreign status → must stay incomplete.
+    assert result.games[0].status == "completed"
     assert 3 not in result.complete_units
+    assert 2 in result.complete_units
 
 
 def test_abandoned_foreign_match_keeps_round_incomplete_without_blocking() -> None:
     barca = deepcopy(laliga_match())
-    foreign_abandoned = deepcopy(laliga_match())
-    foreign_abandoned["id"] = 77
-    foreign_abandoned["opta_id"] = "g-77"
-    foreign_abandoned["home_team"] = {"name": "Osasuna"}
-    foreign_abandoned["away_team"] = {"name": "Elche"}
-    foreign_abandoned["status"] = "Abandoned"
-    foreign_abandoned["gameweek"] = {"week": 3}
+    barca["gameweek"] = {"week": 5}
+    barca["status"] = "FullTime"
+    barca["home_score"] = 3
+    barca["away_score"] = 1
 
-    peer = deepcopy(foreign_abandoned)
-    peer["id"] = 78
-    peer["opta_id"] = "g-78"
-    peer["home_team"] = {"name": "Girona"}
-    peer["away_team"] = {"name": "Mallorca"}
-    peer["status"] = "FullTime"
-    peer["home_score"] = 2
-    peer["away_score"] = 2
+    foreign_abandoned = _foreign_match(
+        match_id=77,
+        home="Osasuna",
+        away="Elche",
+        status="Abandoned",
+        week=3,
+    )
+    peer = _foreign_match(
+        match_id=78,
+        home="Girona",
+        away="Mallorca",
+        status="FullTime",
+        week=3,
+        home_score=2,
+        away_score=2,
+    )
+    control = _foreign_match(
+        match_id=79,
+        home="Sevilla",
+        away="Valencia",
+        status="FullTime",
+        week=1,
+        home_score=0,
+        away_score=0,
+    )
 
     client = _TeamAwareLaLigaClient(
         team_matches=[barca],
-        all_matches=[barca, foreign_abandoned, peer],
+        all_matches=[barca, foreign_abandoned, peer, control],
     )
     result = LaLigaProvider(config(), client).fetch()
-    assert result.games[0].status == "scheduled"
+    assert result.games[0].status == "completed"
     assert 3 not in result.complete_units
+    assert 1 in result.complete_units
 
 
 def test_workflow_dispatch_forces_ics_regeneration_contract() -> None:
     """workflow_dispatch must bypass the 24h gate so ICS always regenerates."""
     workflow = Path(".github/workflows/calendar.yml").read_text(encoding="utf-8")
     assert "workflow_dispatch:" in workflow
+    assert 'if [ "${{ github.event_name }}" = "workflow_dispatch" ]' in workflow
     assert "python scripts/sync_calendar.py --force" in workflow
-    assert 'github.event_name" = "workflow_dispatch"' in workflow or (
-        "github.event_name" in workflow and "workflow_dispatch" in workflow and "--force" in workflow
-    )
 
     now = datetime.fromisoformat("2026-08-29T12:00:00+02:00")
     state = {"last_successful_sync": "2026-08-28T13:00:00+02:00"}
