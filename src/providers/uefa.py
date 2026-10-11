@@ -9,14 +9,15 @@ from src.http_client import JsonClient
 from src.models import Game, ProviderResult, StandingRow
 from src.normalize import is_barcelona
 from src.providers.common import (
-    TERMINAL_MATCH_STATUSES,
     SourceDataError,
     as_dict,
     as_list,
+    complete_units_from_statuses,
     int_or_none,
     parse_date,
     parse_datetime,
     parse_status,
+    parse_unit_number,
     required_int,
     score_pair,
     status_for_unit_completeness,
@@ -139,23 +140,23 @@ class UEFAProvider:
         if not games:
             raise SourceDataError("UEFA no ha descobert el FC Barcelona")
 
-        # Completeness scans every tournament fixture. Unknown statuses on
-        # non-Barça matches must keep the matchday incomplete without aborting
-        # the sync; Barça fixtures remain fail-closed via _parse_match above.
+        # Completeness scans every tournament fixture. Foreign matches never
+        # enter games/ICS; unknown statuses soft-fail; malformed matchday makes
+        # completeness unreliable so no matchday freezes prematurely.
         matchday_statuses: dict[int, list[str | None]] = defaultdict(list)
+        completeness_unreliable = False
         for item in tournament_matches:
-            matchday_raw = item.get("matchday")
-            matchday_dict = matchday_raw if isinstance(matchday_raw, dict) else {}
-            matchday = int_or_none(matchday_dict.get("sequenceNumber"))
+            matchday, malformed = parse_unit_number(item.get("matchday"), "sequenceNumber")
+            if malformed:
+                completeness_unreliable = True
+                continue
             if matchday is None:
                 continue
             matchday_statuses[matchday].append(
                 status_for_unit_completeness(item.get("status"), "UEFA status")
             )
-        complete_units = frozenset(
-            unit
-            for unit, statuses in matchday_statuses.items()
-            if statuses and all(status in TERMINAL_MATCH_STATUSES for status in statuses)
+        complete_units = complete_units_from_statuses(
+            matchday_statuses, completeness_unreliable=completeness_unreliable
         )
         return ProviderResult(
             competition_key=COMPETITION_KEY,

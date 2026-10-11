@@ -9,19 +9,21 @@ import pytest
 
 from src.calendar.formatting import description_for_game, title_for_game
 from src.calendar.ics import render_ics
+from src.models import StandingRow
 from src.normalize import source_key
 from src.providers.common import SourceDataError, parse_status
 from src.providers.laliga import LaLigaProvider
-from src.sync import should_sync
+from src.providers.uefa import UEFAProvider
+from src.sync import build_calendar, should_sync
 
 from .conftest import config
-from .test_providers import FakeClient, laliga_match
+from .test_providers import FakeClient, UEFAFakeClient, laliga_match, uefa_match
 
 
 def test_abandoned_maps_to_postponed_not_completed() -> None:
     assert parse_status("Abandoned", "LaLiga status") == "postponed"
     assert parse_status("abandoned", "LaLiga status") == "postponed"
-    assert parse_status("ABANDONED", "LaLiga status") != "completed"
+    assert parse_status("ABANDONED", "LaLiga status") == "postponed"
 
 
 def test_unknown_status_remains_fail_closed() -> None:
@@ -169,6 +171,10 @@ def test_foreign_unknown_status_does_not_block_laliga_sync() -> None:
     assert len(result.games) == 1
     assert result.games[0].source_game_id == "g-10"
     assert result.games[0].status == "completed"
+    assert {game.home for game in result.games} | {game.away for game in result.games} == {
+        "FC Barcelona",
+        "Real Madrid",
+    }
     assert 3 not in result.complete_units
     assert 2 in result.complete_units
 
@@ -212,8 +218,272 @@ def test_abandoned_foreign_match_keeps_round_incomplete_without_blocking() -> No
     )
     result = LaLigaProvider(config(), client).fetch()
     assert result.games[0].status == "completed"
+    assert all("Osasuna" not in f"{g.home}{g.away}" for g in result.games)
     assert 3 not in result.complete_units
     assert 1 in result.complete_units
+
+    rendered = render_ics(result.games, {}, dtstamp=datetime.fromisoformat("2026-09-20T18:00:00+00:00"))
+    assert "Osasuna" not in rendered
+    assert "Elche" not in rendered
+    assert "Ajornat" not in rendered
+
+
+def test_malformed_foreign_gameweek_blocks_premature_complete_units() -> None:
+    barca = deepcopy(laliga_match())
+    barca["gameweek"] = {"week": 4}
+    barca["status"] = "FullTime"
+    barca["home_score"] = 1
+    barca["away_score"] = 0
+
+    terminal = _foreign_match(
+        match_id=200,
+        home="Sevilla",
+        away="Valencia",
+        status="FullTime",
+        week=3,
+        home_score=2,
+        away_score=1,
+    )
+    malformed = _foreign_match(
+        match_id=201,
+        home="Osasuna",
+        away="Elche",
+        status="PreMatch",
+        week=3,
+    )
+    malformed["gameweek"] = "not-a-dict"
+
+    client = _TeamAwareLaLigaClient(
+        team_matches=[barca],
+        all_matches=[barca, terminal, malformed],
+    )
+    result = LaLigaProvider(config(), client).fetch()
+    assert result.complete_units == frozenset()
+    assert len(result.games) == 1
+
+
+def test_malformed_gameweek_does_not_queue_snapshot_freeze(tmp_path) -> None:
+    barca = deepcopy(laliga_match())
+    barca["gameweek"] = {"week": 3}
+    barca["status"] = "FullTime"
+    barca["home_score"] = 2
+    barca["away_score"] = 0
+    terminal = _foreign_match(
+        match_id=210,
+        home="Sevilla",
+        away="Valencia",
+        status="FullTime",
+        week=3,
+        home_score=1,
+        away_score=0,
+    )
+    malformed = deepcopy(terminal)
+    malformed["id"] = 211
+    malformed["opta_id"] = "g-211"
+    malformed["home_team"] = {"name": "Osasuna"}
+    malformed["away_team"] = {"name": "Elche"}
+    malformed["gameweek"] = ["broken"]
+
+    client = _TeamAwareLaLigaClient(
+        team_matches=[barca],
+        all_matches=[barca, terminal, malformed],
+    )
+    provider = LaLigaProvider(config(), client)
+    fetched = provider.fetch()
+    assert 3 not in fetched.complete_units
+
+    rows = (StandingRow(position=1, team="FC Barcelona", played=1, points=3),)
+    fetched = type(fetched)(
+        competition_key=fetched.competition_key,
+        games=fetched.games,
+        current_standings=rows,
+        completed_units=fetched.completed_units,
+        complete_units=fetched.complete_units,
+        standings_enabled=True,
+        empty_expected=False,
+        source_note=fetched.source_note,
+    )
+    built = build_calendar(
+        config(),
+        {"laliga": (provider, fetched)},
+        cache_root=tmp_path / "cache",
+        standings_root=tmp_path / "standings",
+        now=datetime.fromisoformat("2026-09-20T21:00:00+02:00"),
+    )
+    assert built.pending_snapshots == ()
+    assert all(game.competition_key == "laliga" for game in built.games)
+    assert all("Osasuna" not in f"{game.home}{game.away}" for game in built.games)
+
+
+def _uefa_foreign(
+    *,
+    match_id: str,
+    home: str,
+    away: str,
+    status: str,
+    matchday: int,
+) -> dict[str, Any]:
+    raw = deepcopy(uefa_match())
+    raw["id"] = match_id
+    raw["status"] = status
+    raw["homeTeam"] = {"internationalName": home}
+    raw["awayTeam"] = {"internationalName": away}
+    raw["matchday"] = {"sequenceNumber": str(matchday)}
+    return raw
+
+
+def test_uefa_foreign_unknown_status_does_not_block_sync() -> None:
+    barca = deepcopy(uefa_match())
+    barca["id"] = "barca-md4"
+    barca["matchday"] = {"sequenceNumber": "4"}
+    barca["status"] = "FINISHED"
+    foreign_unknown = _uefa_foreign(
+        match_id="foreign-unknown",
+        home="Arsenal",
+        away="Inter",
+        status="TotallyUnknownForeignStatus",
+        matchday=3,
+    )
+    foreign_done = _uefa_foreign(
+        match_id="foreign-done",
+        home="Liverpool",
+        away="Milan",
+        status="FINISHED",
+        matchday=3,
+    )
+    control_a = _uefa_foreign(
+        match_id="control-a",
+        home="Ajax",
+        away="Porto",
+        status="FINISHED",
+        matchday=2,
+    )
+    control_b = _uefa_foreign(
+        match_id="control-b",
+        home="Benfica",
+        away="Dortmund",
+        status="CANCELLED",
+        matchday=2,
+    )
+
+    result = UEFAProvider(
+        config(),
+        UEFAFakeClient([barca, foreign_unknown, foreign_done, control_a, control_b]),
+    ).fetch()
+
+    assert len(result.games) == 1
+    assert result.games[0].source_game_id == "barca-md4"
+    assert 3 not in result.complete_units
+    assert 2 in result.complete_units
+    rendered = render_ics(result.games, {}, dtstamp=datetime.fromisoformat("2026-09-20T18:00:00+00:00"))
+    assert "Arsenal" not in rendered
+    assert "Ajornat" not in rendered
+
+
+def test_uefa_abandoned_foreign_keeps_matchday_incomplete() -> None:
+    barca = deepcopy(uefa_match())
+    barca["id"] = "barca-md5"
+    barca["matchday"] = {"sequenceNumber": "5"}
+    barca["status"] = "FINISHED"
+    abandoned = _uefa_foreign(
+        match_id="abandoned-foreign",
+        home="Napoli",
+        away="PSG",
+        status="Abandoned",
+        matchday=3,
+    )
+    peer = _uefa_foreign(
+        match_id="peer-foreign",
+        home="Chelsea",
+        away="Bayern",
+        status="FINISHED",
+        matchday=3,
+    )
+    control = _uefa_foreign(
+        match_id="control-md1",
+        home="Ajax",
+        away="Porto",
+        status="FINISHED",
+        matchday=1,
+    )
+
+    result = UEFAProvider(
+        config(),
+        UEFAFakeClient([barca, abandoned, peer, control]),
+    ).fetch()
+    assert result.games[0].source_game_id == "barca-md5"
+    assert 3 not in result.complete_units
+    assert 1 in result.complete_units
+
+
+def test_uefa_malformed_matchday_blocks_premature_complete_units() -> None:
+    barca = deepcopy(uefa_match())
+    barca["id"] = "barca-md4"
+    barca["matchday"] = {"sequenceNumber": "4"}
+    barca["status"] = "FINISHED"
+    terminal = _uefa_foreign(
+        match_id="terminal-md3",
+        home="Arsenal",
+        away="Inter",
+        status="FINISHED",
+        matchday=3,
+    )
+    malformed = deepcopy(terminal)
+    malformed["id"] = "malformed-md"
+    malformed["matchday"] = "not-a-dict"
+
+    result = UEFAProvider(config(), UEFAFakeClient([barca, terminal, malformed])).fetch()
+    assert result.complete_units == frozenset()
+    assert len(result.games) == 1
+
+
+def test_uefa_malformed_matchday_does_not_queue_snapshot_freeze(tmp_path) -> None:
+    barca = deepcopy(uefa_match())
+    barca["id"] = "barca-md3"
+    barca["matchday"] = {"sequenceNumber": "3"}
+    barca["status"] = "FINISHED"
+    terminal = _uefa_foreign(
+        match_id="terminal-md3",
+        home="Arsenal",
+        away="Inter",
+        status="FINISHED",
+        matchday=3,
+    )
+    malformed = deepcopy(terminal)
+    malformed["id"] = "malformed-md"
+    malformed["matchday"] = ["broken"]
+
+    provider = UEFAProvider(config(), UEFAFakeClient([barca, terminal, malformed]))
+    fetched = provider.fetch()
+    assert fetched.complete_units == frozenset()
+    rows = (StandingRow(position=1, team="FC Barcelona", played=1, points=3),)
+    fetched = type(fetched)(
+        competition_key=fetched.competition_key,
+        games=fetched.games,
+        current_standings=rows,
+        completed_units=fetched.completed_units,
+        complete_units=fetched.complete_units,
+        standings_enabled=True,
+        empty_expected=False,
+        source_note=fetched.source_note,
+    )
+    built = build_calendar(
+        config(),
+        {"champions": (provider, fetched)},
+        cache_root=tmp_path / "cache",
+        standings_root=tmp_path / "standings",
+        now=datetime.fromisoformat("2026-09-20T21:00:00+02:00"),
+    )
+    assert built.pending_snapshots == ()
+    assert all("Arsenal" not in f"{game.home}{game.away}" for game in built.games)
+
+
+def test_barca_uefa_abandoned_maps_to_postponed_for_calendar() -> None:
+    raw = deepcopy(uefa_match())
+    raw["status"] = "Abandoned"
+    game = UEFAProvider(config(), UEFAFakeClient([]))._parse_match(raw)
+    assert game.status == "postponed"
+    assert title_for_game(game).startswith("Ajornat ·")
 
 
 def test_workflow_dispatch_forces_ics_regeneration_contract() -> None:

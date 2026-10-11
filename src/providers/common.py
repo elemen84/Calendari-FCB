@@ -142,6 +142,43 @@ def status_for_unit_completeness(value: Any, context: str) -> str | None:
         return None
 
 
+def parse_unit_number(container: Any, field: str) -> tuple[int | None, bool]:
+    """Extract a round/matchday number for completeness.
+
+    Returns ``(unit, malformed)``:
+    - ``(None, False)``: no unit metadata (ignore this fixture for completeness)
+    - ``(n, False)``: usable unit number
+    - ``(None, True)``: container/field present but unusable — completeness is
+      unreliable and callers must not mark any unit complete
+    """
+    if container is None:
+        return None, False
+    if not isinstance(container, dict):
+        return None, True
+    raw = container.get(field)
+    if raw is None or raw == "":
+        return None, False
+    number = int_or_none(raw)
+    if number is None:
+        return None, True
+    return number, False
+
+
+def complete_units_from_statuses(
+    unit_statuses: dict[int, list[str | None]],
+    *,
+    completeness_unreliable: bool,
+) -> frozenset[int]:
+    """Compute complete units; empty when foreign metadata is malformed."""
+    if completeness_unreliable:
+        return frozenset()
+    return frozenset(
+        unit
+        for unit, statuses in unit_statuses.items()
+        if statuses and all(status in TERMINAL_MATCH_STATUSES for status in statuses)
+    )
+
+
 def score_pair(
     payload: dict[str, Any], home_key: str = "home_score", away_key: str = "away_score"
 ) -> tuple[int | None, int | None]:
