@@ -51,6 +51,32 @@ def test_laliga_abandoned_keeps_original_kickoff_without_inventing_score() -> No
     assert "Resultat:" not in description
 
 
+def test_laliga_abandoned_with_partial_score_hides_resultat() -> None:
+    """Abandoned mid-match may carry a non-final score; never publish it as Resultat."""
+    raw = deepcopy(laliga_match())
+    raw["status"] = "Abandoned"
+    raw["home_score"] = 1
+    raw["away_score"] = 0
+    game = LaLigaProvider(config(), FakeClient({}))._parse_match(raw)
+
+    assert game.status == "postponed"
+    assert game.home_score == 1
+    assert game.away_score == 0
+    description = description_for_game(
+        game, None, updated_at=datetime.fromisoformat("2026-09-20T21:00:00+02:00")
+    )
+    assert "Estat: Ajornat" in description
+    assert "Resultat:" not in description
+    rendered = render_ics(
+        [game],
+        {source_key(game): description},
+        dtstamp=datetime.fromisoformat("2026-09-20T18:00:00+00:00"),
+    )
+    assert "STATUS:TENTATIVE" in rendered
+    assert "STATUS:CONFIRMED" not in rendered
+    assert "Resultat" not in rendered
+
+
 def test_laliga_abandoned_renders_tentative_ics() -> None:
     raw = deepcopy(laliga_match())
     raw["status"] = "Abandoned"
