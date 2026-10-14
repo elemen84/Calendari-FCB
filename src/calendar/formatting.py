@@ -147,7 +147,13 @@ def description_for_game(
             f"Estat: {_status_label(game.status)}",
         ]
     )
-    if game.home_score is not None and game.away_score is not None:
+    # Only publish a score when the match is live or completed. Postponed/
+    # cancelled (including Abandoned→postponed) must not look like a final.
+    if (
+        game.status in {"live", "completed"}
+        and game.home_score is not None
+        and game.away_score is not None
+    ):
         lines.append(f"Resultat: {game.home_score}-{game.away_score}")
     if game.venue:
         lines.append(f"Estadi: {game.venue}")

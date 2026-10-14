@@ -12,11 +12,14 @@ from src.providers.common import (
     SourceDataError,
     as_dict,
     as_list,
+    complete_units_from_statuses,
     int_or_none,
     parse_laliga_style_kickoff,
     parse_status,
+    parse_unit_number,
     required_int,
     score_pair,
+    status_for_unit_completeness,
     team_name,
 )
 
@@ -87,15 +90,23 @@ class LaLigaProvider:
         games = tuple(self._parse_match(item) for item in team_matches)
         if any(not (is_barcelona(game.home) or is_barcelona(game.away)) for game in games):
             raise SourceDataError("LaLiga ha retornat un partit que no és del FC Barcelona")
-        round_statuses: dict[int, list[str]] = defaultdict(list)
+        # Completeness uses the full league slate only. Foreign fixtures never
+        # enter games/ICS; unknown statuses soft-fail; malformed gameweek makes
+        # completeness unreliable so no unit freezes prematurely.
+        round_statuses: dict[int, list[str | None]] = defaultdict(list)
+        completeness_unreliable = False
         for item in all_matches:
-            parsed = self._parse_match(item)
-            if parsed.round_number is not None:
-                round_statuses[parsed.round_number].append(parsed.status)
-        complete_units = frozenset(
-            unit
-            for unit, statuses in round_statuses.items()
-            if statuses and all(status in {"completed", "cancelled"} for status in statuses)
+            round_number, malformed = parse_unit_number(item.get("gameweek"), "week")
+            if malformed:
+                completeness_unreliable = True
+                continue
+            if round_number is None:
+                continue
+            round_statuses[round_number].append(
+                status_for_unit_completeness(item.get("status"), "LaLiga status")
+            )
+        complete_units = complete_units_from_statuses(
+            round_statuses, completeness_unreliable=completeness_unreliable
         )
         current = self.fetch_standings(None)
         return ProviderResult(
@@ -150,9 +161,6 @@ class LaLigaProvider:
         source_id = item.get("opta_id") or item.get("id") or item.get("lde_id")
         home = team_name(item.get("home_team"), "LaLiga home_team")
         away = team_name(item.get("away_team"), "LaLiga away_team")
-        if not is_barcelona(home) and not is_barcelona(away):
-            # This is valid for the all-matches request used to calculate round completeness.
-            pass
         gameweek = item.get("gameweek")
         gameweek_dict = as_dict(gameweek, "LaLiga gameweek") if gameweek is not None else {}
         round_number = int_or_none(gameweek_dict.get("week"))

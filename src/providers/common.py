@@ -97,6 +97,9 @@ def parse_laliga_style_kickoff(
     return start_datetime, date_value, time_confirmed
 
 
+TERMINAL_MATCH_STATUSES = frozenset({"completed", "cancelled"})
+
+
 def parse_status(value: Any, context: str) -> str:
     normalized = str(value or "scheduled").strip().lower().replace("_", "").replace("-", "")
     mapping = {
@@ -114,6 +117,9 @@ def parse_status(value: Any, context: str) -> str:
         "completed": "completed",
         "postponed": "postponed",
         "suspended": "postponed",
+        # Abandoned: match stopped without a final result. Keep calendar slot
+        # (same as suspended) until an official reschedule replaces date/time.
+        "abandoned": "postponed",
         "cancelled": "cancelled",
         "canceled": "cancelled",
     }
@@ -121,6 +127,56 @@ def parse_status(value: Any, context: str) -> str:
         return mapping[normalized]
     except KeyError as exc:
         raise SourceDataError(f"Estat desconegut en {context}: {value}") from exc
+
+
+def status_for_unit_completeness(value: Any, context: str) -> str | None:
+    """Map status for round/matchday completeness without failing the sync.
+
+    Calendar fixtures still use parse_status (fail-closed). League-wide
+    completeness may see foreign fixtures with unexpected statuses; those must
+    keep the unit incomplete instead of aborting the whole Barça sync.
+    """
+    try:
+        return parse_status(value, context)
+    except SourceDataError:
+        return None
+
+
+def parse_unit_number(container: Any, field: str) -> tuple[int | None, bool]:
+    """Extract a round/matchday number for completeness.
+
+    Returns ``(unit, malformed)``:
+    - ``(None, False)``: no unit metadata (ignore this fixture for completeness)
+    - ``(n, False)``: usable unit number
+    - ``(None, True)``: container/field present but unusable — completeness is
+      unreliable and callers must not mark any unit complete
+    """
+    if container is None:
+        return None, False
+    if not isinstance(container, dict):
+        return None, True
+    raw = container.get(field)
+    if raw is None or raw == "":
+        return None, False
+    number = int_or_none(raw)
+    if number is None:
+        return None, True
+    return number, False
+
+
+def complete_units_from_statuses(
+    unit_statuses: dict[int, list[str | None]],
+    *,
+    completeness_unreliable: bool,
+) -> frozenset[int]:
+    """Compute complete units; empty when foreign metadata is malformed."""
+    if completeness_unreliable:
+        return frozenset()
+    return frozenset(
+        unit
+        for unit, statuses in unit_statuses.items()
+        if statuses and all(status in TERMINAL_MATCH_STATUSES for status in statuses)
+    )
 
 
 def score_pair(
