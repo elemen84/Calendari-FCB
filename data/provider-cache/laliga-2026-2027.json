@@ -148,11 +148,11 @@
   },
   {
     "away": "Getafe Club de Fútbol SAD",
-    "away_score": null,
+    "away_score": 0,
     "competition_key": "laliga",
     "competition_name": "LaLiga",
     "home": "FC Barcelona",
-    "home_score": null,
+    "home_score": 3,
     "leg": null,
     "phase": "Lliga",
     "round_name": null,
@@ -163,7 +163,7 @@
     "standings_eligible": true,
     "start_date": "2026-10-10",
     "start_datetime": "2026-10-10T18:30:00+02:00",
-    "status": "scheduled",
+    "status": "completed",
     "time_confirmed": true,
     "venue": "Spotify Camp Nou"
   },
@@ -246,9 +246,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-11-08",
-    "start_datetime": null,
+    "start_datetime": "2026-11-08T21:00:00+01:00",
     "status": "scheduled",
-    "time_confirmed": false,
+    "time_confirmed": true,
     "venue": "Riyadh Air Metropolitano"
   },
   {
