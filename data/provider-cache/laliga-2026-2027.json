@@ -267,9 +267,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-11-22",
-    "start_datetime": null,
+    "start_datetime": "2026-11-22T14:00:00+01:00",
     "status": "scheduled",
-    "time_confirmed": false,
+    "time_confirmed": true,
     "venue": "Spotify Camp Nou"
   },
   {
