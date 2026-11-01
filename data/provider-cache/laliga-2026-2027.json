@@ -211,11 +211,11 @@
   },
   {
     "away": "Deportivo Alavés SAD",
-    "away_score": null,
+    "away_score": 1,
     "competition_key": "laliga",
     "competition_name": "LaLiga",
     "home": "FC Barcelona",
-    "home_score": null,
+    "home_score": 6,
     "leg": null,
     "phase": "Lliga",
     "round_name": null,
@@ -226,7 +226,7 @@
     "standings_eligible": true,
     "start_date": "2026-10-31",
     "start_datetime": "2026-10-31T21:00:00+01:00",
-    "status": "scheduled",
+    "status": "completed",
     "time_confirmed": true,
     "venue": "Spotify Camp Nou"
   },
