@@ -64,11 +64,11 @@
   },
   {
     "away": "Aston Villa",
-    "away_score": null,
+    "away_score": 0,
     "competition_key": "champions",
     "competition_name": "UEFA Champions League",
     "home": "FC Barcelona",
-    "home_score": null,
+    "home_score": 3,
     "leg": null,
     "phase": "Fase lliga",
     "round_name": "League Phase",
@@ -79,7 +79,7 @@
     "standings_eligible": true,
     "start_date": "2026-11-03",
     "start_datetime": "2026-11-03T21:00:00+01:00",
-    "status": "scheduled",
+    "status": "completed",
     "time_confirmed": true,
     "venue": null
   },

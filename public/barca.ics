@@ -7,7 +7,7 @@ X-WR-CALNAME:FC Barcelona 2026/2027
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:laliga:20262027:g2650775@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Elche Club de Fútbol SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 2\nLocal: Elche Club de Fútbol S
  AD\nVisitant: FC Barcelona\nEstat: Finalitzat\nResultat: 0-5\nEstadi: Esta
@@ -29,7 +29,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 2\nLocal: Elche Club de Fútbol S
   Levante — 1 pts\n   2 PJ · 0 G · 1 E · 1 P · -3 DG\n\n18. Elche —
   1 pts\n   2 PJ · 0 G · 1 E · 1 P · -5 DG\n\n19. Athletic Club — 0 p
  ts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG\n\n20. Real Sociedad — 0 pts\n
-    2 PJ · 0 G · 0 E · 2 P · -4 DG\n\nActualitzat: 02/11/2026 13:25 (CE
+    2 PJ · 0 G · 0 E · 2 P · -4 DG\n\nActualitzat: 04/11/2026 13:08 (CE
  T)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio Martínez Valero
@@ -38,7 +38,7 @@ DTEND;TZID=Europe/Madrid:20260823T234500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650767@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Athletic Club · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 1\nLocal: FC Barcelona\nVisitant:
   Athletic Club\nEstat: Finalitzat\nResultat: 2-0\nEstadi: Spotify Camp Nou
@@ -60,7 +60,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 1\nLocal: FC Barcelona\nVisitant:
  pts\n   1 PJ · 0 G · 0 E · 1 P · -2 DG\n\n18. Real Sociedad — 0 pts\
  n   1 PJ · 0 G · 0 E · 1 P · -3 DG\n\n19. Levante — 0 pts\n   1 PJ 
  · 0 G · 0 E · 1 P · -3 DG\n\n20. Getafe — 0 pts\n   1 PJ · 0 G · 0
-  E · 1 P · -3 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  E · 1 P · -3 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20260827T210000
@@ -68,7 +68,7 @@ DTEND;TZID=Europe/Madrid:20260827T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650785@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Rayo Vallecano de Madrid SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 3\nLocal: FC Barcelona\nVisitant:
   Rayo Vallecano de Madrid SAD\nEstat: Finalitzat\nResultat: 5-2\nEstadi: S
@@ -90,7 +90,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 3\nLocal: FC Barcelona\nVisitant:
  a de Vigo — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -3 DG\n\n18. Rayo Val
  lecano — 1 pts\n   3 PJ · 0 G · 1 E · 2 P · -4 DG\n\n19. Elche — 1
   pts\n   3 PJ · 0 G · 1 E · 2 P · -6 DG\n\n20. Málaga — 1 pts\n   3
-  PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\n
+  PJ · 0 G · 1 E · 2 P · -6 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\n
  Font: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
@@ -99,7 +99,7 @@ DTEND;TZID=Europe/Madrid:20260831T234500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650800@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Valencia Club de Fútbol SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 4\nLocal: Valencia Club de Fútbo
  l SAD\nVisitant: FC Barcelona\nEstat: Finalitzat\nResultat: 0-5\nEstadi: C
@@ -121,7 +121,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 4\nLocal: Valencia Club de Fútbo
  n17. Celta de Vigo — 2 pts\n   4 PJ · 0 G · 2 E · 2 P · -3 DG\n\n18.
   Málaga — 2 pts\n   4 PJ · 0 G · 2 E · 2 P · -6 DG\n\n19. Elche —
   1 pts\n   4 PJ · 0 G · 1 E · 3 P · -7 DG\n\n20. Valencia — 1 pts\n 
-   4 PJ · 0 G · 1 E · 3 P · -8 DG\n\nActualitzat: 02/11/2026 13:25 (CET
+   4 PJ · 0 G · 1 E · 3 P · -8 DG\n\nActualitzat: 04/11/2026 13:08 (CET
  )\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Camp de Mestalla
@@ -130,7 +130,7 @@ DTEND;TZID=Europe/Madrid:20260906T183000
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049561@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Feyenoord · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  1\nLocal: FC Barcelona\nVisitant: Feyenoord\nEstat: Finalitzat\nResultat: 
@@ -166,14 +166,14 @@ DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada:
   2 P · -4 DG\n\n34. Lille — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -4 D
  G\n\n35. Galatasaray — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -5 DG\n\n3
  6. S. Bratislava — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nActua
- litzat: 02/11/2026 13:25 (CET)\nFont: UEFA
+ litzat: 04/11/2026 13:08 (CET)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20260909T184500
 DTEND;TZID=Europe/Madrid:20260909T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650805@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Levante Unión Deportiva SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 5\nLocal: Levante Unión Deportiv
  a SAD\nVisitant: FC Barcelona\nEstat: Finalitzat\nResultat: 2-4\nEstadi: E
@@ -195,8 +195,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 5\nLocal: Levante Unión Deportiv
   · 2 P · -3 DG\n\n17. Málaga — 3 pts\n   5 PJ · 0 G · 3 E · 2 P ·
   -6 DG\n\n18. Villarreal — 2 pts\n   5 PJ · 0 G · 2 E · 3 P · -3 DG\
  n\n19. Elche — 2 pts\n   5 PJ · 0 G · 2 E · 3 P · -7 DG\n\n20. Valen
- cia — 1 pts\n   5 PJ · 0 G · 1 E · 4 P · -9 DG\n\nActualitzat: 02/11
- /2026 13:25 (CET)\nFont: LaLiga
+ cia — 1 pts\n   5 PJ · 0 G · 1 E · 4 P · -9 DG\n\nActualitzat: 04/11
+ /2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio Ciutat de València
 DTSTART;TZID=Europe/Madrid:20260913T161500
@@ -204,7 +204,7 @@ DTEND;TZID=Europe/Madrid:20260913T183000
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650817@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Real Racing Club SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 6\nLocal: FC Barcelona\nVisitant:
   Real Racing Club SAD\nEstat: Finalitzat\nResultat: 7-2\nEstadi: Spotify C
@@ -226,7 +226,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 6\nLocal: FC Barcelona\nVisitant:
  . Celta de Vigo — 4 pts\n   6 PJ · 0 G · 4 E · 2 P · -3 DG\n\n18. Va
  lencia — 4 pts\n   6 PJ · 1 G · 1 E · 4 P · -8 DG\n\n19. Málaga —
   3 pts\n   6 PJ · 0 G · 3 E · 3 P · -8 DG\n\n20. Elche — 2 pts\n   6
-  PJ · 0 G · 2 E · 4 P · -8 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\n
+  PJ · 0 G · 2 E · 4 P · -8 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\n
  Font: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
@@ -235,7 +235,7 @@ DTEND;TZID=Europe/Madrid:20260916T234500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650829@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Sevilla Fútbol Club SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 7\nLocal: Sevilla Fútbol Club SA
  D\nVisitant: FC Barcelona\nEstat: Finalitzat\nResultat: 1-3\nEstadi: Ramó
@@ -257,8 +257,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 7\nLocal: Sevilla Fútbol Club SA
  · 4 P · -10 DG\n\n17. Levante — 5 pts\n   6 PJ · 1 G · 2 E · 3 P ·
   -4 DG\n\n18. Elche — 5 pts\n   7 PJ · 1 G · 2 E · 4 P · -6 DG\n\n19
  . Valencia — 4 pts\n   7 PJ · 1 G · 1 E · 5 P · -9 DG\n\n20. Málaga
-  — 3 pts\n   7 PJ · 0 G · 3 E · 4 P · -9 DG\n\nActualitzat: 02/11/20
- 26 13:25 (CET)\nFont: LaLiga
+  — 3 pts\n   7 PJ · 0 G · 3 E · 4 P · -9 DG\n\nActualitzat: 04/11/20
+ 26 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Ramón Sánchez-Pizjuán
 DTSTART;TZID=Europe/Madrid:20260919T210000
@@ -266,7 +266,7 @@ DTEND;TZID=Europe/Madrid:20260919T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650835@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Getafe Club de Fútbol SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 8\nLocal: FC Barcelona\nVisitant:
   Getafe Club de Fútbol SAD\nEstat: Finalitzat\nResultat: 3-0\nEstadi: Spo
@@ -277,19 +277,19 @@ DESCRIPTION:Competició: LaLiga\nJornada: 8\nLocal: FC Barcelona\nVisitant:
  · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   11 PJ · 6 G · 
  1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 5 G · 2 E · 4 
  P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G · 3 E · 3 P 
- · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · +0 
- DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +0 DG\
- n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -2 D
- G\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · -5 DG
- \n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n13. D
- eportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 DG\n\n14. Espanyo
+ · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E · 3 P · +1 D
+ G\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · +0 DG\n\n1
+ 0. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +0 DG\n\n11.
+  Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -2 DG\n\n1
+ 2. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · -5 DG\n\n13
+ . Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n14. Espanyo
  l — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15. Osasuna — 11
-  pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Racing — 11 pts\n  
+  pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing — 11 pts\n  
   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 pts\n   11 PJ ·
   2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   11 PJ · 2 G · 
  4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 2 G · 3 E · 6
   P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 E · 6 P · -13
-  DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20261010T183000
@@ -297,7 +297,7 @@ DTEND;TZID=Europe/Madrid:20261010T204500
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049576@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Galatasaray - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  2\nLocal: Galatasaray\nVisitant: FC Barcelona\nEstat: Finalitzat\nResultat
@@ -333,14 +333,14 @@ DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada:
   · 2 P · -4 DG\n\n34. Lille — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -
  4 DG\n\n35. Galatasaray — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -5 DG\n
  \n36. S. Bratislava — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nAc
- tualitzat: 02/11/2026 13:25 (CET)\nFont: UEFA
+ tualitzat: 04/11/2026 13:08 (CET)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261013T210000
 DTEND;TZID=Europe/Madrid:20261013T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650842@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Real Betis Balompié SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 9\nLocal: Real Betis Balompié SA
  D\nVisitant: FC Barcelona\nEstat: Finalitzat\nResultat: 2-5\nEstadi: Estad
@@ -362,8 +362,8 @@ DESCRIPTION:Competició: LaLiga\nJornada: 9\nLocal: Real Betis Balompié SA
   P · -12 DG\n\n17. Levante — 7 pts\n   8 PJ · 1 G · 4 E · 3 P · -4 
  DG\n\n18. Elche — 7 pts\n   9 PJ · 1 G · 4 E · 4 P · -6 DG\n\n19. Va
  lencia — 6 pts\n   9 PJ · 1 G · 3 E · 5 P · -9 DG\n\n20. Málaga —
-  4 pts\n   9 PJ · 0 G · 4 E · 5 P · -12 DG\n\nActualitzat: 02/11/2026 
- 13:25 (CET)\nFont: LaLiga
+  4 pts\n   9 PJ · 0 G · 4 E · 5 P · -12 DG\n\nActualitzat: 04/11/2026 
+ 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio La Cartuja
 DTSTART;TZID=Europe/Madrid:20261017T183000
@@ -371,11 +371,11 @@ DTEND;TZID=Europe/Madrid:20261017T204500
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049589@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Paris - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  3\nLocal: Paris\nVisitant: FC Barcelona\nEstat: Finalitzat\nResultat: 4-2\
- n\nClassificació encara no disponible\n\nActualitzat: 02/11/2026 13:25 (C
+ n\nClassificació encara no disponible\n\nActualitzat: 04/11/2026 13:08 (C
  ET)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261020T210000
@@ -383,7 +383,7 @@ DTEND;TZID=Europe/Madrid:20261020T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650856@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Real Madrid Club de Fútbol · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 10\nLocal: FC Barcelona\nVisitant
  : Real Madrid Club de Fútbol\nEstat: Finalitzat\nResultat: 1-2\nEstadi: S
@@ -406,7 +406,7 @@ DESCRIPTION:Competició: LaLiga\nJornada: 10\nLocal: FC Barcelona\nVisitant
  · 3 E · 5 P · -10 DG\n\n18. Espanyol — 8 pts\n   10 PJ · 2 G · 2 E 
  · 6 P · -2 DG\n\n19. Valencia — 6 pts\n   10 PJ · 1 G · 3 E · 6 P 
  · -10 DG\n\n20. Málaga — 5 pts\n   10 PJ · 0 G · 5 E · 5 P · -12 D
- G\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+ G\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20261025T210000
@@ -414,7 +414,7 @@ DTEND;TZID=Europe/Madrid:20261025T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650866@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Deportivo Alavés SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 11\nLocal: FC Barcelona\nVisitant
  : Deportivo Alavés SAD\nEstat: Finalitzat\nResultat: 6-1\nEstadi: Spotify
@@ -425,19 +425,19 @@ DESCRIPTION:Competició: LaLiga\nJornada: 11\nLocal: FC Barcelona\nVisitant
  E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   11 PJ · 6 G · 1 E 
  · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 5 G · 2 E · 4 P ·
   -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G · 3 E · 3 P · +4
-  DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · +0 DG\n\
- n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +0 DG\n\n10
- . Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -2 DG\n\n
- 11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · -5 DG\n\n1
- 2. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n13. Deport
- ivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 DG\n\n14. Espanyol —
+  DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E · 3 P · +1 DG\n\n
+ 9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · +0 DG\n\n10. Ce
+ lta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +0 DG\n\n11. Depo
+ rtivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -2 DG\n\n12. Ra
+ yo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · -5 DG\n\n13. Get
+ afe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n14. Espanyol —
   11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15. Osasuna — 11 pts\
- n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Racing — 11 pts\n   11 P
+ n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing — 11 pts\n   11 P
  J · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 pts\n   11 PJ · 2 G 
  · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   11 PJ · 2 G · 4 E 
  · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 2 G · 3 E · 6 P 
  · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 E · 6 P · -13 DG
- \n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+ \n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20261031T210000
@@ -445,50 +445,50 @@ DTEND;TZID=Europe/Madrid:20261031T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049607@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Aston Villa · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
- 4\nLocal: FC Barcelona\nVisitant: Aston Villa\nEstat: Partit\n\nClassifica
- ció\n1. Paris — 6 pts\n   2 PJ · 2 G · 0 E · 0 P · +7 DG\n\n2. FC B
- arcelona — 6 pts\n   2 PJ · 2 G · 0 E · 0 P · +7 DG\n\n3. Aston Vill
- a — 6 pts\n   2 PJ · 2 G · 0 E · 0 P · +7 DG\n\n4. Stuttgart — 6 p
- ts\n   2 PJ · 2 G · 0 E · 0 P · +5 DG\n\n5. Liverpool — 6 pts\n   2 
- PJ · 2 G · 0 E · 0 P · +4 DG\n\n6. Sporting CP — 6 pts\n   2 PJ · 2
-  G · 0 E · 0 P · +4 DG\n\n7. Arsenal — 6 pts\n   2 PJ · 2 G · 0 E 
- · 0 P · +4 DG\n\n8. Real Madrid — 6 pts\n   2 PJ · 2 G · 0 E · 0 P 
- · +2 DG\n\n9. Real Betis — 6 pts\n   2 PJ · 2 G · 0 E · 0 P · +2 DG
- \n\n10. Bayern München — 4 pts\n   2 PJ · 1 G · 1 E · 0 P · +5 DG\n
- \n11. Shakhtar — 4 pts\n   2 PJ · 1 G · 1 E · 0 P · +2 DG\n\n12. Com
- o — 3 pts\n   2 PJ · 1 G · 0 E · 1 P · +2 DG\n\n13. Man Utd — 3 pt
- s\n   2 PJ · 1 G · 0 E · 1 P · +2 DG\n\n14. Villarreal — 3 pts\n   2
-  PJ · 1 G · 0 E · 1 P · +1 DG\n\n15. Atleti — 3 pts\n   2 PJ · 1 G 
- · 0 E · 1 P · +1 DG\n\n16. Club Brugge — 3 pts\n   2 PJ · 1 G · 0 E
-  · 1 P · +0 DG\n\n17. Man City — 3 pts\n   2 PJ · 1 G · 0 E · 1 P 
- · +0 DG\n\n18. B. Dortmund — 3 pts\n   2 PJ · 1 G · 0 E · 1 P · +0 
- DG\n\n19. Lens — 3 pts\n   2 PJ · 1 G · 0 E · 1 P · -1 DG\n\n20. AEK
-  Athens — 3 pts\n   2 PJ · 1 G · 0 E · 1 P · -1 DG\n\n21. Leipzig 
- — 3 pts\n   2 PJ · 1 G · 0 E · 1 P · -2 DG\n\n22. Sabah — 3 pts\n 
-   2 PJ · 1 G · 0 E · 1 P · -2 DG\n\n23. Feyenoord — 3 pts\n   2 PJ 
- · 1 G · 0 E · 1 P · -3 DG\n\n24. Bodø/Glimt — 3 pts\n   2 PJ · 1 G
-  · 0 E · 1 P · -4 DG\n\n25. Roma — 1 pts\n   2 PJ · 0 G · 1 E · 1 
- P · -1 DG\n\n26. PSV — 1 pts\n   2 PJ · 0 G · 1 E · 1 P · -1 DG\n\n
- 27. Viking — 1 pts\n   2 PJ · 0 G · 1 E · 1 P · -2 DG\n\n28. Fenerba
- hçe — 1 pts\n   2 PJ · 0 G · 1 E · 1 P · -6 DG\n\n29. Inter — 0 p
- ts\n   2 PJ · 0 G · 0 E · 2 P · -2 DG\n\n30. Porto — 0 pts\n   2 PJ 
- · 0 G · 0 E · 2 P · -3 DG\n\n31. Slavia Praha — 0 pts\n   2 PJ · 0 
- G · 0 E · 2 P · -3 DG\n\n32. Napoli — 0 pts\n   2 PJ · 0 G · 0 E ·
-  2 P · -3 DG\n\n33. LASK — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG
- \n\n34. Lille — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG\n\n35. Gala
- tasaray — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -5 DG\n\n36. S. Bratisl
- ava — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nActualitzat: 02/11
- /2026 13:25 (CET)\nFont: UEFA
+ 4\nLocal: FC Barcelona\nVisitant: Aston Villa\nEstat: Finalitzat\nResultat
+ : 3-0\n\nClassificació\n1. Paris — 6 pts\n   2 PJ · 2 G · 0 E · 0 P 
+ · +7 DG\n\n2. FC Barcelona — 6 pts\n   2 PJ · 2 G · 0 E · 0 P · +7 
+ DG\n\n3. Aston Villa — 6 pts\n   2 PJ · 2 G · 0 E · 0 P · +7 DG\n\n4
+ . Stuttgart — 6 pts\n   2 PJ · 2 G · 0 E · 0 P · +5 DG\n\n5. Liverpo
+ ol — 6 pts\n   2 PJ · 2 G · 0 E · 0 P · +4 DG\n\n6. Sporting CP — 
+ 6 pts\n   2 PJ · 2 G · 0 E · 0 P · +4 DG\n\n7. Arsenal — 6 pts\n   2
+  PJ · 2 G · 0 E · 0 P · +4 DG\n\n8. Real Madrid — 6 pts\n   2 PJ · 
+ 2 G · 0 E · 0 P · +2 DG\n\n9. Real Betis — 6 pts\n   2 PJ · 2 G · 0
+  E · 0 P · +2 DG\n\n10. Bayern München — 4 pts\n   2 PJ · 1 G · 1 E
+  · 0 P · +5 DG\n\n11. Shakhtar — 4 pts\n   2 PJ · 1 G · 1 E · 0 P 
+ · +2 DG\n\n12. Como — 3 pts\n   2 PJ · 1 G · 0 E · 1 P · +2 DG\n\n1
+ 3. Man Utd — 3 pts\n   2 PJ · 1 G · 0 E · 1 P · +2 DG\n\n14. Villarr
+ eal — 3 pts\n   2 PJ · 1 G · 0 E · 1 P · +1 DG\n\n15. Atleti — 3 p
+ ts\n   2 PJ · 1 G · 0 E · 1 P · +1 DG\n\n16. Club Brugge — 3 pts\n  
+  2 PJ · 1 G · 0 E · 1 P · +0 DG\n\n17. Man City — 3 pts\n   2 PJ · 
+ 1 G · 0 E · 1 P · +0 DG\n\n18. B. Dortmund — 3 pts\n   2 PJ · 1 G ·
+  0 E · 1 P · +0 DG\n\n19. Lens — 3 pts\n   2 PJ · 1 G · 0 E · 1 P 
+ · -1 DG\n\n20. AEK Athens — 3 pts\n   2 PJ · 1 G · 0 E · 1 P · -1 D
+ G\n\n21. Leipzig — 3 pts\n   2 PJ · 1 G · 0 E · 1 P · -2 DG\n\n22. S
+ abah — 3 pts\n   2 PJ · 1 G · 0 E · 1 P · -2 DG\n\n23. Feyenoord —
+  3 pts\n   2 PJ · 1 G · 0 E · 1 P · -3 DG\n\n24. Bodø/Glimt — 3 pts
+ \n   2 PJ · 1 G · 0 E · 1 P · -4 DG\n\n25. Roma — 1 pts\n   2 PJ · 
+ 0 G · 1 E · 1 P · -1 DG\n\n26. PSV — 1 pts\n   2 PJ · 0 G · 1 E · 
+ 1 P · -1 DG\n\n27. Viking — 1 pts\n   2 PJ · 0 G · 1 E · 1 P · -2 D
+ G\n\n28. Fenerbahçe — 1 pts\n   2 PJ · 0 G · 1 E · 1 P · -6 DG\n\n2
+ 9. Inter — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -2 DG\n\n30. Porto —
+  0 pts\n   2 PJ · 0 G · 0 E · 2 P · -3 DG\n\n31. Slavia Praha — 0 pt
+ s\n   2 PJ · 0 G · 0 E · 2 P · -3 DG\n\n32. Napoli — 0 pts\n   2 PJ 
+ · 0 G · 0 E · 2 P · -3 DG\n\n33. LASK — 0 pts\n   2 PJ · 0 G · 0 E
+  · 2 P · -4 DG\n\n34. Lille — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -
+ 4 DG\n\n35. Galatasaray — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -5 DG\n
+ \n36. S. Bratislava — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nAc
+ tualitzat: 04/11/2026 13:08 (CET)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261103T210000
 DTEND;TZID=Europe/Madrid:20261103T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650872@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Club Atlético de Madrid SAD - FC Barcelona · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 12\nLocal: Club Atlético de Madr
  id SAD\nVisitant: FC Barcelona\nEstat: Partit\nEstadi: Riyadh Air Metropol
@@ -499,19 +499,19 @@ DESCRIPTION:Competició: LaLiga\nJornada: 12\nLocal: Club Atlético de Madr
   2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   11 PJ · 6 G · 1 E · 4 
  P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 5 G · 2 E · 4 P · -2 D
  G\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G · 3 E · 3 P · +4 DG\n
- \n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · +0 DG\n\n9. C
- elta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +0 DG\n\n10. Dep
- ortivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -2 DG\n\n11. R
- ayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · -5 DG\n\n12. Ge
- tafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n13. Deportivo 
- — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 DG\n\n14. Espanyol — 11 
+ \n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E · 3 P · +1 DG\n\n9. Vi
+ llarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · +0 DG\n\n10. Celta d
+ e Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +0 DG\n\n11. Deportivo
+  Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -2 DG\n\n12. Rayo Va
+ llecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · -5 DG\n\n13. Getafe 
+ — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n14. Espanyol — 11 
  pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15. Osasuna — 11 pts\n   
- 10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Racing — 11 pts\n   11 PJ ·
+ 11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing — 11 pts\n   11 PJ ·
   3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 pts\n   11 PJ · 2 G · 4
   E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   11 PJ · 2 G · 4 E · 5 
  P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 2 G · 3 E · 6 P · -9 
  DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 E · 6 P · -13 DG\n\nAc
- tualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+ tualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Riyadh Air Metropolitano
 DTSTART;TZID=Europe/Madrid:20261108T210000
@@ -519,7 +519,7 @@ DTEND;TZID=Europe/Madrid:20261108T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650884@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Villarreal Club de Fútbol SAD · LaLiga
 DESCRIPTION:Competició: LaLiga\nJornada: 13\nLocal: FC Barcelona\nVisitant
  : Villarreal Club de Fútbol SAD\nEstat: Partit\nEstadi: Spotify Camp Nou\
@@ -530,19 +530,19 @@ DESCRIPTION:Competició: LaLiga\nJornada: 13\nLocal: FC Barcelona\nVisitant
  · +3 DG\n\n5. Real Sociedad — 19 pts\n   11 PJ · 6 G · 1 E · 4 P · 
  +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 5 G · 2 E · 4 P · -2 DG\n\n
  7. Athletic Club — 15 pts\n   10 PJ · 4 G · 3 E · 3 P · +4 DG\n\n8. 
- Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · +0 DG\n\n9. Celta 
- de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +0 DG\n\n10. Deportiv
- o Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -2 DG\n\n11. Rayo V
- allecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · -5 DG\n\n12. Getafe 
- — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n13. Deportivo — 11
-  pts\n   10 PJ · 2 G · 5 E · 3 P · +0 DG\n\n14. Espanyol — 11 pts\n 
-   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15. Osasuna — 11 pts\n   10 PJ 
- · 3 G · 2 E · 5 P · -10 DG\n\n16. Racing — 11 pts\n   11 PJ · 3 G 
+ Deportivo — 14 pts\n   11 PJ · 3 G · 5 E · 3 P · +1 DG\n\n9. Villarr
+ eal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · +0 DG\n\n10. Celta de Vig
+ o — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +0 DG\n\n11. Deportivo Alav
+ és — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -2 DG\n\n12. Rayo Valleca
+ no — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · -5 DG\n\n13. Getafe — 12
+  pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n14. Espanyol — 11 pts\n 
+   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15. Osasuna — 11 pts\n   11 PJ 
+ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing — 11 pts\n   11 PJ · 3 G 
  · 2 E · 6 P · -14 DG\n\n17. Elche — 10 pts\n   11 PJ · 2 G · 4 E ·
   5 P · -4 DG\n\n18. Levante — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · 
  -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 2 G · 3 E · 6 P · -9 DG\n\
  n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 E · 6 P · -13 DG\n\nActuali
- tzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+ tzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;TZID=Europe/Madrid:20261122T140000
@@ -550,7 +550,7 @@ DTEND;TZID=Europe/Madrid:20261122T161500
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049642@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Sabah - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  5\nLocal: Sabah\nVisitant: FC Barcelona\nEstat: Partit\n\nClassificació\n
@@ -585,7 +585,7 @@ DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada:
  DG\n\n33. LASK — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG\n\n34. Lil
  le — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG\n\n35. Galatasaray —
   0 pts\n   2 PJ · 0 G · 0 E · 2 P · -5 DG\n\n36. S. Bratislava — 0 p
- ts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nActualitzat: 02/11/2026 13:25
+ ts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nActualitzat: 04/11/2026 13:08
   (CET)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261125T184500
@@ -593,7 +593,7 @@ DTEND;TZID=Europe/Madrid:20261125T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650894@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Real Club Deportivo de A Coruña SAD - FC Barcelona · Horari per c
  onfirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
@@ -605,20 +605,20 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  l Betis — 23 pts\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Soci
  edad — 19 pts\n   11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 
  17 pts\n   11 PJ · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 
- pts\n   10 PJ · 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n 
-   11 PJ · 3 G · 3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   1
- 1 PJ · 2 G · 6 E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n  
-  11 PJ · 3 G · 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   
- 10 PJ · 3 G · 3 E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 
- 3 G · 3 E · 5 P · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G ·
-  5 E · 3 P · +0 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E ·
-  6 P · -1 DG\n\n15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · 
- -10 DG\n\n16. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n
- \n17. Elche — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Leva
- nte — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia —
-  9 pts\n   11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n 
-   11 PJ · 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (C
- ET)\nFont: LaLiga
+ pts\n   10 PJ · 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n  
+  11 PJ · 3 G · 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ
+  · 3 G · 3 E · 5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ 
+ · 2 G · 6 E · 3 P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 P
+ J · 3 G · 3 E · 5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ
+  · 3 G · 3 E · 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G 
+ · 3 E · 5 P · -8 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E 
+ · 6 P · -1 DG\n\n15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P 
+ · -11 DG\n\n16. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 D
+ G\n\n17. Elche — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. L
+ evante — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia 
+ — 9 pts\n   11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts
+ \n   11 PJ · 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08
+  (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio ABANCA-RIAZOR
 DTSTART;VALUE=DATE:20261129
@@ -626,7 +626,7 @@ DTEND;VALUE=DATE:20261130
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650905@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Real Club Celta de Vigo SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 15\nLocal: FC Barcelona\nVisitant: Real Club Celta de Vigo SAD\nEsta
@@ -637,20 +637,20 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  3 pts\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 p
  ts\n   11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11
   PJ · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ
-  · 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 
- G · 3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G 
- · 6 E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 
- G · 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G
-  · 3 E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E 
- · 5 P · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P
-  · +0 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 
- DG\n\n15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n1
- 6. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche
-  — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 
- pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   
- 11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 
- 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: 
- LaLiga
+  · 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G
+  · 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 
+ E · 5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E 
+ · 3 P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 
+ E · 5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E
+  · 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P 
+ · -8 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 D
+ G\n\n15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16
+ . Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche 
+ — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 p
+ ts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   1
+ 1 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0
+  G · 5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: L
+ aLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20261206
@@ -658,7 +658,7 @@ DTEND;VALUE=DATE:20261207
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049644@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Man City · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  6\nLocal: FC Barcelona\nVisitant: Man City\nEstat: Partit\n\nClassificaci
@@ -693,15 +693,15 @@ DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada:
  · -3 DG\n\n33. LASK — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG\n\n3
  4. Lille — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG\n\n35. Galatasar
  ay — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -5 DG\n\n36. S. Bratislava 
- — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nActualitzat: 02/11/202
- 6 13:25 (CET)\nFont: UEFA
+ — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nActualitzat: 04/11/202
+ 6 13:08 (CET)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20261208T210000
 DTEND;TZID=Europe/Madrid:20261208T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650918@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Málaga Club de Fútbol SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 16\nLocal: Málaga Club de Fútbol SAD\nVisitant: FC Barcelona\nEsta
@@ -712,19 +712,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
     11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   
  11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 
  5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G
-  · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 
- E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E 
- · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 
- E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E
-  · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P 
- · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 
- DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n1
- 5. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Raci
- ng — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10
-  pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n  
-  11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ 
- · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G ·
-  5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E
+  · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 
+ P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P 
+ · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 
+ P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P
+  · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG
+ \n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15.
+  Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing
+  — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 p
+ ts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   1
+ 1 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 
+ 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 
+ E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:La Rosaleda
 DTSTART;VALUE=DATE:20261213
@@ -732,7 +732,7 @@ DTEND;VALUE=DATE:20261214
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650926@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Real Sociedad de Fútbol SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 17\nLocal: FC Barcelona\nVisitant: Real Sociedad de Fútbol SAD\nEst
@@ -743,20 +743,20 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  23 pts\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 
  pts\n   11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   1
  1 PJ · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 P
- J · 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3
-  G · 3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G 
- · 6 E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 
- G · 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G
-  · 3 E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E 
- · 5 P · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P
-  · +0 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 
- DG\n\n15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n1
- 6. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche
-  — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 
- pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   
- 11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 
- 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: 
- LaLiga
+ J · 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 
+ G · 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3
+  E · 5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E
+  · 3 P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3
+  E · 5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 
+ E · 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P 
+ · -8 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 D
+ G\n\n15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16
+ . Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche 
+ — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 p
+ ts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   1
+ 1 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0
+  G · 5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: L
+ aLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20261220
@@ -764,7 +764,7 @@ DTEND;VALUE=DATE:20261221
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650934@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:RCD Espanyol de Barcelona - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 18\nLocal: RCD Espanyol de Barcelona\nVisitant: FC Barcelona\nEstat:
@@ -775,19 +775,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
    11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   1
  1 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 5
   G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G 
- · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E
-  · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E ·
-  3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E 
- · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E 
- · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P ·
-  -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 DG
+ · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E 
+ · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P
+  · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P 
+ · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 
+ P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P
+  · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG
  \n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15.
-  Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Racing
+  Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing
   — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 p
  ts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   1
  1 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 
  2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 
- E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+ E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:RCDE Stadium
 DTSTART;VALUE=DATE:20270103
@@ -795,7 +795,7 @@ DTEND;VALUE=DATE:20270104
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650948@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Club Atlético Osasuna - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 19\nLocal: Club Atlético Osasuna\nVisitant: FC Barcelona\nEstat: Pa
@@ -806,19 +806,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
     11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   
  11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 
  5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G
-  · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 
- E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E 
- · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 
- E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E
-  · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P 
- · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 
- DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n1
- 5. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Raci
- ng — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10
-  pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n  
-  11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ 
- · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G ·
-  5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E
+  · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 
+ P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P 
+ · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 
+ P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P
+  · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG
+ \n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15.
+  Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing
+  — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 p
+ ts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   1
+ 1 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 
+ 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 
+ E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio El Sadar
 DTSTART;VALUE=DATE:20270110
@@ -826,7 +826,7 @@ DTEND;VALUE=DATE:20270111
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650955@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Elche Club de Fútbol SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 20\nLocal: FC Barcelona\nVisitant: Elche Club de Fútbol SAD\nEstat:
@@ -837,19 +837,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  s\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n
     11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ 
  · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 
- 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G ·
-  3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 
- E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 
- 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3
-  E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P
-  · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0
+ 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 
+ 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E ·
+  5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3
+  P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E ·
+  5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 
+ 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8
   DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n
- 15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Rac
+ 15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Rac
  ing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 1
  0 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n 
    11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ 
  · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G ·
-  5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270117
@@ -857,7 +857,7 @@ DTEND;VALUE=DATE:20270118
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049670@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Sporting CP - FC Barcelona · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  7\nLocal: Sporting CP\nVisitant: FC Barcelona\nEstat: Partit\n\nClassifica
@@ -892,15 +892,15 @@ DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada:
   2 P · -3 DG\n\n33. LASK — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG
  \n\n34. Lille — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG\n\n35. Gala
  tasaray — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -5 DG\n\n36. S. Bratisl
- ava — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nActualitzat: 02/11
- /2026 13:25 (CET)\nFont: UEFA
+ ava — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nActualitzat: 04/11
+ /2026 13:08 (CET)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20270120T210000
 DTEND;TZID=Europe/Madrid:20270120T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650962@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Deportivo Alavés SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 21\nLocal: Deportivo Alavés SAD\nVisitant: FC Barcelona\nEstat: Par
@@ -911,19 +911,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   11 PJ
   · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 5 G 
  · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G · 
- 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E ·
-  5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 
- P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 
- 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4
-  P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 
- DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 DG\n\n
+ 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E · 
+ 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P ·
+  +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +
+ 0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P ·
+  -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · 
+ -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n
  14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15. Osa
- suna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Racing —
+ suna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing —
   11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 pts\n
     11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   11 PJ
   · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 2 G 
  · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 E ·
-  6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Mendizorroza
 DTSTART;VALUE=DATE:20270124
@@ -931,7 +931,7 @@ DTEND;VALUE=DATE:20270125
 END:VEVENT
 BEGIN:VEVENT
 UID:champions:20262027:2049684@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Como · Champions League
 DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada: 
  8\nLocal: FC Barcelona\nVisitant: Como\nEstat: Partit\n\nClassificació\n1
@@ -966,7 +966,7 @@ DESCRIPTION:Competició: UEFA Champions League\nFase: Fase lliga\nJornada:
  DG\n\n33. LASK — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG\n\n34. Lil
  le — 0 pts\n   2 PJ · 0 G · 0 E · 2 P · -4 DG\n\n35. Galatasaray —
   0 pts\n   2 PJ · 0 G · 0 E · 2 P · -5 DG\n\n36. S. Bratislava — 0 p
- ts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nActualitzat: 02/11/2026 13:25
+ ts\n   2 PJ · 0 G · 0 E · 2 P · -8 DG\n\nActualitzat: 04/11/2026 13:08
   (CET)\nFont: UEFA
 STATUS:CONFIRMED
 DTSTART;TZID=Europe/Madrid:20270127T210000
@@ -974,7 +974,7 @@ DTEND;TZID=Europe/Madrid:20270127T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650975@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Valencia Club de Fútbol SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 22\nLocal: FC Barcelona\nVisitant: Valencia Club de Fútbol SAD\nEst
@@ -985,20 +985,20 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  23 pts\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 
  pts\n   11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   1
  1 PJ · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 P
- J · 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3
-  G · 3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G 
- · 6 E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 
- G · 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G
-  · 3 E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E 
- · 5 P · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P
-  · +0 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 
- DG\n\n15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n1
- 6. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche
-  — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 
- pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   
- 11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 
- 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: 
- LaLiga
+ J · 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 
+ G · 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3
+  E · 5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E
+  · 3 P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3
+  E · 5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 
+ E · 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P 
+ · -8 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 D
+ G\n\n15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16
+ . Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche 
+ — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 p
+ ts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   1
+ 1 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0
+  G · 5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: L
+ aLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270131
@@ -1006,7 +1006,7 @@ DTEND;VALUE=DATE:20270201
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2650988@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Club Atlético de Madrid SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 23\nLocal: FC Barcelona\nVisitant: Club Atlético de Madrid SAD\nEst
@@ -1017,20 +1017,20 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  23 pts\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 
  pts\n   11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   1
  1 PJ · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 P
- J · 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3
-  G · 3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G 
- · 6 E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 
- G · 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G
-  · 3 E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E 
- · 5 P · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P
-  · +0 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 
- DG\n\n15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n1
- 6. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche
-  — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 
- pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   
- 11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 
- 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: 
- LaLiga
+ J · 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 
+ G · 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3
+  E · 5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E
+  · 3 P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3
+  E · 5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 
+ E · 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P 
+ · -8 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 D
+ G\n\n15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16
+ . Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche 
+ — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 p
+ ts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   1
+ 1 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0
+  G · 5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: L
+ aLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270207
@@ -1038,7 +1038,7 @@ DTEND;VALUE=DATE:20270208
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651001@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Villarreal Club de Fútbol SAD - FC Barcelona · Horari per confirm
  ar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
@@ -1050,19 +1050,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  is — 23 pts\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad 
  — 19 pts\n   11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pt
  s\n   11 PJ · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n
-    10 PJ · 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 
- PJ · 3 G · 3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ 
- · 2 G · 6 E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 P
- J · 3 G · 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ
-  · 3 G · 3 E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G 
- · 3 E · 5 P · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E
-  · 3 P · +0 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P
-  · -1 DG\n\n15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 
- DG\n\n16. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17
- . Elche — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante 
+    10 PJ · 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 P
+ J · 3 G · 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3
+  G · 3 E · 5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G
+  · 6 E · 3 P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3
+  G · 3 E · 5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 
+ G · 3 E · 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E 
+ · 5 P · -8 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P 
+ · -1 DG\n\n15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 D
+ G\n\n16. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17.
+  Elche — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante 
  — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 p
  ts\n   11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11
-  PJ · 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\
+  PJ · 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\
  nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio de la Cerámica
@@ -1071,7 +1071,7 @@ DTEND;VALUE=DATE:20270215
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651007@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Levante Unión Deportiva SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 25\nLocal: FC Barcelona\nVisitant: Levante Unión Deportiva SAD\nEst
@@ -1082,20 +1082,20 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  23 pts\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 
  pts\n   11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   1
  1 PJ · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 P
- J · 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3
-  G · 3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G 
- · 6 E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 
- G · 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G
-  · 3 E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E 
- · 5 P · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P
-  · +0 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 
- DG\n\n15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n1
- 6. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche
-  — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 
- pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   
- 11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 
- 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: 
- LaLiga
+ J · 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 
+ G · 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3
+  E · 5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E
+  · 3 P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3
+  E · 5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 
+ E · 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P 
+ · -8 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 D
+ G\n\n15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16
+ . Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche 
+ — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 p
+ ts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   1
+ 1 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0
+  G · 5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: L
+ aLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270221
@@ -1103,7 +1103,7 @@ DTEND;VALUE=DATE:20270222
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651012@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Athletic Club - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 26\nLocal: Athletic Club\nVisitant: FC Barcelona\nEstat: Partit\nEst
@@ -1114,19 +1114,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  J · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   11 PJ 
  · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 5 G ·
   2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G · 3 
- E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5
-  P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P 
- · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 
- P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P
-  · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG
- \n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 DG\n\n14
+ E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E · 3 
+ P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · +
+ 0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +0 
+ DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -
+ 2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · -5
+  DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n14
  . Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15. Osasu
- na — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Racing — 1
+ na — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing — 1
  1 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 pts\n  
   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   11 PJ 
  · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 2 G 
  · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 E ·
-  6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio San Mamés
 DTSTART;VALUE=DATE:20270228
@@ -1134,7 +1134,7 @@ DTEND;VALUE=DATE:20270301
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651027@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Real Betis Balompié SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 27\nLocal: FC Barcelona\nVisitant: Real Betis Balompié SAD\nEstat: 
@@ -1145,19 +1145,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  s\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n
     11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ 
  · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 
- 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G ·
-  3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 
- E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 
- 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3
-  E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P
-  · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0
+ 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 
+ 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E ·
+  5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3
+  P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E ·
+  5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 
+ 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8
   DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n
- 15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Rac
+ 15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Rac
  ing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 1
  0 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n 
    11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ 
  · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G ·
-  5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270307
@@ -1165,7 +1165,7 @@ DTEND;VALUE=DATE:20270308
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651036@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Real Club Deportivo de A Coruña SAD · Horari per c
  onfirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
@@ -1177,19 +1177,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  s — 23 pts\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad 
  — 19 pts\n   11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pt
  s\n   11 PJ · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n
-    10 PJ · 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 
- PJ · 3 G · 3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ 
- · 2 G · 6 E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 P
- J · 3 G · 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ
-  · 3 G · 3 E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G 
- · 3 E · 5 P · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E
-  · 3 P · +0 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P
-  · -1 DG\n\n15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 
- DG\n\n16. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17
- . Elche — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante 
+    10 PJ · 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 P
+ J · 3 G · 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3
+  G · 3 E · 5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G
+  · 6 E · 3 P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3
+  G · 3 E · 5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 
+ G · 3 E · 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E 
+ · 5 P · -8 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P 
+ · -1 DG\n\n15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 D
+ G\n\n16. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17.
+  Elche — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante 
  — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 p
  ts\n   11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11
-  PJ · 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\
+  PJ · 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\
  nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
@@ -1198,7 +1198,7 @@ DTEND;VALUE=DATE:20270315
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651047@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Rayo Vallecano de Madrid SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 29\nLocal: Rayo Vallecano de Madrid SAD\nVisitant: FC Barcelona\nEst
@@ -1209,19 +1209,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   23 pts\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19
   pts\n   11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   
  11 PJ · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 
- PJ · 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 
- 3 G · 3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G
-  · 6 E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3
-  G · 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 
- G · 3 E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E 
- · 5 P · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P
-  · +0 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 
- DG\n\n15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n1
+ PJ · 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3
+  G · 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 
+ 3 E · 5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 
+ E · 3 P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 
+ 3 E · 5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3
+  E · 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P
+  · -8 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 
+ DG\n\n15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n1
  6. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche
   — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 
  pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   
  11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 
- 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: 
+ 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: 
  LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio de Vallecas
@@ -1230,7 +1230,7 @@ DTEND;VALUE=DATE:20270322
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651056@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Sevilla Fútbol Club SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 30\nLocal: FC Barcelona\nVisitant: Sevilla Fútbol Club SAD\nEstat: 
@@ -1241,19 +1241,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  s\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n
     11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ 
  · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 
- 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G ·
-  3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 
- E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 
- 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3
-  E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P
-  · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0
+ 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 
+ 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E ·
+  5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3
+  P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E ·
+  5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 
+ 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8
   DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n
- 15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Rac
+ 15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Rac
  ing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 1
  0 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n 
    11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ 
  · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G ·
-  5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270404
@@ -1261,7 +1261,7 @@ DTEND;VALUE=DATE:20270405
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651067@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Real Racing Club SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 31\nLocal: Real Racing Club SAD\nVisitant: FC Barcelona\nEstat: Part
@@ -1272,19 +1272,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   11 PJ 
  · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 5 G ·
   2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G · 3 
- E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5
-  P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P 
- · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 
- P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P
-  · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG
- \n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 DG\n\n14
+ E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E · 3 
+ P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · +
+ 0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +0 
+ DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -
+ 2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · -5
+  DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n14
  . Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15. Osasu
- na — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Racing — 1
+ na — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing — 1
  1 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 pts\n  
   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   11 PJ 
  · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 2 G 
  · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 E ·
-  6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:El Sardinero
 DTSTART;VALUE=DATE:20270411
@@ -1292,7 +1292,7 @@ DTEND;VALUE=DATE:20270412
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651077@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - RCD Espanyol de Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 32\nLocal: FC Barcelona\nVisitant: RCD Espanyol de Barcelona\nEstat:
@@ -1303,19 +1303,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  s\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n
     11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ 
  · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 
- 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G ·
-  3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 
- E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 
- 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3
-  E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P
-  · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0
+ 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 
+ 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E ·
+  5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3
+  P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E ·
+  5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 
+ 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8
   DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n
- 15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Rac
+ 15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Rac
  ing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 1
  0 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n 
    11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ 
  · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G ·
-  5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270418
@@ -1323,7 +1323,7 @@ DTEND;VALUE=DATE:20270419
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651083@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Real Club Celta de Vigo SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 33\nLocal: Real Club Celta de Vigo SAD\nVisitant: FC Barcelona\nEsta
@@ -1334,19 +1334,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   — 23 pts\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad 
  — 19 pts\n   11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pt
  s\n   11 PJ · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n
-    10 PJ · 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 
- PJ · 3 G · 3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ 
- · 2 G · 6 E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 P
- J · 3 G · 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ
-  · 3 G · 3 E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G 
- · 3 E · 5 P · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E
-  · 3 P · +0 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P
-  · -1 DG\n\n15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 
- DG\n\n16. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17
- . Elche — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante 
+    10 PJ · 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 P
+ J · 3 G · 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3
+  G · 3 E · 5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G
+  · 6 E · 3 P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3
+  G · 3 E · 5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 
+ G · 3 E · 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E 
+ · 5 P · -8 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P 
+ · -1 DG\n\n15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 D
+ G\n\n16. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17.
+  Elche — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante 
  — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 p
  ts\n   11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11
-  PJ · 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\
+  PJ · 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\
  nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Estadio ABANCA Balaídos
@@ -1355,7 +1355,7 @@ DTEND;VALUE=DATE:20270422
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651097@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Club Atlético Osasuna · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 34\nLocal: FC Barcelona\nVisitant: Club Atlético Osasuna\nEstat: Pa
@@ -1366,19 +1366,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
     11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   
  11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 
  5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G
-  · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 
- E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E 
- · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 
- E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E
-  · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P 
- · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 
- DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n1
- 5. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Raci
- ng — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10
-  pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n  
-  11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ 
- · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G ·
-  5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E
+  · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 
+ P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P 
+ · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 
+ P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P
+  · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG
+ \n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15.
+  Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing
+  — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 p
+ ts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   1
+ 1 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 
+ 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 
+ E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270502
@@ -1386,7 +1386,7 @@ DTEND;VALUE=DATE:20270503
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651109@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Real Madrid Club de Fútbol - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 35\nLocal: Real Madrid Club de Fútbol\nVisitant: FC Barcelona\nEsta
@@ -1397,19 +1397,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   11
   PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 5 
  G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G 
- · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E
-  · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E ·
-  3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E 
- · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E 
- · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P ·
-  -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 DG
+ · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E 
+ · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P
+  · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P 
+ · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 
+ P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P
+  · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG
  \n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15.
-  Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Racing
+  Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing
   — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 p
  ts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   1
  1 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 
  2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 
- E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+ E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Bernabéu
 DTSTART;VALUE=DATE:20270509
@@ -1417,7 +1417,7 @@ DTEND;VALUE=DATE:20270510
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651120@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Real Sociedad de Fútbol SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 36\nLocal: Real Sociedad de Fútbol SAD\nVisitant: FC Barcelona\nEst
@@ -1428,19 +1428,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  1 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   11 P
  J · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 5 G 
  · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G · 
- 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E ·
-  5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 
- P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 
- 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4
-  P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 
- DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 DG\n\n
+ 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E · 
+ 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P ·
+  +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +
+ 0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P ·
+  -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · 
+ -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n
  14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15. Osa
- suna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Racing —
+ suna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing —
   11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 pts\n
     11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   11 PJ
   · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 2 G 
  · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 E ·
-  6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Anoeta
 DTSTART;VALUE=DATE:20270516
@@ -1448,7 +1448,7 @@ DTEND;VALUE=DATE:20270517
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651126@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:FC Barcelona - Málaga Club de Fútbol SAD · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 37\nLocal: FC Barcelona\nVisitant: Málaga Club de Fútbol SAD\nEsta
@@ -1459,20 +1459,20 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  3 pts\n   11 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 p
  ts\n   11 PJ · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11
   PJ · 5 G · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ
-  · 4 G · 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 
- G · 3 E · 5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G 
- · 6 E · 3 P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 
- G · 3 E · 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G
-  · 3 E · 4 P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E 
- · 5 P · -8 DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P
-  · +0 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 
- DG\n\n15. Osasuna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n1
- 6. Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche
-  — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 
- pts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   
- 11 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 
- 0 G · 5 E · 6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: 
- LaLiga
+  · 4 G · 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G
+  · 5 E · 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 
+ E · 5 P · +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E 
+ · 3 P · +0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 
+ E · 5 P · -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E
+  · 4 P · -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P 
+ · -8 DG\n\n14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 D
+ G\n\n15. Osasuna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16
+ . Racing — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche 
+ — 10 pts\n   11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 p
+ ts\n   11 PJ · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   1
+ 1 PJ · 2 G · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0
+  G · 5 E · 6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: L
+ aLiga
 STATUS:CONFIRMED
 LOCATION:Spotify Camp Nou
 DTSTART;VALUE=DATE:20270523
@@ -1480,7 +1480,7 @@ DTEND;VALUE=DATE:20270524
 END:VEVENT
 BEGIN:VEVENT
 UID:laliga:20262027:g2651136@barca-calendar
-DTSTAMP:20261102T122533Z
+DTSTAMP:20261104T120853Z
 SUMMARY:Getafe Club de Fútbol SAD - FC Barcelona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  nada: 38\nLocal: Getafe Club de Fútbol SAD\nVisitant: FC Barcelona\nEstat
@@ -1491,19 +1491,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: LaLiga\nJor
  1 PJ · 7 G · 2 E · 2 P · +3 DG\n\n5. Real Sociedad — 19 pts\n   11 P
  J · 6 G · 1 E · 4 P · +0 DG\n\n6. Sevilla — 17 pts\n   11 PJ · 5 G 
  · 2 E · 4 P · -2 DG\n\n7. Athletic Club — 15 pts\n   10 PJ · 4 G · 
- 3 E · 3 P · +4 DG\n\n8. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E ·
-  5 P · +0 DG\n\n9. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 
- P · +0 DG\n\n10. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 
- 5 P · -2 DG\n\n11. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4
-  P · -5 DG\n\n12. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 
- DG\n\n13. Deportivo — 11 pts\n   10 PJ · 2 G · 5 E · 3 P · +0 DG\n\n
+ 3 E · 3 P · +4 DG\n\n8. Deportivo — 14 pts\n   11 PJ · 3 G · 5 E · 
+ 3 P · +1 DG\n\n9. Villarreal — 12 pts\n   11 PJ · 3 G · 3 E · 5 P ·
+  +0 DG\n\n10. Celta de Vigo — 12 pts\n   11 PJ · 2 G · 6 E · 3 P · +
+ 0 DG\n\n11. Deportivo Alavés — 12 pts\n   11 PJ · 3 G · 3 E · 5 P ·
+  -2 DG\n\n12. Rayo Vallecano — 12 pts\n   10 PJ · 3 G · 3 E · 4 P · 
+ -5 DG\n\n13. Getafe — 12 pts\n   11 PJ · 3 G · 3 E · 5 P · -8 DG\n\n
  14. Espanyol — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -1 DG\n\n15. Osa
- suna — 11 pts\n   10 PJ · 3 G · 2 E · 5 P · -10 DG\n\n16. Racing —
+ suna — 11 pts\n   11 PJ · 3 G · 2 E · 6 P · -11 DG\n\n16. Racing —
   11 pts\n   11 PJ · 3 G · 2 E · 6 P · -14 DG\n\n17. Elche — 10 pts\n
     11 PJ · 2 G · 4 E · 5 P · -4 DG\n\n18. Levante — 10 pts\n   11 PJ
   · 2 G · 4 E · 5 P · -5 DG\n\n19. Valencia — 9 pts\n   11 PJ · 2 G 
  · 3 E · 6 P · -9 DG\n\n20. Málaga — 5 pts\n   11 PJ · 0 G · 5 E ·
-  6 P · -13 DG\n\nActualitzat: 02/11/2026 13:25 (CET)\nFont: LaLiga
+  6 P · -13 DG\n\nActualitzat: 04/11/2026 13:08 (CET)\nFont: LaLiga
 STATUS:CONFIRMED
 LOCATION:Coliseum
 DTSTART;VALUE=DATE:20270530
