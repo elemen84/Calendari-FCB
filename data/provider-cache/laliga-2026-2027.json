@@ -288,9 +288,9 @@
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
     "start_date": "2026-11-29",
-    "start_datetime": null,
+    "start_datetime": "2026-11-29T16:15:00+01:00",
     "status": "scheduled",
-    "time_confirmed": false,
+    "time_confirmed": true,
     "venue": "Estadio ABANCA-RIAZOR"
   },
   {
@@ -476,10 +476,10 @@
     "source_game_id": "g2650988",
     "source_url": "https://www.laliga.com/laliga-easports/calendario",
     "standings_eligible": true,
-    "start_date": "2027-02-07",
-    "start_datetime": null,
+    "start_date": "2026-12-02",
+    "start_datetime": "2026-12-02T21:30:00+01:00",
     "status": "scheduled",
-    "time_confirmed": false,
+    "time_confirmed": true,
     "venue": "Spotify Camp Nou"
   },
   {
