@@ -232,11 +232,11 @@
   },
   {
     "away": "FC Barcelona",
-    "away_score": null,
+    "away_score": 2,
     "competition_key": "laliga",
     "competition_name": "LaLiga",
     "home": "Club Atlético de Madrid SAD",
-    "home_score": null,
+    "home_score": 1,
     "leg": null,
     "phase": "Lliga",
     "round_name": null,
@@ -247,7 +247,7 @@
     "standings_eligible": true,
     "start_date": "2026-11-08",
     "start_datetime": "2026-11-08T21:00:00+01:00",
-    "status": "scheduled",
+    "status": "completed",
     "time_confirmed": true,
     "venue": "Riyadh Air Metropolitano"
   },
