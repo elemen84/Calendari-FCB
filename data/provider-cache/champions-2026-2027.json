@@ -85,11 +85,11 @@
   },
   {
     "away": "FC Barcelona",
-    "away_score": null,
+    "away_score": 4,
     "competition_key": "champions",
     "competition_name": "UEFA Champions League",
     "home": "Sabah",
-    "home_score": null,
+    "home_score": 1,
     "leg": null,
     "phase": "Fase lliga",
     "round_name": "League Phase",
@@ -100,7 +100,7 @@
     "standings_eligible": true,
     "start_date": "2026-11-25",
     "start_datetime": "2026-11-25T18:45:00+01:00",
-    "status": "scheduled",
+    "status": "completed",
     "time_confirmed": true,
     "venue": null
   },
